@@ -1,0 +1,40 @@
+/*
+Style sheet to define the custom parameters.
+*/
+
+/*CUSTOM PARAMETERS*/
+:root{
+    /*Color palette*/
+    --clr-light:#fff;
+    --clr-partial-light:#DBEEDB;
+    --clr-dark: #4E5E4E;
+    --clr-partial-dark: #61BC61;
+    --clr-very-dark:#384838;
+    --clr-very-very-dark: #374437;
+    --clr-accent:#8AB48A;
+    --link-color: #4A9B4A;
+    --link-color-hover: #327332;
+  
+    /*Font variables*/
+    --ff-primary: 'Source Sans Pro',sans-serif;
+    --ff-secondary: 'Source Sans Pro',monospace;
+    --fw-reg:300;
+    --fw-bold: 900;
+    --fs-h1:3rem;
+    --fs-h2:2.25rem;
+    --fs-h3:1,25rem;
+    --fs-body:1rem;
+  
+    /*Box shadow*/
+    --bs: .25em 0.25em .75em rgba(0,0,0,.25),0.125em 0.125em 0.25em rgba(0,0,0,.15);
+  }
+  
+  @media (min-width: 800px){
+    :root{
+      --fs-h1: 4.5rem;
+      --fs-h2: 3.75rem;
+      --fs-h3: 1.5rem;
+      --fs-body: 1.125rem;
+    }
+  }
+  /*CUSTOM PARAMETERS*/
