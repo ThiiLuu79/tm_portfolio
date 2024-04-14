@@ -7,10 +7,12 @@ import './css/style.css';
 
 import Header from './components/Header.js';
 import Footer from './components/Footer.js';
+import Head from './components/Head.js';
 
 function App() {
   return (
     <div className="App">
+        <Head/>
         <Header/>
 
         
