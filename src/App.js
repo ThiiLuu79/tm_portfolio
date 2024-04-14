@@ -1,5 +1,3 @@
-import logo from './img/logo.svg';
-
 import './css/custom.css';
 import './css/general.css';
 import './css/style.css';
