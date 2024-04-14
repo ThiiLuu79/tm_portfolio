@@ -1,3 +1,5 @@
+import GoToTop from '../../components/MainComponents/GoToTop.js';
+
 const Footer = () => {
   var today = new Date();
     return (
@@ -34,6 +36,7 @@ const Footer = () => {
               </div>
             </a>
       </div>
+      <GoToTop/>
       <small class="copyright">&copy; Copyright <span id="portfolioTimePeriod">2021-{today.getFullYear()}</span> The Minh Luong - ALL RIGHTS RESERVED</small>
     </footer>
     )
