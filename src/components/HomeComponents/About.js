@@ -24,7 +24,13 @@ const About = () => {
     I find joy in expressing my creativity through drawing and photography.</p>
                 <br></br>
                 
-                <Link to="/Work">
+                <Link to="/Work" onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}>
                     <a class="workExp_link">
                     <button class="pushable">
                         <span class="front">
