@@ -31,13 +31,11 @@ const About = () => {
               behavior: "smooth",
             });
           }}>
-                    <a className="workExp_link">
-                    <button className="pushable">
+                    <button className="pushable workExp_link">
                         <span className="front">
-                        Working experiences
+                            Working experiences
                         </span>
                     </button>
-                    </a>
                 </Link>
                 <br></br><br></br>
 

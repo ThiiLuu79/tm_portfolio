@@ -34,7 +34,7 @@ const Work = () => {
                     <div className="job-details">
                         <h3>Full Stack Developer (Internship)</h3>
                         <img src = {nbcImg} alt="nbc interns" width="500" className="block__img"></img>
-                        <p><a href="https://www.bnc.ca/" target="_blank">National Bank of Canada (NBC)</a> - Montreal, Canada</p>
+                        <p><a href="https://www.bnc.ca/" target="_blank" rel="noreferrer">National Bank of Canada (NBC)</a> - Montreal, Canada</p>
                         <p id="nbc_time">{nbcExpTimeString}</p>
                     </div>
 
@@ -67,7 +67,7 @@ const Work = () => {
                     <div className = "block__body">
                     <div className="job-details">
                         <h3>Full Stack Developer (Internship)</h3>
-                        <p><a href="https://inlibro.com/" target="_blank">Solution inLibro</a> - Montreal, Canada</p>
+                        <p><a href="https://inlibro.com/" target="_blank" rel="noreferrer">Solution inLibro</a> - Montreal, Canada</p>
                         <p id="inlibro_time">{inlibroExpTimeString}</p>
                     </div>
 
@@ -107,7 +107,7 @@ const Work = () => {
                     <div className = "block__body">
                     <div className="job-details">
                         <h3>Food Attendant</h3>
-                        <p><a href="https://ciusss-estmtl.gouv.qc.ca/" target="_blank">Residential and long-term care centers (CHSLD)</a> - Montreal, Canada</p>
+                        <p><a href="https://ciusss-estmtl.gouv.qc.ca/" target="_blank" rel="noreferrer">Residential and long-term care centers (CHSLD)</a> - Montreal, Canada</p>
                         <p id="ciuss_time">{ciussExpTimeString}</p>
                     </div>
 
