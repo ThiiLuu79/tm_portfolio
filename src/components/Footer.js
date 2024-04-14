@@ -1,5 +1,5 @@
 const Footer = () => {
-
+  var today = new Date();
     return (
       <footer class="footer" id="contact">
       <h2 class="keep_in_touch">Let's keep in touch!</h2>
@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
             </a>
       </div>
-      <small class="copyright">&copy; Copyright <span id="portfolioTimePeriod">2021-2024</span> The Minh Luong - ALL RIGHTS RESERVED</small>
+      <small class="copyright">&copy; Copyright <span id="portfolioTimePeriod">2021-{today.getFullYear()}</span> The Minh Luong - ALL RIGHTS RESERVED</small>
     </footer>
     )
 }
