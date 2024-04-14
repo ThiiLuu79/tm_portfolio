@@ -3,8 +3,13 @@ import getExpTimeString from "../../js/time.js";
 
 const Education = () => {
 
-    var etsExpTimeString = getExpTimeString(new Date(), new Date(2020, 0), false, false, true);
-    var maisonneuveExpTimeString = getExpTimeString(new Date(2020, 0), new Date(2018, 0), false, false, true);
+    var etsStart = new Date(2020, 0);
+    var etsEnd = new Date();
+    var maisonneuveStart = new Date(2018, 0)
+    var maisonneuveEnd = new Date(2020, 0);
+
+    var etsExpTimeString = getExpTimeString(etsEnd, etsStart, false, false, true);
+    var maisonneuveExpTimeString = getExpTimeString(maisonneuveEnd, maisonneuveStart, false, false, true);
 
 
     return (
