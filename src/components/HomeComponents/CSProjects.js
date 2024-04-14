@@ -23,7 +23,7 @@ const CSProjects = () => {
                 <div class="project__container">
                     <img src = {personals} alt="personal-project cover" width="900" class = "portfolio__img project__img"></img>
                     <div class="project__box">
-                    <p class="project__text personal_">Personal Projects</p>
+                        <p class="project__text personal_">Personal Projects</p>
                     </div>
                 </div>
                 </a>

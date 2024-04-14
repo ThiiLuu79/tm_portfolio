@@ -22,7 +22,7 @@ const FreetimeProjects = () => {
                 <div class="project__container">
                     <img src = {photos} alt="photo-project cover" width="900" class = "portfolio__img project__img"></img>
                     <div class="project__box">
-                    <p class="project__text photoPro_">Photo Gallery</p>
+                        <p class="project__text photoPro_">Photo Gallery</p>
                     </div>
                 </div>
                 </a>
