@@ -2,7 +2,7 @@ const Head = () => {
 
     return (
         <head>
-            <meta charset="UTF-8"></meta>
+            <meta charSet="UTF-8"></meta>
             <meta name="description" content=""></meta>
             <meta name="keywords" content=""></meta>
             <meta name="author" content=""></meta>
@@ -14,7 +14,7 @@ const Head = () => {
             <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"></link>
             <link rel="stylesheet"
             href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"></link>
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossOrigin="anonymous"></link>
             <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet"></link>
 
         </head>

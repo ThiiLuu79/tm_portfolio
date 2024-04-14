@@ -26,7 +26,7 @@
           timePeriod = "";
         }else if(monthDiff < 12){
           timePeriod = " • " + monthDiff + " month(s)";
-        }else if(monthDiff%12 == 0){
+        }else if(monthDiff%12 === 0){
           let years = monthDiff/12;
           timePeriod = " • " + years + " year(s)";
         }else if(monthDiff % 12 >= 1){
@@ -48,9 +48,9 @@
 
         const today = new Date()
   
-        return date.getDate() == today.getDate() &&
-        date.getMonth() == today.getMonth() &&
-        date.getFullYear() == today.getFullYear()
+        return date.getDate() === today.getDate() &&
+        date.getMonth() === today.getMonth() &&
+        date.getFullYear() === today.getFullYear()
       }
       
       /*from : https://codingbeautydev.com/blog/javascript-get-number-of-months-between-two-dates/*/
@@ -81,6 +81,7 @@
           case 9: return "October";
           case 10: return "November";
           case 11: return "December";
+          default: return "";
         }
   
       }

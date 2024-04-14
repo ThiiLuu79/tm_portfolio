@@ -1,8 +1,8 @@
 const GoToTop = () => {
 
     return (
-        <a href="#top" class="go__top">
-            <div class="button__arrow"></div>
+        <a href="#top" className="go__top">
+            <div className="button__arrow"></div>
         </a>
     )
 }

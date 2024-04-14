@@ -10,8 +10,8 @@ const GoBack = () => {
               behavior: "smooth",
             });
           }}>
-            <div class="go__back">
-                <div class="button__arrow"></div>
+            <div className="go__back">
+                <div className="button__arrow"></div>
                 <a href="../index.html">Go back to home page</a>
             </div>
         </Link>

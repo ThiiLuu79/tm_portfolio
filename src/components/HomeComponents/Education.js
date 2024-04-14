@@ -14,15 +14,15 @@ const Education = () => {
 
     return (
         <section id = "education">
-            <div class="content_wrap">
+            <div className="content_wrap">
                 <div>
-                    <h2 class = "section__title section__title--education"><b>Education</b></h2>
+                    <h2 className = "section__title section__title--education"><b>Education</b></h2>
                     <br></br>
-                    <h3 class="ets_">ÉTS - Montreal, Canada</h3>
-                    <p class="ets_info">Bachelor of Engineering - BE, Software Engineering, {etsExpTimeString} </p>
+                    <h3 className="ets_">ÉTS - Montreal, Canada</h3>
+                    <p className="ets_info">Bachelor of Engineering - BE, Software Engineering, {etsExpTimeString} </p>
                     <br></br>
-                    <h3 class="maisonneuve_"> Maisonneuve College - Montreal, Canada </h3>
-                    <p class="maisonneuve_info">Pure and applied sciences, {maisonneuveExpTimeString} </p>
+                    <h3 className="maisonneuve_"> Maisonneuve College - Montreal, Canada </h3>
+                    <p className="maisonneuve_info">Pure and applied sciences, {maisonneuveExpTimeString} </p>
                     <br></br>
                 </div>
             </div>
