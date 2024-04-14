@@ -27,12 +27,21 @@ const FreetimeProjects = () => {
 
                 </Link>
 
+                <Link to="/PhotoGallery" onClick={() => {
+                window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+                });
+            }}>
                 <div className="project__container portfolio__item photoPro_link">
                     <img src = {photos} alt="photo_project_cover" width="900" className = "portfolio__img project__img"></img>
                     <div className="project__box">
                         <p className="project__text photoPro_">Photo Gallery</p>
                     </div>
                 </div>
+
+                </Link>
                 
             </div>
         </section>

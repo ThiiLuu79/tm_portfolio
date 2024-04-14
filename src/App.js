@@ -9,6 +9,7 @@ import Work from './components/Work.js';
 import Academics from './components/Academics.js';
 import Personals from './components/Personals.js';
 import ArtGallery from './components/ArtGallery.js';
+import PhotoGallery from './components/PhotoGallery.js';
 import Footer from './components/MainComponents/Footer.js';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
@@ -27,6 +28,7 @@ function App() {
           <Route path='/Academics' element={<Academics/>}></Route>
           <Route path='/Personals' element={<Personals/>}></Route>
           <Route path='/ArtGallery' element={<ArtGallery/>}></Route>
+          <Route path='/PhotoGallery' element={<PhotoGallery/>}></Route>
       </Routes>
       <Footer/>
     </Router>
