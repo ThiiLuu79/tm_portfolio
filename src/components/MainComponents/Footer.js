@@ -8,26 +8,26 @@ const Footer = () => {
 
       <div class="wrapper">
 
-            <a href=""  target="_blank">
+            <a href="https://www.linkedin.com/in/tmluong19/"  target="_blank">
               <div class="icon linkedin">
                 <div class="tooltip">LinkedIn</div>
                 <span><i class="fab fa-linkedin"></i></span>
               </div>
             </a>
 
-            <a href="" target="_blank">
+            <a href="https://github.com/ThiiLuu79" target="_blank">
               <div class="icon github">
                 <div class="tooltip">Github</div>
                 <span><i class="fab fa-github"></i></span>
               </div>
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.instagram.com/thiiluu/" target="_blank">
               <div class="icon instagram">
                 <div class="tooltip">Instagram</div>
                 <span><i class="fab fa-instagram"></i></span>
               </div>
             </a>
-            <a href="" target="_blank">
+            <a href="https://www.facebook.com/theminh.luong" target="_blank">
               <div class="icon facebook">
                 <div class="tooltip">Facebook</div>
                 <span><i class="fab fa-facebook"></i></span>

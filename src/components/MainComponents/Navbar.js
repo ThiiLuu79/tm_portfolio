@@ -44,13 +44,13 @@ const Navbar = () => {
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="" className="nav__link">
+            <a href="#home" className="nav__link">
               Home
             </a>
           </li>
           <div className="drop_about">
             <li className="nav__item">
-              <a href="" className="nav__link">
+              <a href="#about" className="nav__link">
                 About me
               </a>
             </li>
@@ -66,7 +66,7 @@ const Navbar = () => {
           </div>
           <div className="drop_projects">
             <li className="nav__item">
-              <a href="" className="nav__link">
+              <a href="#cs_projects" className="nav__link">
                 Projects
               </a>
             </li>
@@ -85,12 +85,12 @@ const Navbar = () => {
             <a href="">Photo Gallery</a>
           </div>
           <li className="nav__item">
-            <a href="" className="nav__link">
+            <a href="#education" className="nav__link">
               Education
             </a>
           </li>
           <li className="nav__item">
-            <a href="" className="nav__link">
+            <a href="#contact" className="nav__link">
               Contact
             </a>
           </li>
