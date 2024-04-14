@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import GoBack from '../components/MainComponents/GoBack.js';
+import GoBack from './MainComponents/GoBack.jsx';
 
 import cover from "../img/photography/photo16.JPG";
 

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   // Function to toggle the navbar
@@ -63,7 +63,7 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdownExp" className="dropdown-content drop_exp">
-            <a href="">Working experiences</a>
+            <a href="_#">Working experiences</a>
           </div>
           <div className="drop_projects">
             <li className="nav__item">

@@ -1,4 +1,4 @@
-import GoBack from '../components/MainComponents/GoBack.js';
+import GoBack from './MainComponents/GoBack.jsx';
 
 import cover from "../img/academic/spCover.jpg";
 import webflix from "../img/academic/webflix.png";

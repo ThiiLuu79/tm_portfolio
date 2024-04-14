@@ -1,4 +1,4 @@
-import GoBack from '../components/MainComponents/GoBack.js';
+import GoBack from './MainComponents/GoBack.jsx';
 import cover from "../img/experiences/experience.jpg";
 import nbcImg from "../img/experiences/nbc_interns.jpg";
 

@@ -1,4 +1,4 @@
-import GoToTop from '../../components/MainComponents/GoToTop.js';
+import GoToTop from './GoToTop.jsx';
 
 const Footer = () => {
   var today = new Date();
