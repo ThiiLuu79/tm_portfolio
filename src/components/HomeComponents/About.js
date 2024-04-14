@@ -1,3 +1,5 @@
+import about from "../../img/home/about_img.jpg";
+
 const About = () => {
 
     return (
@@ -31,7 +33,7 @@ const About = () => {
                 <br></br><br></br>
 
             </div>
-            <img src = "img/home/about_img.jpg" alt="about image" width="500" class="block__img"></img>
+            <img src = {about} alt="about image" width="500" class="block__img"></img>
         </section>
 
     )

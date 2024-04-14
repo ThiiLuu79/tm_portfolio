@@ -1,3 +1,6 @@
+import academics from "../../img/home/academic.jpg";
+import personals from "../../img/home/personal.jpg";
+
 const CSProjects = () => {
 
     return (
@@ -8,18 +11,18 @@ const CSProjects = () => {
 
             <a class = "portfolio__item academicPro_link">
             <div class="project__container">
-                <img src = "img/home/academic.jpg" alt="academic-project cover" width="900" class = "portfolio__img project__img"></img>
+                <img src = {academics} alt="academic-project cover" width="900" class = "portfolio__img project__img"></img>
                 <div class="project__box">
-                <p class="project__text academicPro_"></p>
+                <p class="project__text academicPro_">Academic Projects</p>
                 </div>
             </div>
             </a>
 
             <a class = "portfolio__item personal_link">
             <div class="project__container">
-                <img src = "img/home/personal.jpg" alt="personal-project cover" width="900" class = "portfolio__img project__img"></img>
+                <img src = {personals} alt="personal-project cover" width="900" class = "portfolio__img project__img"></img>
                 <div class="project__box">
-                <p class="project__text personal_"></p>
+                <p class="project__text personal_">Personal Projects</p>
                 </div>
             </div>
             </a>
