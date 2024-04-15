@@ -4,7 +4,7 @@ Welcome to my portfolio, a showcase of my personal works and achievements.
 
 This is an improved version of my old portfolio ([Previous version here](https://github.com/ThiiLuu79/MyPortfolio)).
 
-This portfolio was build using **ReactJS**, **JavaScript** and **CSS**.
+This portfolio was built using **ReactJS**, **JavaScript** and **CSS**.
 
 ## Project Structure
 
