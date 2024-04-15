@@ -1,6 +1,6 @@
 import academics from "../../img/home/academic.jpg";
 import personals from "../../img/home/personal.jpg";
-import {Link} from 'react-router-dom';
+
 
 const CSProjects = () => {
 
@@ -11,29 +11,16 @@ const CSProjects = () => {
 
             <div className = "portfolio">
 
-                <Link to="/Academics" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
-            }}>
-
+                <a href="/Academics">
                     <div className="project__container portfolio__item academicPro_link">
                         <img src = {academics} alt="academic-project cover" width="900" className = "portfolio__img project__img"></img>
                         <div className="project__box">
                         <p className="project__text academicPro_">Academic Projects</p>
                         </div>
                     </div>
-                </Link>
+                </a>
 
-                <Link to="/Personals" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
-            }}>
+                <a href="/Personals">
 
                 <div className="project__container portfolio__item personal_link">
                     <img src = {personals} alt="personal-project cover" width="900" className = "portfolio__img project__img"></img>
@@ -41,7 +28,7 @@ const CSProjects = () => {
                         <p className="project__text personal_">Personal Projects</p>
                     </div>
                 </div>
-                </Link>
+                </a>
 
             </div>
 
