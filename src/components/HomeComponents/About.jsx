@@ -1,5 +1,5 @@
 import about from "../../img/home/about_img.jpg";
-
+import {Link} from 'react-router-dom';
 
 const About = () => {
 
@@ -24,13 +24,19 @@ const About = () => {
     I find joy in expressing my creativity through drawing and photography.</p>
                 <br></br>
                 
-                <a href="/Work">
+                <Link to="/Work" onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}>
                     <button className="pushable workExp_link">
                         <span className="front">
                             Working experiences
                         </span>
                     </button>
-                </a>
+                </Link>
                 <br></br><br></br>
 
             </div>

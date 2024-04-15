@@ -1,6 +1,6 @@
 import arts from "../../img/home/art_gallery.jpg";
 import photos from "../../img/home/photography_cover.jpg";
-
+import {Link} from 'react-router-dom';
 
 const FreetimeProjects = () => {
 
@@ -11,7 +11,13 @@ const FreetimeProjects = () => {
 
             <div className = "portfolio">
 
-            <a href="/ArtGallery">
+            <Link to="/ArtGallery" onClick={() => {
+                window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+                });
+            }}>
                 <div className="project__container portfolio__item drawPro_link">
                     <img src = {arts} alt="art-project cover" width="900" className = "portfolio__img project__img"></img>
                     <div className="project__box">
@@ -19,9 +25,15 @@ const FreetimeProjects = () => {
                     </div>
                 </div>
 
-                </a>
+                </Link>
 
-                <a href="/PhotoGallery">
+                <Link to="/PhotoGallery" onClick={() => {
+                window.scroll({
+                top: 0,
+                left: 0,
+                behavior: "smooth",
+                });
+            }}>
                 <div className="project__container portfolio__item photoPro_link">
                     <img src = {photos} alt="photo_project_cover" width="900" className = "portfolio__img project__img"></img>
                     <div className="project__box">
@@ -29,7 +41,7 @@ const FreetimeProjects = () => {
                     </div>
                 </div>
 
-                </a>
+                </Link>
                 
             </div>
         </section>
