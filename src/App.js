@@ -2,7 +2,6 @@ import './css/custom.css';
 import './css/general.css';
 import './css/style.css';
 
-import Head from './components/MainComponents/Head.jsx';
 import Header from './components/MainComponents/Header.jsx';
 import Home from './components/Home.jsx';
 import Work from './components/Work.jsx';
@@ -20,7 +19,6 @@ function App() {
     <div className="App">
 
     <Router>
-      <Head/>
       <Header/>
       <Routes>
           <Route path='/' element={<Home/>}></Route>
