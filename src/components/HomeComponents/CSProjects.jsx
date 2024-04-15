@@ -12,11 +12,7 @@ const CSProjects = () => {
             <div className = "portfolio">
 
                 <Link to="/Academics" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
+                window.location.href="/Academics"
             }}>
 
                     <div className="project__container portfolio__item academicPro_link">
@@ -28,11 +24,7 @@ const CSProjects = () => {
                 </Link>
 
                 <Link to="/Personals" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
+                window.location.href="/Personals"
             }}>
 
                 <div className="project__container portfolio__item personal_link">

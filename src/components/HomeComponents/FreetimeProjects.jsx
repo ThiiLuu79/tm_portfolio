@@ -12,11 +12,7 @@ const FreetimeProjects = () => {
             <div className = "portfolio">
 
             <Link to="/ArtGallery" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
+                window.location.href="/ArtGallery"
             }}>
                 <div className="project__container portfolio__item drawPro_link">
                     <img src = {arts} alt="art-project cover" width="900" className = "portfolio__img project__img"></img>
@@ -28,11 +24,7 @@ const FreetimeProjects = () => {
                 </Link>
 
                 <Link to="/PhotoGallery" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
+                window.location.href="/PhotoGallery"
             }}>
                 <div className="project__container portfolio__item photoPro_link">
                     <img src = {photos} alt="photo_project_cover" width="900" className = "portfolio__img project__img"></img>

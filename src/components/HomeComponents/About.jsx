@@ -25,11 +25,7 @@ const About = () => {
                 <br></br>
                 
                 <Link to="/Work" onClick={() => {
-            window.scroll({
-              top: 0,
-              left: 0,
-              behavior: "smooth",
-            });
+            window.location.href="/Work"
           }}>
                     <button className="pushable workExp_link">
                         <span className="front">
