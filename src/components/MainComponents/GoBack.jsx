@@ -13,7 +13,7 @@ const GoBack = () => {
             <div className="go__back">
                 <div className="button__arrow"></div>
                   Go back to home page
-                </div>
+            </div>
         </Link>
 
     )
