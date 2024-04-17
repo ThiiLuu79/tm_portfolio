@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 const GoBack = () => {
 
     return (
-        <Link to="/"   onClick={() => {
+        <Link to="/" className='go_back_container'  onClick={() => {
             window.scroll({
               top: 0,
               left: 0,

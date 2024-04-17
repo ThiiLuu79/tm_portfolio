@@ -38,6 +38,14 @@ header{
   top: 0;
   padding-left: 15px;
   align-items: center;
+  width: fit-content;
+}
+
+.go_back_container{
+  width: fit-content;
+  display: flex;
+  position:sticky;
+  top: 0;
 }
 
 .go__back .button__arrow{
