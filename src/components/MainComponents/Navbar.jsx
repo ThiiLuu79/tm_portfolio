@@ -22,7 +22,7 @@ const Navbar = () => {
       element.addEventListener('click', toggleNavbar);
     });
 
-    document.querySelectorAll('.nav__link').forEach(element => {
+    document.querySelectorAll('.nav__link, .dropdown_link').forEach(element => {
       element.addEventListener('click', handleNavbarToggle);
     });
 
@@ -63,7 +63,7 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdownExp" className="dropdown-content drop_exp">
-          <Link to="/Work" onClick={() => {
+          <Link to="/Work" className="dropdown_link" onClick={() => {
             window.scroll({
               top: 0,
               left: 0,
@@ -85,14 +85,14 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdown" className="dropdown-content">
-          <Link to="/Academics" onClick={() => {
+          <Link to="/Academics" className="dropdown_link" onClick={() => {
             window.scroll({
               top: 0,
               left: 0,
               behavior: "smooth",
             });
           }}>Academic Projects</Link>
-          <Link to="/Personals" onClick={() => {
+          <Link to="/Personals" className="dropdown_link" onClick={() => {
             window.scroll({
               top: 0,
               left: 0,
@@ -100,14 +100,14 @@ const Navbar = () => {
             });
           }}>Personal Projets</Link>
             <hr />
-          <Link to="/ArtGallery" onClick={() => {
+          <Link to="/ArtGallery" className="dropdown_link" onClick={() => {
             window.scroll({
               top: 0,
               left: 0,
               behavior: "smooth",
             });
           }}>Art Gallery</Link>
-          <Link to="/PhotoGallery" onClick={() => {
+          <Link to="/PhotoGallery" className="dropdown_link" onClick={() => {
             window.scroll({
               top: 0,
               left: 0,
