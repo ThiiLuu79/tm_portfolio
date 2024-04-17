@@ -688,6 +688,8 @@ header{
   display: flex;
   flex-direction: column;
   padding:25px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer a {
@@ -703,6 +705,7 @@ header{
 .footer-link{
   font-weight: var(--fw-bold);
   position: relative;
+  width: fit-content;
   padding: 25px;
 }
 

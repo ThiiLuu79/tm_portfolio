@@ -48,7 +48,7 @@ html{
   
   a{
       color: var(--link-color);
-    text-decoration: none;
+      text-decoration: none;
       transition:
           transform .5ms cubic-bezier(.5,0,.5,1),
           opacity 250ms linear;
