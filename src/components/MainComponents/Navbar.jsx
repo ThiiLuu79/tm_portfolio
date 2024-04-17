@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   // Function to toggle the navbar
@@ -63,7 +63,13 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdownExp" className="dropdown-content drop_exp">
-            <a href="_#">Working experiences</a>
+          <Link to="/Work" onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}>Working experiences</Link>
           </div>
           <div className="drop_projects">
             <li className="nav__item">
@@ -79,11 +85,35 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdown" className="dropdown-content">
-            <a href="">Academic Projects</a>
-            <a href="">Personal Projets</a>
+          <Link to="/Academics" onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}>Academic Projects</Link>
+          <Link to="/Personals" onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}>Personal Projets</Link>
             <hr />
-            <a href="">Art Gallery</a>
-            <a href="">Photo Gallery</a>
+          <Link to="/ArtGallery" onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}>Art Gallery</Link>
+          <Link to="/PhotoGallery" onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+              behavior: "smooth",
+            });
+          }}>Photo Gallery</Link>
           </div>
           <li className="nav__item">
             <a href="#education" className="nav__link">
