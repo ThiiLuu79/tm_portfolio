@@ -95,7 +95,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav__item">
-            <a href="/#contact" className="nav__link">
+            <a href="#contact" className="nav__link">
               Contact
             </a>
           </li>
