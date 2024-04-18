@@ -2,7 +2,11 @@ import arts from "../../img/home/art_gallery.jpg";
 import photos from "../../img/home/photography_cover.jpg";
 import {Link} from 'react-router-dom';
 
+import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad.jsx";
+
 const FreetimeProjects = () => {
+
+    ScrollToTopOnLoad();
 
     return (
         <section className = "my-projects" id = "freetime_projects">
@@ -11,13 +15,7 @@ const FreetimeProjects = () => {
 
             <div className = "portfolio">
 
-            <Link to="/ArtGallery" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
-            }}>
+            <Link to="/ArtGallery">
                 <div className="project__container portfolio__item drawPro_link">
                     <img src = {arts} alt="art-project cover" width="900" className = "portfolio__img project__img"></img>
                     <div className="project__box">
@@ -25,23 +23,16 @@ const FreetimeProjects = () => {
                     </div>
                 </div>
 
-                </Link>
+            </Link>
 
-                <Link to="/PhotoGallery" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
-            }}>
+            <Link to="/PhotoGallery">
                 <div className="project__container portfolio__item photoPro_link">
                     <img src = {photos} alt="photo_project_cover" width="900" className = "portfolio__img project__img"></img>
                     <div className="project__box">
                         <p className="project__text photoPro_">Photo Gallery</p>
                     </div>
                 </div>
-
-                </Link>
+            </Link>
                 
             </div>
         </section>

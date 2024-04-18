@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
+import ScrollToTopOnLoad from './ScrollToTopOnLoad';
+
 const Navbar = () => {
   // Function to toggle the navbar
   const toggleNavbar = () => {
@@ -37,6 +39,8 @@ const Navbar = () => {
     };
   }, []); // Empty dependency array means this effect will run only once when the component mounts
 
+  ScrollToTopOnLoad();
+
   return (
     <div>
       <button className="nav-toggle" aria-label="toggle navigation">
@@ -45,13 +49,13 @@ const Navbar = () => {
       <nav className="nav">
         <ul className="nav__list">
           <li className="nav__item">
-            <a href="#home" className="nav__link">
+            <a href="/#home" className="nav__link">
               Home
             </a>
           </li>
           <div className="drop_about">
             <li className="nav__item">
-              <a href="#about" className="nav__link">
+              <a href="/#about" className="nav__link">
                 About me
               </a>
             </li>
@@ -63,17 +67,11 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdownExp" className="dropdown-content drop_exp">
-          <Link to="/Work" className="dropdown_link" onClick={() => {
-            window.scroll({
-              top: 0,
-              left: 0,
-              behavior: "smooth",
-            });
-          }}>Working experiences</Link>
+          <Link to="/Work" className="dropdown_link">Working experiences</Link>
           </div>
           <div className="drop_projects">
             <li className="nav__item">
-              <a href="#cs_projects" className="nav__link">
+              <a href="/#cs_projects" className="nav__link">
                 Projects
               </a>
             </li>
@@ -85,43 +83,19 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdown" className="dropdown-content">
-          <Link to="/Academics" className="dropdown_link" onClick={() => {
-            window.scroll({
-              top: 0,
-              left: 0,
-              behavior: "smooth",
-            });
-          }}>Academic Projects</Link>
-          <Link to="/Personals" className="dropdown_link" onClick={() => {
-            window.scroll({
-              top: 0,
-              left: 0,
-              behavior: "smooth",
-            });
-          }}>Personal Projets</Link>
+          <Link to="/Academics" className="dropdown_link">Academic Projects</Link>
+          <Link to="/Personals" className="dropdown_link">Personal Projets</Link>
             <hr />
-          <Link to="/ArtGallery" className="dropdown_link" onClick={() => {
-            window.scroll({
-              top: 0,
-              left: 0,
-              behavior: "smooth",
-            });
-          }}>Art Gallery</Link>
-          <Link to="/PhotoGallery" className="dropdown_link" onClick={() => {
-            window.scroll({
-              top: 0,
-              left: 0,
-              behavior: "smooth",
-            });
-          }}>Photo Gallery</Link>
+          <Link to="/ArtGallery" className="dropdown_link">Art Gallery</Link>
+          <Link to="/PhotoGallery" className="dropdown_link">Photo Gallery</Link>
           </div>
           <li className="nav__item">
-            <a href="#education" className="nav__link">
+            <a href="/#education" className="nav__link">
               Education
             </a>
           </li>
           <li className="nav__item">
-            <a href="#contact" className="nav__link">
+            <a href="/#contact" className="nav__link">
               Contact
             </a>
           </li>

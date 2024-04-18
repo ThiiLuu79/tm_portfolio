@@ -2,7 +2,11 @@ import academics from "../../img/home/academic.jpg";
 import personals from "../../img/home/personal.jpg";
 import {Link} from 'react-router-dom';
 
+import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad.jsx";
+
 const CSProjects = () => {
+
+    ScrollToTopOnLoad();
 
     return (
         <section className = "my-projects" id = "cs_projects">
@@ -11,13 +15,7 @@ const CSProjects = () => {
 
             <div className = "portfolio">
 
-                <Link to="/Academics" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
-            }}>
+                <Link to="/Academics">
 
                     <div className="project__container portfolio__item academicPro_link">
                         <img src = {academics} alt="academic-project cover" width="900" className = "portfolio__img project__img"></img>
@@ -27,13 +25,7 @@ const CSProjects = () => {
                     </div>
                 </Link>
 
-                <Link to="/Personals" onClick={() => {
-                window.scroll({
-                top: 0,
-                left: 0,
-                behavior: "smooth",
-                });
-            }}>
+                <Link to="/Personals">
 
                 <div className="project__container portfolio__item personal_link">
                     <img src = {personals} alt="personal-project cover" width="900" className = "portfolio__img project__img"></img>

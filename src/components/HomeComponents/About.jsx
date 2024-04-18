@@ -1,7 +1,10 @@
 import about from "../../img/home/about_img.jpg";
 import {Link} from 'react-router-dom';
+import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad.jsx";
 
 const About = () => {
+
+    ScrollToTopOnLoad();
 
     return (
         <section className="block" id = "about">
@@ -24,13 +27,7 @@ const About = () => {
     I find joy in expressing my creativity through drawing and photography.</p>
                 <br></br>
                 
-                <Link to="/Work" onClick={() => {
-            window.scroll({
-              top: 0,
-              left: 0,
-              behavior: "smooth",
-            });
-          }}>
+                <Link to="/Work">
                     <button className="pushable workExp_link">
                         <span className="front">
                             Working experiences
