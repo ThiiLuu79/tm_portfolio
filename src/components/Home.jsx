@@ -1,8 +1,8 @@
-import Card from './HomeComponents/Card.jsx';
-import About from './HomeComponents/About.jsx';
-import CSProjects from './HomeComponents/CSProjects.jsx';
-import FreetimeProjects from './HomeComponents/FreetimeProjects.jsx';
-import Education from './HomeComponents/Education.jsx';
+import Card from './HomeComponents/Card';
+import About from './HomeComponents/About';
+import CSProjects from './HomeComponents/CSProjects';
+import FreetimeProjects from './HomeComponents/FreetimeProjects';
+import Education from './HomeComponents/Education';
 
 const Home = () => {
 

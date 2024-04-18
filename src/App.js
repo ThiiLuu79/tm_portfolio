@@ -2,14 +2,14 @@ import './css/custom.css';
 import './css/general.css';
 import './css/style.css';
 
-import Header from './components/MainComponents/Header.jsx';
-import Home from './components/Home.jsx';
-import Work from './components/Work.jsx';
-import Academics from './components/Academics.jsx';
-import Personals from './components/Personals.jsx';
-import ArtGallery from './components/ArtGallery.jsx';
-import PhotoGallery from './components/PhotoGallery.jsx';
-import Footer from './components/MainComponents/Footer.jsx';
+import Header from './components/MainComponents/Header';
+import Home from './components/Home';
+import Work from './components/Work';
+import Academics from './components/Academics';
+import Personals from './components/Personals';
+import ArtGallery from './components/ArtGallery';
+import PhotoGallery from './components/PhotoGallery';
+import Footer from './components/MainComponents/Footer';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 

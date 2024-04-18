@@ -1,6 +1,6 @@
 import about from "../../img/home/about_img.jpg";
 import {Link} from 'react-router-dom';
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad.jsx";
+import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
 
 const About = () => {
 

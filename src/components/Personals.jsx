@@ -1,4 +1,4 @@
-import GoBack from './MainComponents/GoBack.jsx';
+import GoBack from './MainComponents/GoBack';
 
 import cover from "../img/personal/html.jpg";
 import cssZenGarden from "../img/personal/cssZenGarden.jpg";
