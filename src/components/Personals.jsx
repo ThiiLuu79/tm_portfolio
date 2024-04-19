@@ -42,7 +42,7 @@ const Personals = () => {
                         Overall, it was a fun way for me to explore and improve my CSS skills.</p>
 
                     <br/>
-                    <Button text="Visit" redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true}/>
+                    <Button text="Visit" redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>
                     <br/><br/>
                     <h4>Skills:</h4>
                     <ul style={{listStyleType:"none"}}>
@@ -76,30 +76,12 @@ const Personals = () => {
                     <br/><br/>
                     <p><b>Download for Windows (.zip)</b></p>
                     <br/>
-                    <a href={sharkZip} download>
-                        <button className="pushable">
-                        <span className="front">
-                            Hungry Shark
-                        </span>
-                        </button>
-                    </a>
+                    <Button text="Hungry Shark" redirect={sharkZip} buttonType='Download'/>
                     <br/>
                     <br/>
-                    <a href={carZip} download>
-                        <button className="pushable">
-                        <span className="front">
-                            Car Crash
-                        </span>
-                        </button>
-                    </a>
+                    <Button text="Car Crash" redirect={carZip} buttonType='Download'/>
                     <br/><br/>
-                    <a href={spaceZip} download>
-                        <button className="pushable">
-                        <span className="front">
-                            Space Invaders
-                        </span>
-                        </button>
-                    </a>
+                    <Button text="Space Invaders" redirect={spaceZip} buttonType='Download'/>
 
                     </div>
                     <img src = {pygames} alt="space invaders cover" width="500" className="block__img"/>
@@ -118,7 +100,7 @@ const Personals = () => {
                         To wrap it up, I set up a system on the back end to safely store the info people entered into a database. Users would get a quick confirmation message,
                         letting them know their request was successfully sent to the back end.</p>
                         <br/>
-                    <Button text="Visit" redirect='https://tititea.netlify.app' blank={true} noreferrer={true}/>
+                    <Button text="Visit" redirect='https://tititea.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>
                     <br/><br/>
                     <h4>Skills:</h4>
                     <ul style={{listStyleType:"none"}}>

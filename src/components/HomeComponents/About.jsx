@@ -26,7 +26,7 @@ const About = () => {
     always seeking innovative solutions to overcome obstacles. Outside of my professional life, 
     I find joy in expressing my creativity through drawing and photography.</p>
                 <br></br>
-                <Button text="Working experiences" redirect="/Work" blank={false} noreferrer={false}/>
+                <Button text="Working experiences" redirect="/Work" blank={false} noreferrer={false} buttonType='Link'/>
                 <br></br><br></br>
 
             </div>

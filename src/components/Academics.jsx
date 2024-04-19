@@ -199,9 +199,9 @@ const Academics = () => {
 
                     <br></br>
                     <br></br>
-                    <Button text="CSJV" redirect='https://csjv-biblio.inlibro.net/' blank={true} noreferrer={true}/>
+                    <Button text="CSJV" redirect='https://csjv-biblio.inlibro.net/' blank={true} noreferrer={true} buttonType='Link'/>
                     <br></br><br></br>
-                    <Button text="CCFV" redirect='https://ccfvancouver.inlibro.net/' blank={true} noreferrer={true}/>
+                    <Button text="CCFV" redirect='https://ccfvancouver.inlibro.net/' blank={true} noreferrer={true} buttonType='Link'/>
                     <br></br><br></br>
                     <h4>Skills:</h4>
                     <ul style={{listStyleType:"none"}}>
