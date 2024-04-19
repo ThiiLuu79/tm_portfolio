@@ -1,4 +1,5 @@
 import GoBack from './MainComponents/GoBack';
+import Button from "./MainComponents/Button";
 
 import cover from "../img/academic/spCover.jpg";
 import webflix from "../img/academic/webflix.png";
@@ -198,21 +199,9 @@ const Academics = () => {
 
                     <br></br>
                     <br></br>
-                    <a target="_blank" rel="noreferrer" className="csjv_link" href='https://csjv-biblio.inlibro.net/'>
-                        <button className="pushable" title="St-Jean Vianney College">
-                        <span className="front">
-                            CSJV
-                        </span>
-                        </button>
+                    <Button text="CSJV" redirect='https://csjv-biblio.inlibro.net/' blank={true} noreferrer={true}/>
                     <br></br><br></br>
-                    </a>
-                    <a target="_blank" rel="noreferrer" className="ccfv_link" href='https://ccfvancouver.inlibro.net/'>
-                        <button className="pushable" title="Cultural French Center of Vancouver">
-                        <span className="front">
-                            CCFV
-                        </span>
-                        </button>
-                    </a>
+                    <Button text="CCFV" redirect='https://ccfvancouver.inlibro.net/' blank={true} noreferrer={true}/>
                     <br></br><br></br>
                     <h4>Skills:</h4>
                     <ul style={{listStyleType:"none"}}>

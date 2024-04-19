@@ -12,6 +12,8 @@ import sharkZip from "../archives/zip/Hungry Shark.zip";
 import carZip from "../archives/zip/Car Crash.zip";
 import spaceZip from "../archives/zip/Space Invaders.zip";
 
+import Button from "./MainComponents/Button";
+
 
 
 
@@ -40,13 +42,7 @@ const Personals = () => {
                         Overall, it was a fun way for me to explore and improve my CSS skills.</p>
 
                     <br/>
-                    <a target="_blank" rel="noreferrer" className="csszg_link" href='https://csszengardentm.netlify.app'>
-                        <button className="pushable">
-                        <span className="front">
-                            Visit
-                        </span>
-                        </button>
-                    </a>
+                    <Button text="Visit" redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true}/>
                     <br/><br/>
                     <h4>Skills:</h4>
                     <ul style={{listStyleType:"none"}}>
@@ -122,13 +118,7 @@ const Personals = () => {
                         To wrap it up, I set up a system on the back end to safely store the info people entered into a database. Users would get a quick confirmation message,
                         letting them know their request was successfully sent to the back end.</p>
                         <br/>
-                    <a target="_blank" rel="noreferrer" className="ttt_link" href='https://tititea.netlify.app'>
-                        <button className="pushable">
-                        <span className="front">
-                            Visit
-                        </span>
-                        </button>
-                    </a>
+                    <Button text="Visit" redirect='https://tititea.netlify.app' blank={true} noreferrer={true}/>
                     <br/><br/>
                     <h4>Skills:</h4>
                     <ul style={{listStyleType:"none"}}>

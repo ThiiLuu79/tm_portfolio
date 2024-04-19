@@ -1,6 +1,6 @@
 import about from "../../img/home/about_img.jpg";
-import {Link} from 'react-router-dom';
 import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
+import Button from "../MainComponents/Button";
 
 const About = () => {
 
@@ -26,14 +26,7 @@ const About = () => {
     always seeking innovative solutions to overcome obstacles. Outside of my professional life, 
     I find joy in expressing my creativity through drawing and photography.</p>
                 <br></br>
-                
-                <Link to="/Work">
-                    <button className="pushable workExp_link">
-                        <span className="front">
-                            Working experiences
-                        </span>
-                    </button>
-                </Link>
+                <Button text="Working experiences" redirect="/Work" blank={false} noreferrer={false}/>
                 <br></br><br></br>
 
             </div>
