@@ -58,4 +58,9 @@ html{
       color: var(--link-color-hover);
       text-decoration: underline;
   }
+
+  ::selection {
+    background: #81CE83;
+  }
+
   /*GENERAL STYLES*/
