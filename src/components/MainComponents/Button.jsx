@@ -32,6 +32,8 @@ const Button = ({text, redirect, blank, noreferrer, buttonType}) => {
                 {renderPushableButton()}
             </a>
         )
+    }else{
+        return null;
     }
 }
 export default Button
