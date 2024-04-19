@@ -22,13 +22,13 @@ const Button = ({text, redirect, blank, noreferrer, buttonType}) => {
         
     if (buttonType === 'Link') {
         return (
-            <Link className='btn__link line-break--major' to={redirect} {...linkProps}>
+            <Link className='btn__link' to={redirect} {...linkProps}>
                 {renderPushableButton()}
             </Link>
         )
     } else if (buttonType === 'Download') {
         return (
-            <a className='line-break--major' href={redirect} download>
+            <a href={redirect} download>
                 {renderPushableButton()}
             </a>
         )
