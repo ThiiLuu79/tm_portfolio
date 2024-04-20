@@ -28,7 +28,7 @@ const Button = ({text, redirect, blank, noreferrer, buttonType}) => {
         )
     } else if (buttonType === 'Download') {
         return (
-            <a href={redirect} download>
+            <a className='btn__link' href={redirect} download>
                 {renderPushableButton()}
             </a>
         )

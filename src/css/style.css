@@ -851,3 +851,18 @@ header{
   width: 70%;
   max-width: 600px;
 }
+
+/*CSS for reusable buttons*/
+.btn__link{
+  margin: 10px;
+}
+
+.project__buttons Button, .project__buttons a {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.btn__link:hover, .project__buttons Button:hover, .project__buttons a:hover {
+  text-decoration: none !important;
+}

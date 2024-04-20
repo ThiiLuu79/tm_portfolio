@@ -1,6 +1,6 @@
 import about from "../../img/home/about_img.jpg";
 import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
-import Button from "../MainComponents/Button";
+import Button from "../ReusableComponents/Button";
 
 const About = () => {
 
