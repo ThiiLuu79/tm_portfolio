@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Item = ({ title, period, description, contributions, workTime, tools, image, grades, buttons }) => (
+const Project = ({ title, period, description, contributions, workTime, tools, image, grades, buttons }) => (
     <section className="block project__item">
         <h2 className = "section__title section__title--block">{title}</h2>
         <p className = "section__subtitle section__subtitle--block">{period}</p>
@@ -41,4 +41,4 @@ const Item = ({ title, period, description, contributions, workTime, tools, imag
     </section>
 );
 
-export default Item;
+export default Project;

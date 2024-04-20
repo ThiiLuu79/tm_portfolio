@@ -19,19 +19,19 @@ function App() {
   return (
     <div className="App">
 
-    <Router>
-      <Header/>
-      <Routes>
-          <Route path='/' element={<Home/>}></Route>
-          <Route path='/Work' element={<Work/>}></Route>
-          <Route path='/Academics' element={<Academics/>}></Route>
-          <Route path='/Personals' element={<Personals/>}></Route>
-          <Route path='/ArtGallery' element={<ArtGallery/>}></Route>
-          <Route path='/PhotoGallery' element={<PhotoGallery/>}></Route>
-          <Route path='*' element={<NotFound/>}></Route>
-      </Routes>
-      <Footer/>
-    </Router>
+      <Router>
+        <Header/>
+        <Routes>
+            <Route path='/' element={<Home/>}></Route>
+            <Route path='/Work' element={<Work/>}></Route>
+            <Route path='/Academics' element={<Academics/>}></Route>
+            <Route path='/Personals' element={<Personals/>}></Route>
+            <Route path='/ArtGallery' element={<ArtGallery/>}></Route>
+            <Route path='/PhotoGallery' element={<PhotoGallery/>}></Route>
+            <Route path='*' element={<NotFound/>}></Route>
+        </Routes>
+        <Footer/>
+      </Router>
 
     </div>
   );
