@@ -41,6 +41,7 @@ const Personals = () => {
                     tools={["Language(s): CSS", "Tool(s): Git/GitHub, VSCode"]}
                     grades={[]}
                     image={cssZenGarden}
+                    imgAlt={"cssZenGarden"}
                     buttons={[<Button key="button1" text="Visit" redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
                 />
 
@@ -53,6 +54,7 @@ const Personals = () => {
                     tools={["Language(s): Python / Pygame", "   Tool(s): Git/GitHub, Pycharm"]}
                     grades={[]}
                     image={pygames}
+                    imgAlt={"pygames"}
                     buttons={[<Button key="button1" text="Hungry Shark (.zip)" redirect={sharkZip} buttonType='Download'/>,
                                 <Button key="button2" text="Car Crash (.zip)" redirect={carZip} buttonType='Download'/>,
                                 <Button key="button3" text="Space Invaders (.zip)" redirect={spaceZip} buttonType='Download'/>]}
@@ -67,6 +69,7 @@ const Personals = () => {
                     tools={["Language(s): JavaScript, HTML5, CSS, PHP, SQL", "Database: MySQL", "Tool(s): Git/GitHub, XAMPP Stack, VSCode"]}
                     grades={[]}
                     image={tititea}
+                    imgAlt={"tititea"}
                     buttons={[<Button key="button1" text="Visit" redirect='https://tititea.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
                 />
 

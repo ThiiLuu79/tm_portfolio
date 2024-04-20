@@ -45,6 +45,7 @@ const Academics = () => {
                             "Tool(s): Git/GitHub, IntelliJ, Visual Paradigm, SQL Developer"]}
                     grades={["Grade for phase 1: 95%", "Grade for phase 2: 92%", "Grade for phase 3: 96%"]}
                     image={webflix}
+                    imgAlt={"webflix"}
                     buttons={[]}
                 />
 
@@ -63,6 +64,7 @@ const Academics = () => {
                             "Tool(s): Git/GitHub, IntelliJ"]}
                     grades={[]}
                     image={pusher}
+                    imgAlt={"pushers"}
                     buttons={[]}
                 />
 
@@ -79,6 +81,7 @@ const Academics = () => {
                             "Tool(s): Git/GitHub, IntelliJ"]}
                     grades={["Final grade : 97.5%"]}
                     image={huffman}
+                    imgAlt={"huffman"}
                     buttons={[]}
                 />
 
@@ -96,6 +99,7 @@ const Academics = () => {
                             "Tool(s): Git/GitHub, IntelliJ, Visual Paradigm"]}
                     grades={["Final grade : 91%"]}
                     image={chain}
+                    imgAlt={"chain"}
                     buttons={[]}
                 />
 
@@ -109,6 +113,7 @@ const Academics = () => {
                             "Tool(s): Git/GitHub, Koha"]}
                     grades={[]}
                     image={opac}
+                    imgAlt={"opac"}
                     buttons={[<Button key="button1" text="CSJV" redirect='https://csjv-biblio.inlibro.net/' blank={true} noreferrer={true} buttonType='Link'/>,
                     <Button key="button2" text="CCFV" redirect='https://ccfvancouver.inlibro.net/' blank={true} noreferrer={true} buttonType='Link'/>]}
                 />

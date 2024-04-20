@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Project = ({ title, period, description, contributions, workTime, tools, image, grades, buttons }) => (
+const Project = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons }) => (
     <section className="block project__item">
         <h2 className = "section__title section__title--block">{title}</h2>
         <p className = "section__subtitle section__subtitle--block">{period}</p>
@@ -36,7 +36,7 @@ const Project = ({ title, period, description, contributions, workTime, tools, i
         <div className="project__buttons">
             {buttons}
         </div>
-        <img src = {image} alt="cover" width="500" className="block__img"></img>
+        <img src = {image} alt={imgAlt} width="500" className="block__img"></img>
 
     </section>
 );
