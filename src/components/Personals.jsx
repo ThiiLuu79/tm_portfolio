@@ -71,6 +71,7 @@ const Personals = () => {
                     period={TITITEA_PROJECT.period}
                     description= {TITITEA_PROJECT.description}
                     contributions={TITITEA_PROJECT.contributions}
+                    workTime= {TITITEA_PROJECT.workTime}
                     tools= {TITITEA_PROJECT.tools}
                     grades={TITITEA_PROJECT.grades}
                     image={tititea}
