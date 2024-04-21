@@ -21,7 +21,7 @@ import {
     CSS_ZEN_GARDEN_PROJECT,
     PYGAMES_PROJECT,
     TITITEA_PROJECT
-} from "./constants.js";
+} from "./personalsConstants";
 
 
 const Personals = () => {
