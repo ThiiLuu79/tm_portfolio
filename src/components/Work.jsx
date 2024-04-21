@@ -8,6 +8,13 @@ import ciuss from "../img/experiences/ciuss.jpg";
 
 import getExpTimeString from "../utils/time.js";
 
+import {
+    WORK_PAGE_TITLE,
+    NBC_EXPERIENCE,
+    INLIBRO_EXPERIENCE,
+    CIUSS_EXPERIENCE
+} from "./workConstants.js";
+
 const Work = () => {
 
     var nbcStart = new Date(2023, 4, 14);
@@ -27,49 +34,49 @@ const Work = () => {
             <GoBack/>
             
             <section className="exp_section">
-                <h2 className = "section__title section__title--block">Working experiences</h2>
+                <h2 className = "section__title section__title--block">{WORK_PAGE_TITLE}</h2>
                 <img src = {cover} alt="experience page cover" width="500" className="block__img"></img>
             </section>
 
             <div className="block_wrap">
 
                 <WorkExperience
-                    title={"Full Stack Developer (Internship)"}
+                    title={NBC_EXPERIENCE.title}
                     image={nbcImg}
-                    imgAlt={"nbc interns"}
-                    company={"National Bank of Canada (NBC)"}
-                    companyLink={"https://www.bnc.ca/"}
-                    location={"Montreal, Canada"}
+                    imgAlt={NBC_EXPERIENCE.imgAlt}
+                    company={NBC_EXPERIENCE.company}
+                    companyLink={NBC_EXPERIENCE.companyLink}
+                    location={NBC_EXPERIENCE.location}
                     workTime={nbcExpTimeString}
-                    description={"Worked as a Full Stack Developer at National Bank of Canada. Contributed in the redesign of the transactional site (DBE project)."}
-                    contributions={["Joined the Vikings team. Worked on the hybrid navigation between the older and newer interface.", "Implemented new features to enhance the interface.", "Fixed defects on the interface.", "Analyzed the data and raised anomalies in a SQL report.", "Created flat tables to store data from multiple systems."]}
-                    tools={["Environment: MacOS, Windows", "Database: Oracle", "Languages: Java, JavaScript, Java Server Page (JSP), HTML, SQL", "Methodology: Agile, Kanban", "Others: IntelliJ, Git, JUnit, Bitbucket, Jira, Confluence, Maven, DBeaver, Docker, Websphere Application Server, Urban Code Deploy, Jenkins, DataHub, Snowflake, AWS Cloud, Teams, Slack"]}
+                    description={NBC_EXPERIENCE.description}
+                    contributions={NBC_EXPERIENCE.contributions}
+                    tools={NBC_EXPERIENCE.tools}
                 />
 
                 <WorkExperience
-                    title={"Full Stack Developer (Internship)"}
+                    title={INLIBRO_EXPERIENCE.title}
                     image={inlibro}
-                    imgAlt={"inlibro"}
-                    company={"Solution inLibro"}
-                    companyLink={"https://inlibro.com/"}
-                    location={"Montreal, Canada"}
+                    imgAlt={INLIBRO_EXPERIENCE.imgAlt}
+                    company={INLIBRO_EXPERIENCE.company}
+                    companyLink={INLIBRO_EXPERIENCE.companyLink}
+                    location={INLIBRO_EXPERIENCE.location}
                     workTime={inlibroExpTimeString}
-                    description={"Worked as a Full Stack Developer on Koha, an open source library management system distributed in different schools and libraries."}
-                    contributions={["Fixed bugs on Koha’s UI and UX", "Created patches to improve Koha’s system", "Rebased old patches to make them work on the current Koha system", "Interacted with Koha community to solve problems", "Personalized the client’s interface for different schools", "Worked on inLibro’s plugins, which can be used in Koha", "Maintenance", "Unit testing", "QA testing", "Assisted new interns"]}
-                    tools={["Environment: Linux, Koha", "Database: MariaDB", "Languages: Perl, CSS, JavaScript, SQL", "Methodology: Agile, Kanban", "Others: Git, Apache, Bugzilla"]}
+                    description={INLIBRO_EXPERIENCE.description}
+                    contributions={INLIBRO_EXPERIENCE.contributions}
+                    tools={INLIBRO_EXPERIENCE.tools}
                 />
 
                 <WorkExperience
-                    title={"Food Attendant"}
+                    title={CIUSS_EXPERIENCE.title}
                     image={ciuss}
-                    imgAlt={"ciuss"}
-                    company={"Residential and long-term care centers (CHSLD)"}
-                    companyLink={"https://ciusss-estmtl.gouv.qc.ca/"}
-                    location={"Montreal, Canada"}
+                    imgAlt={CIUSS_EXPERIENCE.imgAlt}
+                    company={CIUSS_EXPERIENCE.company}
+                    companyLink={CIUSS_EXPERIENCE.companyLink}
+                    location={CIUSS_EXPERIENCE.location}
                     workTime={ciussExpTimeString}
-                    description={"Worked as a Food Attendant in multiple care centers, such as CHSLD Nicolet and CHSLD J-H Charbonneau."}
-                    contributions={["Prepared meal trays for elderly residents", "Offered services to elderly residents during breakfast, lunch, and dinner", "Maintained and cleaned the kitchen", "Delivered meals to elderly residents’ rooms", "Made the inventory of food items in the kitchen"]}
-                    tools={["Meal Delivery Carts", "Kitchen Appliances", "Cleaning Equipment", "Inventory Management"]}
+                    description={CIUSS_EXPERIENCE.description}
+                    contributions={CIUSS_EXPERIENCE.contributions}
+                    tools={CIUSS_EXPERIENCE.tools}
                 />
             </div>
             
