@@ -25,7 +25,7 @@ export const WEBFLIX_PROJECT = {
     description: "As part of the High Performance Databases (LOG660) course, we were tasked with developing a Full Stack application named Webflix, allowing clients to rent movies in accordance with their subscriptions. Our data management required the utilization of an Oracle database, and interaction with this data was achieved through an object-oriented program. This assignment was structured in three phases. In the initial phase, we focused on designing className and relational diagrams for the application, tailored to various use cases. Additionally, we were responsible for importing a vast amount of data into the database from an XML file containing thousands of entries. For the second phase of this assignment, our task was to design and develop a user interface (UI) for the application. Within this interface, clients could log in to access detailed information about movies, actors and directors. Moreover, clients with eligible subscriptions had the ability to rent movies. In the third phase, our task included establishing an analytical data system to evaluate rental frequencies across various dimensions. Additionally, we were tasked with implementing a recommendation function for each movie, by getting the client ratings from an external database.",
     contributions: [
         "Led a team of four students.",
-        "Designed and optimized the className and relational diagram for the Webflix application.",
+        "Designed and optimized the class and relational diagram for the Webflix application.",
         "Created database tables for the Webflix application.",
         "Created SQL triggers to implement the business logic within the database.",
         "Inserted data entries into the database from a given XML file using JDBC.",
@@ -187,7 +187,7 @@ export const PYGAMES_PROJECT = {
 export const TITITEA_PROJECT = {
     title: "Tititea",
     period: "2021",
-    description: "Tititea is a small project that I created to practice my web development skills. The goal was to create a simple webpage that displays a list of my favorite songs. I used HTML, CSS, and JavaScript to create this project.",
+    description: "For my first website, I made a page for TiTiTea, a pretend tea shop. On this page, people could order tea, give ratings, and even check out job openings. While working on it, I picked up some useful web development skills. I started by making the page look good and easy to use. Then, I added features to help users, like messages that pop up if they forgot to fill in all the required info in a form. To wrap it up, I set up a system on the back end to safely store the info people entered into a database. Users would get a quick confirmation message, letting them know their request was successfully sent to the back end.",
     contributions: [
         "Made a page for TiTiTea, a pretend tea shop",
         "Users could order tea, give ratings, and check out job openings",
