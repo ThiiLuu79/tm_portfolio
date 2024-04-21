@@ -54,7 +54,7 @@ export const TITITEA_PROJECT = {
         "Set up a system on the back end to safely store the info people entered into a database",
         "Users would get a quick confirmation message, letting them know their request was successfully sent to the back end"
     ],
-    workTime: "2 week",
+    workTime: "2 weeks",
     tools: [
         "Language(s): HTML, CSS, JavaScript",
         "Tool(s): Git/GitHub, VSCode"
