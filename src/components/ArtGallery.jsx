@@ -18,6 +18,14 @@ import p11 from "../img/art/art11.jpg";
 import p12 from "../img/art/art12.jpg";
 import p13 from "../img/art/art13.jpg";
 
+import{
+    WELCOME_ART,
+    ART_GALLERY,
+    ART_PROJECT,
+    ART_MESSAGE,
+    ART_INSTAGRAM
+} from "./constants.js";
+
 
 const ArtGallery = () => {
 
@@ -55,8 +63,8 @@ const ArtGallery = () => {
             <GoBack/>
             
             <section className="intro">
-                <h2 className = "section__title section__title--intro">Welcome to my <strong className="name"><b className="drawPro_name">Art Gallery</b></strong> </h2>
-                <p className = "section__subtitle section__subtitle--intro drawPro_type">Art Project</p>
+                <h2 className = "section__title section__title--intro">{WELCOME_ART}<strong className="name"><b className="drawPro_name">{ART_GALLERY}</b></strong> </h2>
+                <p className = "section__subtitle section__subtitle--intro drawPro_type">{ART_PROJECT}</p>
                 <img src = {cover} alt="art page cover" className="intro__img"/>
             </section>
 
@@ -76,7 +84,7 @@ const ArtGallery = () => {
                 <div className="art__item"><img src={p13} alt="dragon lady drawing" className="collection__img"/></div>
             </div>
 
-            <div className="art_gallery_link">Art works are also displayed on my <a href="https://www.instagram.com/thiiluu.art/" target="_blank" rel="noreferrer">Art Instagram Page</a>.</div>
+            <div className="art_gallery_link">{ART_MESSAGE}<a href="https://www.instagram.com/thiiluu.art/" target="_blank" rel="noreferrer">{ART_INSTAGRAM}</a>.</div>
     
             <div id="myModal" className="modal">
                 <span className="close">&times;</span>

@@ -3,6 +3,19 @@ import { Link } from 'react-router-dom';
 
 import ScrollToTopOnLoad from './ScrollToTopOnLoad';
 
+import{
+    HOME,
+    ABOUT_ME,
+    WORKING_EXPERIENCES,
+    PROJECTS,
+    ACADEMIC_PROJECTS,
+    PERSONAL_PROJECTS,
+    ART_GALLERY,
+    PHOTO_GALLERY,
+    EDUCATION,
+    CONTACT
+} from "./constants.js";
+
 const Navbar = () => {
   // Function to toggle the navbar
   const toggleNavbar = () => {
@@ -50,13 +63,13 @@ const Navbar = () => {
         <ul className="nav__list">
           <li className="nav__item">
             <a href="/#home" className="nav__link">
-              Home
+              {HOME}
             </a>
           </li>
           <div className="drop_about">
             <li className="nav__item">
               <a href="/#about" className="nav__link">
-                About me
+                {ABOUT_ME}
               </a>
             </li>
             <button className="button">
@@ -67,12 +80,12 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdownExp" className="dropdown-content drop_exp">
-          <Link to="/Work" className="dropdown_link">Working experiences</Link>
+          <Link to="/Work" className="dropdown_link">{WORKING_EXPERIENCES}</Link>
           </div>
           <div className="drop_projects">
             <li className="nav__item">
               <a href="/#cs_projects" className="nav__link">
-                Projects
+                {PROJECTS}
               </a>
             </li>
             <button className="button">
@@ -83,20 +96,20 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdown" className="dropdown-content">
-          <Link to="/Academics" className="dropdown_link">Academic Projects</Link>
-          <Link to="/Personals" className="dropdown_link">Personal Projets</Link>
+          <Link to="/Academics" className="dropdown_link">{ACADEMIC_PROJECTS}</Link>
+          <Link to="/Personals" className="dropdown_link">{PERSONAL_PROJECTS}</Link>
             <hr />
-          <Link to="/ArtGallery" className="dropdown_link">Art Gallery</Link>
-          <Link to="/PhotoGallery" className="dropdown_link">Photo Gallery</Link>
+          <Link to="/ArtGallery" className="dropdown_link">{ART_GALLERY}</Link>
+          <Link to="/PhotoGallery" className="dropdown_link">{PHOTO_GALLERY}</Link>
           </div>
           <li className="nav__item">
             <a href="/#education" className="nav__link">
-              Education
+              {EDUCATION}
             </a>
           </li>
           <li className="nav__item">
             <a href="#contact" className="nav__link">
-              Contact
+              {CONTACT}
             </a>
           </li>
         </ul>

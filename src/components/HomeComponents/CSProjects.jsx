@@ -4,14 +4,21 @@ import {Link} from 'react-router-dom';
 
 import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
 
+import {
+    CS_PROJECTS_TITLE,
+    CS_PROJECTS_SUBTITLE,
+    ACADEMIC_PROJECTS,
+    PERSONAL_PROJECTS
+} from "./constants.js";
+
 const CSProjects = () => {
 
     ScrollToTopOnLoad();
 
     return (
         <section className = "my-projects" id = "cs_projects">
-            <h2 className = "section__title section__title--projects">Computer Science Projects</h2>
-            <p className = "section__subtitle section__subtitle--projects">Hover over the images to see the project type</p>
+            <h2 className = "section__title section__title--projects">{CS_PROJECTS_TITLE}</h2>
+            <p className = "section__subtitle section__subtitle--projects">{CS_PROJECTS_SUBTITLE}</p>
 
             <div className = "portfolio">
 
@@ -20,7 +27,7 @@ const CSProjects = () => {
                     <div className="project__container portfolio__item academicPro_link">
                         <img src = {academics} alt="academic-project cover" width="900" className = "portfolio__img project__img"></img>
                         <div className="project__box">
-                        <p className="project__text academicPro_">Academic Projects</p>
+                        <p className="project__text academicPro_">{ACADEMIC_PROJECTS}</p>
                         </div>
                     </div>
                 </Link>
@@ -30,7 +37,7 @@ const CSProjects = () => {
                 <div className="project__container portfolio__item personal_link">
                     <img src = {personals} alt="personal-project cover" width="900" className = "portfolio__img project__img"></img>
                     <div className="project__box">
-                        <p className="project__text personal_">Personal Projects</p>
+                        <p className="project__text personal_">{PERSONAL_PROJECTS}</p>
                     </div>
                 </div>
                 </Link>

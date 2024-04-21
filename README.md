@@ -14,7 +14,7 @@ The portfolio is organized into the following directories:
  - /archives : Contains compressed files for download. Contains videos
  - /img : Contains images
  - /css : Contains stylesheets
- - /js : Contains JavaScript files
+ - /utils : Contains JavaScript files
  - /components :
       - /HomeComponents : React components for Home page 
       - /MainComponents : Basic React components, such as Header, Footer, etc.

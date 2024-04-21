@@ -6,7 +6,7 @@ import nbcImg from "../img/experiences/nbc_interns.jpg";
 import inlibro from "../img/experiences/inlibro.png";
 import ciuss from "../img/experiences/ciuss.jpg";
 
-import getExpTimeString from "../js/time.js";
+import getExpTimeString from "../utils/time.js";
 
 const Work = () => {
 

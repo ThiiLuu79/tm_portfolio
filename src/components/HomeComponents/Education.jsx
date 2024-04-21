@@ -1,5 +1,13 @@
-import getExpTimeString from "../../js/time.js";
+import getExpTimeString from "../../utils/time.js";
 
+import{
+    EDUCATION_TITLE,
+    ETS,
+    ETS_DEGREE,
+    MAISONNEUVE,
+    MAISONNEUVE_DEGREE
+}
+from "./constants.js";
 
 const Education = () => {
 
@@ -16,13 +24,13 @@ const Education = () => {
         <section id = "education">
             <div className="content_wrap">
                 <div>
-                    <h2 className = "section__title section__title--education"><b>Education</b></h2>
+                    <h2 className = "section__title section__title--education"><b>{EDUCATION_TITLE}</b></h2>
                     <br></br>
-                    <h3 className="ets_">ÉTS - Montreal, Canada</h3>
-                    <p className="ets_info">Bachelor of Engineering - BE, Software Engineering, {etsExpTimeString} </p>
+                    <h3 className="ets_">{ETS}</h3>
+                    <p className="ets_info">{ETS_DEGREE} {etsExpTimeString} </p>
                     <br></br>
-                    <h3 className="maisonneuve_"> Maisonneuve College - Montreal, Canada </h3>
-                    <p className="maisonneuve_info">Pure and applied sciences, {maisonneuveExpTimeString} </p>
+                    <h3 className="maisonneuve_"> {MAISONNEUVE} </h3>
+                    <p className="maisonneuve_info">{MAISONNEUVE_DEGREE} {maisonneuveExpTimeString} </p>
                     <br></br>
                 </div>
             </div>

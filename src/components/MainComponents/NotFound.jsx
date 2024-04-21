@@ -1,17 +1,25 @@
 import GoBack from '../MainComponents/GoBack';
 import {Link} from 'react-router-dom';
 
+import{
+    ERROR_404,
+    ERROR_MESSAGE,
+    NAVIGATE_BACK,
+    HINTS,
+    SEE_YOU
+} from "./constants.js";
+
 const NotFound = () => {
     return (
         <div>
             <GoBack/>
             <div className="page_not_found">
-                <h2>404</h2>
+                <h2>{ERROR_404}</h2>
                 <br/>
                 <h3 >
-                    Whoops! It seems we've hit a dead end. Let's get back on track. <Link to="/" style={{ textDecoration: 'underline' }}>Navigate back to the homepage to continue your exploration</Link>.<br/><br/>
-                    You can still use the "Go back to home page" button or the navbar to navigate back to the homepage.<br/><br/>
-                    See you there!
+                    {ERROR_MESSAGE} <Link to="/" style={{ textDecoration: 'underline' }}>{NAVIGATE_BACK}</Link>.<br/><br/>
+                    {HINTS}<br/><br/>
+                    {SEE_YOU}
                 </h3>
             </div>
 
