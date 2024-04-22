@@ -1,4 +1,4 @@
-import GoToTop from './GoToTop';
+import GoToTop from './GoToTop.jsx';
 
 import{
   FOOTER_TITLE,

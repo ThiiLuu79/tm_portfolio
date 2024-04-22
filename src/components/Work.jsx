@@ -1,5 +1,5 @@
-import GoBack from './MainComponents/GoBack';
-import WorkExperience from "./ReusableComponents/WorkExperience";
+import GoBack from './MainComponents/GoBack.jsx';
+import WorkExperience from "./ReusableComponents/WorkExperience.jsx";
 
 import cover from "../img/experiences/experience.jpg";
 import nbcImg from "../img/experiences/nbc_interns.jpg";

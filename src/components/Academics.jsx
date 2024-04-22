@@ -1,6 +1,6 @@
-import GoBack from './MainComponents/GoBack';
-import Button from "./ReusableComponents/Button";
-import Project from "./ReusableComponents/Project";
+import GoBack from './MainComponents/GoBack.jsx';
+import Button from "./ReusableComponents/Button.jsx";
+import Project from "./ReusableComponents/Project.jsx";
 
 import cover from "../img/academic/spCover.jpg";
 import webflix from "../img/academic/webflix.png";

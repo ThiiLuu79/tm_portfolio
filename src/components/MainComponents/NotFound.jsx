@@ -1,4 +1,4 @@
-import GoBack from '../MainComponents/GoBack';
+import GoBack from './GoBack.jsx';
 import {Link} from 'react-router-dom';
 
 import{
