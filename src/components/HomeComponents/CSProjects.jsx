@@ -2,7 +2,7 @@ import academics from "../../img/home/academic.jpg";
 import personals from "../../img/home/personal.jpg";
 import {Link} from 'react-router-dom';
 
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
+import ScrollToTopOnLoad from "../mainComponents/ScrollToTopOnLoad.jsx";
 
 import {
     CS_PROJECTS_TITLE,

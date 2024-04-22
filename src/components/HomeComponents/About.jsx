@@ -1,6 +1,6 @@
 import about from "../../img/home/about_img.jpg";
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
-import Button from "../ReusableComponents/Button";
+import ScrollToTopOnLoad from "../mainComponents/ScrollToTopOnLoad.jsx";
+import Button from "../reusableComponents/Button.jsx";
 
 import {
     ABOUT_TITLE,

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
-import ScrollToTopOnLoad from './ScrollToTopOnLoad';
+import ScrollToTopOnLoad from './ScrollToTopOnLoad.jsx';
 
 import{
     HOME,
