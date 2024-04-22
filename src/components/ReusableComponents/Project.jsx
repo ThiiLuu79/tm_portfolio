@@ -4,7 +4,7 @@ import{
     CONTRIBUTIONS,
     WORK_TIME,
     SKILLS
-} from "./constants.js";
+} from "./constants";
 
 const Project = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons }) => (
     <section className="block project__item">

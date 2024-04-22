@@ -1,4 +1,4 @@
-import GoBack from './GoBack.jsx';
+import GoBack from './GoBack';
 import {Link} from 'react-router-dom';
 
 import{
@@ -7,7 +7,7 @@ import{
     NAVIGATE_BACK,
     HINTS,
     SEE_YOU
-} from "./constants.js";
+} from "./constants";
 
 const NotFound = () => {
     return (

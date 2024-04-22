@@ -3,7 +3,7 @@ import {
     MY_NAME, 
     INTRODUCTION, 
     ROLE
-} from "./constants.js";
+} from "./constants";
 
 const Card = () => {
 

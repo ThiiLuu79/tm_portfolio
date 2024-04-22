@@ -3,7 +3,7 @@ import React from 'react';
 import{
     CONTRIBUTIONS,
     TOOLS
-} from "./constants.js";
+} from "./constants";
 
 const WorkExperience = ({ title, image, imgAlt, company, companyLink, location, workTime, description, contributions, tools }) => (
     

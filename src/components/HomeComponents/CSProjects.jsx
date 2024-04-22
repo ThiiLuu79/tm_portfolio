@@ -2,14 +2,14 @@ import academics from "../../img/home/academic.jpg";
 import personals from "../../img/home/personal.jpg";
 import {Link} from 'react-router-dom';
 
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad.jsx";
+import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
 
 import {
     CS_PROJECTS_TITLE,
     CS_PROJECTS_SUBTITLE,
     ACADEMIC_PROJECTS,
     PERSONAL_PROJECTS
-} from "./constants.js";
+} from "./constants";
 
 const CSProjects = () => {
 

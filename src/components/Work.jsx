@@ -1,19 +1,19 @@
-import GoBack from './MainComponents/GoBack.jsx';
-import WorkExperience from "./ReusableComponents/WorkExperience.jsx";
+import GoBack from './MainComponents/GoBack';
+import WorkExperience from "./ReusableComponents/WorkExperience";
 
 import cover from "../img/experiences/experience.jpg";
 import nbcImg from "../img/experiences/nbc_interns.jpg";
 import inlibro from "../img/experiences/inlibro.png";
 import ciuss from "../img/experiences/ciuss.jpg";
 
-import getExpTimeString from "../utils/time.js";
+import getExpTimeString from "../utils/time";
 
 import {
     WORK_PAGE_TITLE,
     NBC_EXPERIENCE,
     INLIBRO_EXPERIENCE,
     CIUSS_EXPERIENCE
-} from "./workConstants.js";
+} from "./workConstants";
 
 const Work = () => {
 

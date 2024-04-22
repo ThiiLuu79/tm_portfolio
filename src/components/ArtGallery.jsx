@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import GoBack from './MainComponents/GoBack.jsx';
+import GoBack from './MainComponents/GoBack';
 
 import cover from "../img/art/art_cover.jpg";
 
@@ -24,7 +24,7 @@ import{
     ART_PROJECT,
     ART_MESSAGE,
     ART_INSTAGRAM
-} from "./constants.js";
+} from "./constants";
 
 
 const ArtGallery = () => {

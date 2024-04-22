@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-import GoBack from './MainComponents/GoBack.jsx';
+import GoBack from './MainComponents/GoBack';
 
 import cover from "../img/photography/photo16.JPG";
 
@@ -40,7 +40,7 @@ import{
     PHOTO_PROJECT,
     PHOTO_MESSAGE,
     PHOTO_INSTAGRAM
-} from "./constants.js";
+} from "./constants";
 
 
 const PhotoGallery = () => {

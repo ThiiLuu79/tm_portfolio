@@ -1,4 +1,4 @@
-import getExpTimeString from "../../utils/time.js";
+import getExpTimeString from "../../utils/time";
 
 import{
     EDUCATION_TITLE,
@@ -7,7 +7,7 @@ import{
     MAISONNEUVE,
     MAISONNEUVE_DEGREE
 }
-from "./constants.js";
+from "./constants";
 
 const Education = () => {
 

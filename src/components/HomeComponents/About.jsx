@@ -1,6 +1,6 @@
 import about from "../../img/home/about_img.jpg";
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad.jsx";
-import Button from "../ReusableComponents/Button.jsx";
+import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
+import Button from "../ReusableComponents/Button";
 
 import {
     ABOUT_TITLE,
@@ -8,7 +8,7 @@ import {
     ABOUT_P1,
     ABOUT_P2,
     ABOUT_P3
-} from "./constants.js";
+} from "./constants";
 
 const About = () => {
 

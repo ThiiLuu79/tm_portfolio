@@ -2,14 +2,14 @@ import arts from "../../img/home/art_gallery.jpg";
 import photos from "../../img/home/photography_cover.jpg";
 import {Link} from 'react-router-dom';
 
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad.jsx";
+import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
 
 import {
     FREETIME_PROJECTS_TITLE,
     FREETIME_PROJECTS_SUBTITLE,
     ART_PROJECTS,
     PHOTO_PROJECTS
-} from "./constants.js";
+} from "./constants";
 
 const FreetimeProjects = () => {
 

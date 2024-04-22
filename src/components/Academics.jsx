@@ -1,6 +1,6 @@
-import GoBack from './MainComponents/GoBack.jsx';
-import Button from "./ReusableComponents/Button.jsx";
-import Project from "./ReusableComponents/Project.jsx";
+import GoBack from './MainComponents/GoBack';
+import Button from "./ReusableComponents/Button";
+import Project from "./ReusableComponents/Project";
 
 import cover from "../img/academic/spCover.jpg";
 import webflix from "../img/academic/webflix.png";
@@ -17,7 +17,7 @@ import {
     HUFFMAN_PROJECT,
     CHAIN_PROJECT,
     KOHA_PROJECT
-} from "./academicsConstants.js";
+} from "./academicsConstants";
 
 const Academics = () => {
 
