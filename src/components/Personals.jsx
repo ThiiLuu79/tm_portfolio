@@ -1,4 +1,4 @@
-import GoBack from './mainComponents/GoBack';
+import GoBack from './MainComponents/GoBack';
 
 import cover from "../img/personal/html.jpg";
 import cssZenGarden from "../img/personal/cssZenGarden.jpg";
@@ -12,8 +12,8 @@ import sharkZip from "../archives/zip/Hungry Shark.zip";
 import carZip from "../archives/zip/Car Crash.zip";
 import spaceZip from "../archives/zip/Space Invaders.zip";
 
-import Button from "./reusableComponents/Button";
-import Project from "./reusableComponents/Project";
+import Button from "./ReusableComponents/Button";
+import Project from "./ReusableComponents/Project";
 
 import {
     PERSONALS_WELCOME,

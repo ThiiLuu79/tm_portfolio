@@ -1,8 +1,8 @@
-import Card from './homeComponents/Card';
-import About from './homeComponents/About';
-import CSProjects from './homeComponents/CSProjects';
-import FreetimeProjects from './homeComponents/FreetimeProjects';
-import Education from './homeComponents/Education';
+import Card from './HomeComponents/Card';
+import About from './HomeComponents/About';
+import CSProjects from './HomeComponents/CSProjects';
+import FreetimeProjects from './HomeComponents/FreetimeProjects';
+import Education from './HomeComponents/Education';
 
 const Home = () => {
 

@@ -16,9 +16,9 @@ The portfolio is organized into the following directories:
  - /css : Contains stylesheets
  - /utils : Contains JavaScript files
  - /components :
-      - /homeComponents : React components for Home page 
-      - /mainComponents : Basic React components, such as Header, Footer, etc.
-      - /reusableComponents : Reusable React components
+      - /HomeComponents : React components for Home page 
+      - /MainComponents : Basic React components, such as Header, Footer, etc.
+      - /ReusableComponents : Reusable React components
  - App.js : Main application
 
 

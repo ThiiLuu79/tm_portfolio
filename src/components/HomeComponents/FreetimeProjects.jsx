@@ -2,7 +2,7 @@ import arts from "../../img/home/art_gallery.jpg";
 import photos from "../../img/home/photography_cover.jpg";
 import {Link} from 'react-router-dom';
 
-import ScrollToTopOnLoad from "../mainComponents/ScrollToTopOnLoad.jsx";
+import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
 
 import {
     FREETIME_PROJECTS_TITLE,
