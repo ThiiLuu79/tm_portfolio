@@ -2,6 +2,7 @@ import GoBack from './MainComponents/GoBack';
 import WorkExperience from "./ReusableComponents/WorkExperience";
 
 import cover from "../img/experiences/experience.jpg";
+import intactImg from "../img/experiences/intact.png";
 import nbcImg from "../img/experiences/nbc_interns.jpg";
 import inlibro from "../img/experiences/inlibro.png";
 import ciuss from "../img/experiences/ciuss.jpg";
@@ -12,11 +13,14 @@ import {
     WORK_PAGE_TITLE,
     NBC_EXPERIENCE,
     INLIBRO_EXPERIENCE,
-    CIUSS_EXPERIENCE
+    CIUSS_EXPERIENCE,
+    INTACT_EXPERIENCE
 } from "./workConstants";
 
 const Work = () => {
 
+    var intactStart = new Date(2024, 4, 6);
+    var intactEnd = new Date();
     var nbcStart = new Date(2023, 4, 14);
     var nbcEnd = new Date(2023, 7, 30);
     var inlibroStart = new Date(2022, 0);
@@ -24,6 +28,7 @@ const Work = () => {
     var ciussStart = new Date(2019, 7);
     var ciussEnd = new Date(2019, 8);
 
+    var intactExpTimeString = getExpTimeString(intactEnd, intactStart); 
     var nbcExpTimeString = getExpTimeString(nbcEnd, nbcStart);
     var inlibroExpTimeString = getExpTimeString(inlibroEnd, inlibroStart);
     var ciussExpTimeString = getExpTimeString(ciussEnd, ciussStart);
@@ -39,6 +44,19 @@ const Work = () => {
             </section>
 
             <div className="block_wrap">
+
+            <WorkExperience
+                    title={INTACT_EXPERIENCE.title}
+                    image={intactImg}
+                    imgAlt={INTACT_EXPERIENCE.imgAlt}
+                    company={INTACT_EXPERIENCE.company}
+                    companyLink={INTACT_EXPERIENCE.companyLink}
+                    location={INTACT_EXPERIENCE.location}
+                    workTime={intactExpTimeString}
+                    description={INTACT_EXPERIENCE.description}
+                    contributions={INTACT_EXPERIENCE.contributions}
+                    tools={INTACT_EXPERIENCE.tools}
+                />
 
                 <WorkExperience
                     title={NBC_EXPERIENCE.title}

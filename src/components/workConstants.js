@@ -1,10 +1,21 @@
 //Constants for Work.jsx
 export const WORK_PAGE_TITLE = "Working experiences";
 
+//INTACT
+export const INTACT_EXPERIENCE = {
+    title: "Full Stack Developer (Internship)",
+    company: "Intact Financial Corporation",
+    location: "Montreal, Canada",
+    description: "Worked as a Full Stack Developer at Intact Financial Corporation.",
+    contributions: [],
+    tools: ["Environment: Windows", "Database: ", "Languages: ", "Methodology: Agile", "Others: "],
+    imgAlt: "intact",
+    companyLink: "https://www.intactfc.com/"
+}
 
 //NBC
 export const NBC_EXPERIENCE = {
-    title: "Software Developer Intern",
+    title: "Full Stack Developer (Internship)",
     company: "National Bank of Canada",
     location: "Montreal, Canada",
     description: "Worked as a Full Stack Developer at National Bank of Canada. Contributed in the redesign of the transactional site (DBE project).",
@@ -21,7 +32,7 @@ export const INLIBRO_EXPERIENCE = {
     location: "Montreal, Canada",
     description: "Worked as a Full Stack Developer on Koha, an open source library management system distributed in different schools and libraries.",
     contributions: ["Fixed bugs on Koha’s UI and UX", "Created patches to improve Koha’s system", "Rebased old patches to make them work on the current Koha system", "Interacted with Koha community to solve problems", "Personalized the client’s interface for different schools", "Worked on inLibro’s plugins, which can be used in Koha", "Maintenance", "Unit testing", "QA testing", "Assisted new interns"],
-    tools: ["Environment: Linux, Koha", "Database: MariaDB", "Languages: Perl, CSS, JavaScript, SQL", "Methodology: Agile, Kanban", "Others: Git, Apache, Bugzilla"],
+    tools: ["Environment: Linux, Koha", "Database: MariaDB", "Languages: Perl, CSS, JavaScript, SQL", "Methodology: Agile", "Others: Git, Apache, Bugzilla"],
     imgAlt: "inlibro",
     companyLink: "https://inlibro.com/"
 }
