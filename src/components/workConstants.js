@@ -3,12 +3,12 @@ export const WORK_PAGE_TITLE = "Working experiences";
 
 //INTACT
 export const INTACT_EXPERIENCE = {
-    title: "Full Stack Developer (Internship)",
+    title: "Software Developer (Internship)",
     company: "Intact Financial Corporation",
     location: "Montreal, Canada",
-    description: "Worked as a Full Stack Developer at Intact Financial Corporation.",
+    description: "Worked as a Software Developer at Intact Financial Corporation.",
     contributions: [],
-    tools: ["Environment: Windows", "Database: ", "Languages: ", "Methodology: Agile", "Others: "],
+    tools: ["Environment: Windows", "Languages: TypeScript, Angular, Node, HTML", "Methodology: Agile", "Others: Git/Github, IntelliJ, VSCode, Jira, Confluence, Teams"],
     imgAlt: "intact",
     companyLink: "https://www.intactfc.com/"
 }
