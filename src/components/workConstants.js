@@ -8,7 +8,7 @@ export const INTACT_EXPERIENCE = {
     location: "Montreal, Canada",
     description: "Worked as a Software Developer in the Acquisition Department at Intact Financial Corporation.",
     contributions: ["Joined the Groot Hacks (Growth hacking) team.", "Conducted A/B tests to analyze and optimize the performance of two interface versions with clients.", "Developed and launched new, impactful features to enhance user experience.", "Contributed to the development of microfrontends."],
-    tools: ["Environment: MacOS, Windows", "Languages: TypeScript, Angular, HTML, CSS/SCSS", "Methodology: Agile", "Others: NodeJS, Git/Github, IntelliJ, VSCode, Jira, Confluence, Teams"],
+    tools: ["Environment: MacOS, Windows", "Languages: Angular, TypeScript, HTML, CSS/SASS", "Methodology: Agile, Scrum", "Others: NgRx, NodeJS, Jest, Git/Github, IntelliJ, VSCode, Jira, Confluence, Teams"],
     imgAlt: "intact",
     companyLink: "https://www.intactfc.com/"
 }
