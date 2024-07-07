@@ -8,7 +8,7 @@ export const INTACT_EXPERIENCE = {
     location: "Montreal, Canada",
     description: "Worked as a Software Developer in the Acquisition Department at Intact Financial Corporation.",
     contributions: ["Joined the Groot Hacks (Growth hacking) team.", "Conducted A/B tests to analyze and optimize the performance of two interface versions with clients.", "Developed and launched new, impactful features to enhance user experience.", "Contributed to the development of microfrontends."],
-    tools: ["Environment: MacOS, Windows", "Languages: Angular, TypeScript, HTML, CSS/SASS", "Methodology: Agile, Scrum", "Others: NgRx, RxJS, NodeJS, Jest, Git/Github, IntelliJ, VSCode, Jira, Confluence, Teams"],
+    tools: ["Environment: MacOS, Windows", "Languages: Angular, TypeScript, HTML, CSS/SASS", "Methodology: Agile, Scrum, SAFe", "Others: NgRx, RxJS, NodeJS, Jest, Git/Github, IntelliJ, VSCode, Jira, Confluence, Teams"],
     imgAlt: "intact",
     companyLink: "https://www.intactfc.com/"
 }
@@ -20,7 +20,7 @@ export const NBC_EXPERIENCE = {
     location: "Montreal, Canada",
     description: "Worked as a Full Stack Developer at National Bank of Canada. Contributed in the redesign of the transactional site (DBE project).",
     contributions: ["Joined the Vikings team. Worked on the hybrid navigation between the older and newer interface.", "Implemented new features to enhance the interface.", "Fixed defects on the interface.", "Analyzed the data and raised anomalies in a SQL report.", "Created flat tables to store data from multiple systems."],
-    tools : ["Environment: MacOS, Windows", "Database: Oracle", "Languages: Java, JavaScript, Java Server Page (JSP), HTML, SQL", "Methodology: Agile, Kanban", "Others: IntelliJ, Git, JUnit, Bitbucket, Jira, Confluence, Maven, DBeaver, Docker, Websphere Application Server, Urban Code Deploy, Jenkins, DataHub, Snowflake, AWS Cloud, Teams, Slack"],
+    tools : ["Environment: MacOS, Windows", "Database: Oracle", "Languages: Java, JavaScript, Java Server Page (JSP), HTML, SQL", "Methodology: Agile, Kanban, SAFe", "Others: IntelliJ, Git, JUnit, Bitbucket, Jira, Confluence, Maven, DBeaver, Docker, Websphere Application Server, Urban Code Deploy, Jenkins, DataHub, Snowflake, AWS Cloud, Teams, Slack"],
     imgAlt: "nbc interns",
     companyLink: "https://www.bnc.ca/"
 }
