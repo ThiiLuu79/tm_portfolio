@@ -6,6 +6,9 @@ import { useLanguage } from '../../LanguageContext/languageContext';
 import * as mainConstantsEn from '../../i18n/mainConstants_en.js';
 import * as mainConstantsFr from '../../i18n/mainConstants_fr.js';
 
+
+import { LanguageToggler } from '../../LanguageContext/languageToggler';
+
 const Footer = () => {
   var today = new Date();
 
@@ -46,6 +49,7 @@ const Footer = () => {
               </div>
             </a>
       </div>
+      <LanguageToggler/>
       <GoToTop/>
       <small className="copyright">&copy; {mainConstants.COPYRIGHT} <span id="portfolioTimePeriod">{mainConstants.PORTFOLIO_START_YEAR}{today.getFullYear()}</span> {mainConstants.ALL_RIGHTS_RESERVED}</small>
     </footer>

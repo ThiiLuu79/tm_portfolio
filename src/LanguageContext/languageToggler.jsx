@@ -6,8 +6,17 @@ export const LanguageToggler = () => {
 
     return (
         <div>
-            <button onClick={() => setLanguage('en')}>English</button>
-            <button onClick={() => setLanguage('fr')}>Français</button>
+            <button className="pushable" onClick={() => setLanguage('en')}>
+                <span className="front">
+                    English
+                </span>
+            </button>
+            
+            <button className="pushable" onClick={() => setLanguage('fr')}>
+                <span className="front">
+                    Français
+                </span>
+            </button>
         </div>
     );
 };

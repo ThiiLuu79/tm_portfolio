@@ -5,9 +5,6 @@ import { useLanguage } from '../../LanguageContext/languageContext';
 import * as mainConstantsEn from '../../i18n/mainConstants_en.js';
 import * as mainConstantsFr from '../../i18n/mainConstants_fr.js';
 
-
-import { LanguageToggler } from '../../LanguageContext/languageToggler';
-
 const Header = () => {
 
     const { language } = useLanguage();
@@ -15,7 +12,6 @@ const Header = () => {
 
     return (
         <header id="top">
-            <LanguageToggler/>
             <Navbar/>
             <h3 className = "header__title tm">{mainConstants.INITIALS} <strong className="portfolio"><b>{mainConstants.PORTFOLIO}</b></strong> </h3>
         </header>
