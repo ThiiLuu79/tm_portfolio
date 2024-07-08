@@ -9,7 +9,7 @@ import {
     FREETIME_PROJECTS_SUBTITLE,
     ART_PROJECTS,
     PHOTO_PROJECTS
-} from "./constants";
+} from "../../i18n/homeConstants";
 
 const FreetimeProjects = () => {
 

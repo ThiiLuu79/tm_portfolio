@@ -7,7 +7,7 @@ import{
     NAVIGATE_BACK,
     HINTS,
     SEE_YOU
-} from "./constants";
+} from "../../i18n/globalConstants";
 
 const NotFound = () => {
     return (

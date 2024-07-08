@@ -8,7 +8,7 @@ import {
     ABOUT_P1,
     ABOUT_P2,
     ABOUT_P3
-} from "./constants";
+} from "../../i18n/homeConstants";
 
 const About = () => {
 

@@ -15,7 +15,7 @@ import {
     INLIBRO_EXPERIENCE,
     CIUSS_EXPERIENCE,
     INTACT_EXPERIENCE
-} from "./workConstants";
+} from "../i18n/workConstants";
 
 const Work = () => {
 

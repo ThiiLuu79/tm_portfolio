@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 
 import ScrollToTopOnLoad from './ScrollToTopOnLoad';
 
-import { GO_BACK } from './constants';
+import { GO_BACK } from '../../i18n/globalConstants';
 
 const GoBack = () => {
 

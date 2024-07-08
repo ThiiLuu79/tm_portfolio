@@ -14,7 +14,7 @@ import{
     PHOTO_GALLERY,
     EDUCATION,
     CONTACT
-} from "./constants.js";
+} from "../../i18n/globalConstants.js";
 
 const Navbar = () => {
   // Function to toggle the navbar

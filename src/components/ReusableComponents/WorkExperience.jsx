@@ -3,7 +3,7 @@ import React from 'react';
 import{
     CONTRIBUTIONS,
     TOOLS
-} from "./constants";
+} from "../../i18n/reusableConstants";
 
 const WorkExperience = ({ title, image, imgAlt, company, companyLink, location, workTime, description, contributions, tools }) => (
     

@@ -3,7 +3,7 @@ import {
     MY_NAME, 
     INTRODUCTION, 
     ROLE
-} from "./constants";
+} from "../../i18n/homeConstants";
 
 const Card = () => {
 

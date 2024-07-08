@@ -40,7 +40,7 @@ import{
     PHOTO_PROJECT,
     PHOTO_MESSAGE,
     PHOTO_INSTAGRAM
-} from "./constants";
+} from "../i18n/freeTimeConstants";
 
 
 const PhotoGallery = () => {

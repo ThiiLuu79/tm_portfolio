@@ -9,7 +9,7 @@ import {
     CS_PROJECTS_SUBTITLE,
     ACADEMIC_PROJECTS,
     PERSONAL_PROJECTS
-} from "./constants";
+} from "../../i18n/homeConstants";
 
 const CSProjects = () => {
 

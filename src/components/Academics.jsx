@@ -17,7 +17,7 @@ import {
     HUFFMAN_PROJECT,
     CHAIN_PROJECT,
     KOHA_PROJECT
-} from "./academicsConstants";
+} from "../i18n/academicsConstants";
 
 const Academics = () => {
 

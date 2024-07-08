@@ -24,7 +24,7 @@ import{
     ART_PROJECT,
     ART_MESSAGE,
     ART_INSTAGRAM
-} from "./constants";
+} from "../i18n/freeTimeConstants";
 
 
 const ArtGallery = () => {

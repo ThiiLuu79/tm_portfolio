@@ -7,7 +7,7 @@ import{
     MAISONNEUVE,
     MAISONNEUVE_DEGREE
 }
-from "./constants";
+from "../../i18n/homeConstants";
 
 const Education = () => {
 

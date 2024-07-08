@@ -3,7 +3,7 @@ import Navbar from './Navbar';
 import{
     INITIALS,
     PORTFOLIO
-}from "./constants.js";
+}from "../../i18n/globalConstants.js";
 
 const Header = () => {
 

@@ -10,7 +10,7 @@ import{
   COPYRIGHT,
   ALL_RIGHTS_RESERVED,
   PORTFOLIO_START_YEAR
-} from "./constants.js";
+} from "../../i18n/globalConstants.js";
 
 const Footer = () => {
   var today = new Date();
