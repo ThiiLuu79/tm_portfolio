@@ -5,7 +5,7 @@ export const LanguageToggler = () => {
     const { setLanguage } = useLanguage();
 
     return (
-        <div>
+        <div className='translator'>
             <button className="pushable" onClick={() => setLanguage('en')}>
                 <span className="front">
                     English
