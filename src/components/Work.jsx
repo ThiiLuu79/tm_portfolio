@@ -9,15 +9,15 @@ import ciuss from "../img/experiences/ciuss.jpg";
 
 import getExpTimeString from "../utils/time";
 
-import {
-    WORK_PAGE_TITLE,
-    NBC_EXPERIENCE,
-    INLIBRO_EXPERIENCE,
-    CIUSS_EXPERIENCE,
-    INTACT_EXPERIENCE
-} from "../i18n/workConstants";
+import { useLanguage } from '../LanguageContext/languageContext';
+
+import * as workConstantsEn from '../i18n/workConstants_en';
+import * as workConstantsFr from '../i18n/workConstants_fr';
 
 const Work = () => {
+
+    const { language } = useLanguage();
+    const workConstants = language === 'en' ? workConstantsEn : workConstantsFr;
 
     var intactStart = new Date(2024, 4, 6);
     var intactEnd = new Date();
@@ -39,62 +39,62 @@ const Work = () => {
             <GoBack/>
             
             <section className="exp_section">
-                <h2 className = "section__title section__title--block">{WORK_PAGE_TITLE}</h2>
+                <h2 className = "section__title section__title--block">{workConstants.WORK_PAGE_TITLE}</h2>
                 <img src = {cover} alt="experience page cover" width="500" className="block__img"></img>
             </section>
 
             <div className="block_wrap">
 
             <WorkExperience
-                    title={INTACT_EXPERIENCE.title}
+                    title={workConstants.INTACT_EXPERIENCE.title}
                     image={intactImg}
-                    imgAlt={INTACT_EXPERIENCE.imgAlt}
-                    company={INTACT_EXPERIENCE.company}
-                    companyLink={INTACT_EXPERIENCE.companyLink}
-                    location={INTACT_EXPERIENCE.location}
+                    imgAlt={workConstants.INTACT_EXPERIENCE.imgAlt}
+                    company={workConstants.INTACT_EXPERIENCE.company}
+                    companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
+                    location={workConstants.INTACT_EXPERIENCE.location}
                     workTime={intactExpTimeString}
-                    description={INTACT_EXPERIENCE.description}
-                    contributions={INTACT_EXPERIENCE.contributions}
-                    tools={INTACT_EXPERIENCE.tools}
+                    description={workConstants.INTACT_EXPERIENCE.description}
+                    contributions={workConstants.INTACT_EXPERIENCE.contributions}
+                    tools={workConstants.INTACT_EXPERIENCE.tools}
                 />
 
                 <WorkExperience
-                    title={NBC_EXPERIENCE.title}
+                    title={workConstants.NBC_EXPERIENCE.title}
                     image={nbcImg}
-                    imgAlt={NBC_EXPERIENCE.imgAlt}
-                    company={NBC_EXPERIENCE.company}
-                    companyLink={NBC_EXPERIENCE.companyLink}
-                    location={NBC_EXPERIENCE.location}
+                    imgAlt={workConstants.NBC_EXPERIENCE.imgAlt}
+                    company={workConstants.NBC_EXPERIENCE.company}
+                    companyLink={workConstants.NBC_EXPERIENCE.companyLink}
+                    location={workConstants.NBC_EXPERIENCE.location}
                     workTime={nbcExpTimeString}
-                    description={NBC_EXPERIENCE.description}
-                    contributions={NBC_EXPERIENCE.contributions}
-                    tools={NBC_EXPERIENCE.tools}
+                    description={workConstants.NBC_EXPERIENCE.description}
+                    contributions={workConstants.NBC_EXPERIENCE.contributions}
+                    tools={workConstants.NBC_EXPERIENCE.tools}
                 />
 
                 <WorkExperience
-                    title={INLIBRO_EXPERIENCE.title}
+                    title={workConstants.INLIBRO_EXPERIENCE.title}
                     image={inlibro}
-                    imgAlt={INLIBRO_EXPERIENCE.imgAlt}
-                    company={INLIBRO_EXPERIENCE.company}
-                    companyLink={INLIBRO_EXPERIENCE.companyLink}
-                    location={INLIBRO_EXPERIENCE.location}
+                    imgAlt={workConstants.INLIBRO_EXPERIENCE.imgAlt}
+                    company={workConstants.INLIBRO_EXPERIENCE.company}
+                    companyLink={workConstants.INLIBRO_EXPERIENCE.companyLink}
+                    location={workConstants.INLIBRO_EXPERIENCE.location}
                     workTime={inlibroExpTimeString}
-                    description={INLIBRO_EXPERIENCE.description}
-                    contributions={INLIBRO_EXPERIENCE.contributions}
-                    tools={INLIBRO_EXPERIENCE.tools}
+                    description={workConstants.INLIBRO_EXPERIENCE.description}
+                    contributions={workConstants.INLIBRO_EXPERIENCE.contributions}
+                    tools={workConstants.INLIBRO_EXPERIENCE.tools}
                 />
 
                 <WorkExperience
-                    title={CIUSS_EXPERIENCE.title}
+                    title={workConstants.CIUSS_EXPERIENCE.title}
                     image={ciuss}
-                    imgAlt={CIUSS_EXPERIENCE.imgAlt}
-                    company={CIUSS_EXPERIENCE.company}
-                    companyLink={CIUSS_EXPERIENCE.companyLink}
-                    location={CIUSS_EXPERIENCE.location}
+                    imgAlt={workConstants.CIUSS_EXPERIENCE.imgAlt}
+                    company={workConstants.CIUSS_EXPERIENCE.company}
+                    companyLink={workConstants.CIUSS_EXPERIENCE.companyLink}
+                    location={workConstants.CIUSS_EXPERIENCE.location}
                     workTime={ciussExpTimeString}
-                    description={CIUSS_EXPERIENCE.description}
-                    contributions={CIUSS_EXPERIENCE.contributions}
-                    tools={CIUSS_EXPERIENCE.tools}
+                    description={workConstants.CIUSS_EXPERIENCE.description}
+                    contributions={workConstants.CIUSS_EXPERIENCE.contributions}
+                    tools={workConstants.CIUSS_EXPERIENCE.tools}
                 />
             </div>
             
