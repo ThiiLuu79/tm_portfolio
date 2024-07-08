@@ -1,20 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLanguage } from './languageContext';
 
 export const LanguageToggler = () => {
     const { setLanguage } = useLanguage();
+    const [currentLanguage, setCurrentLanguage] = useState('en');
+
+    const toggleLanguage = () => {
+        const newLanguage = currentLanguage === 'en' ? 'fr' : 'en';
+        setCurrentLanguage(newLanguage);
+        setLanguage(newLanguage);
+    };
 
     return (
         <div className='translator'>
-            <button className="pushable" onClick={() => setLanguage('en')}>
+            <button className="pushable" onClick={toggleLanguage}>
                 <span className="front">
-                    English
-                </span>
-            </button>
-            
-            <button className="pushable" onClick={() => setLanguage('fr')}>
-                <span className="front">
-                    Français
+                    {currentLanguage === 'en' ? 'Français' : 'English'}
                 </span>
             </button>
         </div>
