@@ -3,20 +3,16 @@ import { Link } from 'react-router-dom';
 
 import ScrollToTopOnLoad from './ScrollToTopOnLoad';
 
-import{
-    HOME,
-    ABOUT_ME,
-    WORKING_EXPERIENCES,
-    PROJECTS,
-    ACADEMIC_PROJECTS,
-    PERSONAL_PROJECTS,
-    ART_GALLERY,
-    PHOTO_GALLERY,
-    EDUCATION,
-    CONTACT
-} from "./constants.js";
+import { useLanguage } from '../../LanguageContext/languageContext';
+
+import * as mainConstantsEn from '../../i18n/mainConstants_en.js';
+import * as mainConstantsFr from '../../i18n/mainConstants_fr.js';
 
 const Navbar = () => {
+
+  const { language } = useLanguage();
+  const mainConstants = language === 'en' ? mainConstantsEn : mainConstantsFr;
+
   // Function to toggle the navbar
   const toggleNavbar = () => {
     document.body.classList.toggle('nav-open');
@@ -63,13 +59,13 @@ const Navbar = () => {
         <ul className="nav__list">
           <li className="nav__item">
             <a href="/#home" className="nav__link">
-              {HOME}
+              {mainConstants.HOME}
             </a>
           </li>
           <div className="drop_about">
             <li className="nav__item">
               <a href="/#about" className="nav__link">
-                {ABOUT_ME}
+                {mainConstants.ABOUT_ME}
               </a>
             </li>
             <button className="button">
@@ -80,12 +76,12 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdownExp" className="dropdown-content drop_exp">
-          <Link to="/Work" className="dropdown_link">{WORKING_EXPERIENCES}</Link>
+          <Link to="/Work" className="dropdown_link">{mainConstants.WORKING_EXPERIENCES}</Link>
           </div>
           <div className="drop_projects">
             <li className="nav__item">
               <a href="/#cs_projects" className="nav__link">
-                {PROJECTS}
+                {mainConstants.PROJECTS}
               </a>
             </li>
             <button className="button">
@@ -96,20 +92,20 @@ const Navbar = () => {
             </button>
           </div>
           <div id="myDropdown" className="dropdown-content">
-          <Link to="/Academics" className="dropdown_link">{ACADEMIC_PROJECTS}</Link>
-          <Link to="/Personals" className="dropdown_link">{PERSONAL_PROJECTS}</Link>
+          <Link to="/Academics" className="dropdown_link">{mainConstants.ACADEMIC_PROJECTS}</Link>
+          <Link to="/Personals" className="dropdown_link">{mainConstants.PERSONAL_PROJECTS}</Link>
             <hr />
-          <Link to="/ArtGallery" className="dropdown_link">{ART_GALLERY}</Link>
-          <Link to="/PhotoGallery" className="dropdown_link">{PHOTO_GALLERY}</Link>
+          <Link to="/ArtGallery" className="dropdown_link">{mainConstants.ART_GALLERY}</Link>
+          <Link to="/PhotoGallery" className="dropdown_link">{mainConstants.PHOTO_GALLERY}</Link>
           </div>
           <li className="nav__item">
             <a href="/#education" className="nav__link">
-              {EDUCATION}
+              {mainConstants.EDUCATION}
             </a>
           </li>
           <li className="nav__item">
             <a href="#contact" className="nav__link">
-              {CONTACT}
+              {mainConstants.CONTACT}
             </a>
           </li>
         </ul>

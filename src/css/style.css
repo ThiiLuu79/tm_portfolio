@@ -71,6 +71,17 @@ header{
   top: 95%;
 }
 
+.translator{
+  position:fixed;
+  left: 2%;
+  z-index:99;
+  top: 95%;
+}
+
+.translator button{
+  margin-right: 2px;
+}
+
 .go__top .button__arrow {
   border-right: 2px solid var(--clr-accent);
   border-top: 2px solid var(--clr-accent);

@@ -4,21 +4,21 @@ import {Link} from 'react-router-dom';
 
 import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
 
-import {
-    FREETIME_PROJECTS_TITLE,
-    FREETIME_PROJECTS_SUBTITLE,
-    ART_PROJECTS,
-    PHOTO_PROJECTS
-} from "./constants";
+import { useLanguage } from '../../LanguageContext/languageContext';
+
+import * as homeConstantsEn from '../../i18n/homeConstants_en';
+import * as homeConstantsFr from '../../i18n/homeConstants_fr';
 
 const FreetimeProjects = () => {
 
     ScrollToTopOnLoad();
+    const { language } = useLanguage();
+    const homeConstants = language === 'en' ? homeConstantsEn : homeConstantsFr;
 
     return (
         <section className = "my-projects" id = "freetime_projects">
-            <h2 className = "section__title section__title--projects">{FREETIME_PROJECTS_TITLE}</h2>
-            <p className = "section__subtitle section__subtitle--projects">{FREETIME_PROJECTS_SUBTITLE}</p>
+            <h2 className = "section__title section__title--projects">{homeConstants.FREETIME_PROJECTS_TITLE}</h2>
+            <p className = "section__subtitle section__subtitle--projects">{homeConstants.FREETIME_PROJECTS_SUBTITLE}</p>
 
             <div className = "portfolio">
 
@@ -26,7 +26,7 @@ const FreetimeProjects = () => {
                 <div className="project__container portfolio__item drawPro_link">
                     <img src = {arts} alt="art-project cover" width="900" className = "portfolio__img project__img"></img>
                     <div className="project__box">
-                    <p className="project__text drawPro_">{ART_PROJECTS}</p>
+                    <p className="project__text drawPro_">{homeConstants.ART_PROJECTS}</p>
                     </div>
                 </div>
 
@@ -36,7 +36,7 @@ const FreetimeProjects = () => {
                 <div className="project__container portfolio__item photoPro_link">
                     <img src = {photos} alt="photo_project_cover" width="900" className = "portfolio__img project__img"></img>
                     <div className="project__box">
-                        <p className="project__text photoPro_">{PHOTO_PROJECTS}</p>
+                        <p className="project__text photoPro_">{homeConstants.PHOTO_PROJECTS}</p>
                     </div>
                 </div>
             </Link>

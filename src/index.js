@@ -4,10 +4,15 @@ import './css/index.css';
 import App from './App';
 import reportWebVitals from './utils/reportWebVitals';
 
+import { LanguageProvider } from './LanguageContext/languageContext';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <LanguageProvider>
+      <App />
+    </LanguageProvider>
   </React.StrictMode>
 );
 

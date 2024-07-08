@@ -1,15 +1,14 @@
 import getExpTimeString from "../../utils/time";
 
-import{
-    EDUCATION_TITLE,
-    ETS,
-    ETS_DEGREE,
-    MAISONNEUVE,
-    MAISONNEUVE_DEGREE
-}
-from "./constants";
+import { useLanguage } from '../../LanguageContext/languageContext';
+
+import * as homeConstantsEn from '../../i18n/homeConstants_en';
+import * as homeConstantsFr from '../../i18n/homeConstants_fr';
 
 const Education = () => {
+
+    const { language } = useLanguage();
+    const homeConstants = language === 'en' ? homeConstantsEn : homeConstantsFr;
 
     var etsStart = new Date(2020, 0);
     var etsEnd = new Date();
@@ -24,13 +23,13 @@ const Education = () => {
         <section id = "education">
             <div className="content_wrap">
                 <div>
-                    <h2 className = "section__title section__title--education"><b>{EDUCATION_TITLE}</b></h2>
+                    <h2 className = "section__title section__title--education"><b>{homeConstants.EDUCATION_TITLE}</b></h2>
                     <br></br>
-                    <h3 className="ets_">{ETS}</h3>
-                    <p className="ets_info">{ETS_DEGREE} {etsExpTimeString} </p>
+                    <h3 className="ets_">{homeConstants.ETS}</h3>
+                    <p className="ets_info">{homeConstants.ETS_DEGREE} {etsExpTimeString} </p>
                     <br></br>
-                    <h3 className="maisonneuve_"> {MAISONNEUVE} </h3>
-                    <p className="maisonneuve_info">{MAISONNEUVE_DEGREE} {maisonneuveExpTimeString} </p>
+                    <h3 className="maisonneuve_"> {homeConstants.MAISONNEUVE} </h3>
+                    <p className="maisonneuve_info">{homeConstants.MAISONNEUVE_DEGREE} {maisonneuveExpTimeString} </p>
                     <br></br>
                 </div>
             </div>
