@@ -13,5 +13,3 @@ export const PHOTO_GALLERY = "Photo Gallery";
 export const PHOTO_PROJECT = "Photo Projects";
 export const PHOTO_MESSAGE = "Photos are also displayed in my ";
 export const PHOTO_INSTAGRAM = "Photography Instagram Page";
-
-
