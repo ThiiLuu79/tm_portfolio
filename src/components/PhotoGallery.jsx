@@ -36,14 +36,14 @@ import p34 from "../img/photography/photo34.JPG";
 
 import { useLanguage } from '../LanguageContext/languageContext';
 
-import * as workConstantsEn from '../i18n/freeTimeConstants_en';
-import * as workConstantsFr from '../i18n/freeTimeConstants_fr';
+import * as freeTimeConstantsEn from '../i18n/freeTimeConstants_en';
+import * as freeTimeConstantsFr from '../i18n/freeTimeConstants_fr';
 
 
 const PhotoGallery = () => {
 
     const { language } = useLanguage();
-    const workConstants = language === 'en' ? workConstantsEn : workConstantsFr;
+    const freeTimeConstants = language === 'en' ? freeTimeConstantsEn : freeTimeConstantsFr;
 
     useEffect(() => {
         // JavaScript function to handle click events
@@ -79,8 +79,8 @@ const PhotoGallery = () => {
             <GoBack/>
             
             <section className="intro">
-                <h2 className = "section__title section__title--intro">{workConstants.WELCOME_PHOTO} <strong className="name"><b className="photoPro_name">{workConstants.PHOTO_GALLERY}</b></strong> </h2>
-                <p className = "section__subtitle section__subtitle--intro photoPro_type">{workConstants.PHOTO_PROJECT}</p>
+                <h2 className = "section__title section__title--intro">{freeTimeConstants.WELCOME_PHOTO} <strong className="name"><b className="photoPro_name">{freeTimeConstants.PHOTO_GALLERY}</b></strong> </h2>
+                <p className = "section__subtitle section__subtitle--intro photoPro_type">{freeTimeConstants.PHOTO_PROJECT}</p>
                 <img src = {cover} alt="art page cover" className="intro__img"/>
             </section>
 
@@ -115,7 +115,7 @@ const PhotoGallery = () => {
                 <img className="collection__img" src={p34} alt='p'/>
             </div>
 
-            <div className="art_gallery_link">{workConstants.PHOTO_MESSAGE}<a href="https://www.instagram.com/thiiluu.jpg/" target="_blank" rel="noreferrer">{workConstants.PHOTO_INSTAGRAM}</a>.</div>
+            <div className="art_gallery_link">{freeTimeConstants.PHOTO_MESSAGE}<a href="https://www.instagram.com/thiiluu.jpg/" target="_blank" rel="noreferrer">{freeTimeConstants.PHOTO_INSTAGRAM}</a>.</div>
     
             <div id="myModal" className="modal">
                 <span className="close">&times;</span>
