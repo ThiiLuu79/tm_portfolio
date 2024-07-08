@@ -1,4 +1,4 @@
-import getExpTimeString from "../../utils/time";
+import GetExpTimeString from "../../utils/time";
 
 import { useLanguage } from '../../LanguageContext/languageContext';
 
@@ -15,8 +15,8 @@ const Education = () => {
     var maisonneuveStart = new Date(2018, 0)
     var maisonneuveEnd = new Date(2020, 0);
 
-    var etsExpTimeString = getExpTimeString(etsEnd, etsStart, false, false, true);
-    var maisonneuveExpTimeString = getExpTimeString(maisonneuveEnd, maisonneuveStart, false, false, true);
+    var etsExpTimeString = GetExpTimeString(etsEnd, etsStart, false, false, true);
+    var maisonneuveExpTimeString = GetExpTimeString(maisonneuveEnd, maisonneuveStart, false, false, true);
 
 
     return (

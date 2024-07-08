@@ -1,89 +1,100 @@
-    /** 
-     * getExpTimeString : return the working time in string
-     * isToday : return if a date is today's date
-     * differenceInMonths : return the differnce in month between 2 dates
-     * differenceInYears : return the differnce in years between 2 dates
-     * getMonthString : return the month in string
-    */
+import * as date_en from '../i18n/dateConstants_en';
+import * as date_fr from '../i18n/dateConstants_fr';
+import { useLanguage } from '../LanguageContext/languageContext';
 
-    function getExpTimeString(date1, date2, displayMonth=true, displayTime=true, displayPresent=true){
-        const monthDiff = differenceInMonths(date1, date2) + 1;
-        const yearDiff = differenceInYears(date1, date2);
+/** 
+ * GetExpTimeString : return the working time in string
+ * isToday : return if a date is today's date
+ * differenceInMonths : return the differnce in month between 2 dates
+ * differenceInYears : return the differnce in years between 2 dates
+ * getMonthString : return the month in string
+*/
 
-        var timePeriod = "";
-  
-        var startMonth = getMonthString(date2.getMonth());
-        var startYear = date2.getFullYear();
-        var endMonth = getMonthString(date1.getMonth());
-        var endYear = date1.getFullYear();
-  
-        if(!displayMonth){
-          startMonth = "";
-          endMonth = "";
-        }
+function GetExpTimeString(date1, date2, displayMonth=true, displayTime=true, displayPresent=true){
 
-        if(!displayTime){
-          timePeriod = "";
-        }else if(monthDiff < 12){
-          timePeriod = " • " + monthDiff + " month(s)";
-        }else if(monthDiff%12 === 0){
-          let years = monthDiff/12;
-          timePeriod = " • " + years + " year(s)";
-        }else if(monthDiff % 12 >= 1){
-          let months = monthDiff % 12;
-          timePeriod = " • " + yearDiff + " year(s) " + months + " month(s)";
-        }
+    const { language } = useLanguage();
+    const dateConst = language === 'en' ? date_en : date_fr;
 
-        if(isToday(date1) && displayPresent){
-          endMonth = "Present";
-          endYear = "";
-        }
-  
-        return startMonth + " " +   startYear + " - " + endMonth + " " + endYear + timePeriod;
-      }
+    const monthDiff = differenceInMonths(date1, date2) + 1;
+    const yearDiff = differenceInYears(date1, date2);
 
-    
-    /*from: https://flaviocopes.com/how-to-determine-date-is-today-javascript/*/
-    function isToday(date){
+    var timePeriod = "";
 
-        const today = new Date()
-  
-        return date.getDate() === today.getDate() &&
-        date.getMonth() === today.getMonth() &&
-        date.getFullYear() === today.getFullYear()
-      }
-      
-      /*from : https://codingbeautydev.com/blog/javascript-get-number-of-months-between-two-dates/*/
-      function differenceInMonths(date1, date2) {
-        const monthDiff = date1.getMonth() - date2.getMonth();
-        const yearDiff = date1.getYear() - date2.getYear();
-  
-        return (monthDiff + yearDiff * 12);
-      }
-  
-      function differenceInYears(date1, date2) {
-        const yearDiff = date1.getYear() - date2.getYear();
-  
-        return yearDiff;
-      }
-  
-      function getMonthString(month){
-        switch(month){
-          case 0: return "January";
-          case 1: return "February";
-          case 2: return "March";
-          case 3: return "April";
-          case 4: return "May";
-          case 5: return "June";
-          case 6: return "July";
-          case 7: return "August";
-          case 8: return "September";
-          case 9: return "October";
-          case 10: return "November";
-          case 11: return "December";
-          default: return "";
-        }
-  
-      }
+    var startMonth = GetMonthString(date2.getMonth());
+    var startYear = date2.getFullYear();
+    var endMonth = GetMonthString(date1.getMonth());
+    var endYear = date1.getFullYear();
 
-      export default getExpTimeString
+    if(!displayMonth){
+      startMonth = "";
+      endMonth = "";
+    }
+
+    if(!displayTime){
+      timePeriod = "";
+    }else if(monthDiff < 12){
+      timePeriod = " • " + monthDiff + " " + dateConst.months;
+    }else if(monthDiff%12 === 0){
+      let years = monthDiff/12;
+      timePeriod = " • " + years + " " + dateConst.years;
+    }else if(monthDiff % 12 >= 1){
+      let months = monthDiff % 12;
+      timePeriod = " • " + yearDiff + " " + dateConst.years + months + " " + dateConst.months;
+    }
+
+    if(isToday(date1) && displayPresent){
+      endMonth = dateConst.present;
+      endYear = "";
+    }
+
+    return startMonth + " " +   startYear + " - " + endMonth + " " + endYear + timePeriod;
+  }
+
+
+/*from: https://flaviocopes.com/how-to-determine-date-is-today-javascript/*/
+function isToday(date){
+
+    const today = new Date()
+
+    return date.getDate() === today.getDate() &&
+    date.getMonth() === today.getMonth() &&
+    date.getFullYear() === today.getFullYear()
+  }
+  
+  /*from : https://codingbeautydev.com/blog/javascript-get-number-of-months-between-two-dates/*/
+  function differenceInMonths(date1, date2) {
+    const monthDiff = date1.getMonth() - date2.getMonth();
+    const yearDiff = date1.getYear() - date2.getYear();
+
+    return (monthDiff + yearDiff * 12);
+  }
+
+  function differenceInYears(date1, date2) {
+    const yearDiff = date1.getYear() - date2.getYear();
+
+    return yearDiff;
+  }
+
+  function GetMonthString(month){
+    const { language } = useLanguage();
+    const dateConst = language === 'en' ? date_en : date_fr;
+
+    switch(month){
+      case 0: return dateConst.JANUARY;
+      case 1: return dateConst.FEBRUARY;
+      case 2: return dateConst.MARCH;
+      case 3: return dateConst.APRIL;
+      case 4: return dateConst.MAY;
+      case 5: return dateConst.JUNE;
+      case 6: return dateConst.JULY;
+      case 7: return dateConst.AUGUST;
+      case 8: return dateConst.SEPTEMBER;
+      case 9: return dateConst.OCTOBER;
+      case 10: return dateConst.NOVEMBER;
+      case 11: return dateConst.DECEMBER;
+      default: return "";
+    }
+
+  }
+
+  export default GetExpTimeString

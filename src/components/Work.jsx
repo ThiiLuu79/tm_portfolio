@@ -7,7 +7,7 @@ import nbcImg from "../img/experiences/nbc_interns.jpg";
 import inlibro from "../img/experiences/inlibro.png";
 import ciuss from "../img/experiences/ciuss.jpg";
 
-import getExpTimeString from "../utils/time";
+import GetExpTimeString from "../utils/time";
 
 import { useLanguage } from '../LanguageContext/languageContext';
 
@@ -28,10 +28,10 @@ const Work = () => {
     var ciussStart = new Date(2019, 7);
     var ciussEnd = new Date(2019, 8);
 
-    var intactExpTimeString = getExpTimeString(intactEnd, intactStart); 
-    var nbcExpTimeString = getExpTimeString(nbcEnd, nbcStart);
-    var inlibroExpTimeString = getExpTimeString(inlibroEnd, inlibroStart);
-    var ciussExpTimeString = getExpTimeString(ciussEnd, ciussStart);
+    var intactExpTimeString = GetExpTimeString(intactEnd, intactStart); 
+    var nbcExpTimeString = GetExpTimeString(nbcEnd, nbcStart);
+    var inlibroExpTimeString = GetExpTimeString(inlibroEnd, inlibroStart);
+    var ciussExpTimeString = GetExpTimeString(ciussEnd, ciussStart);
 
 
     return (

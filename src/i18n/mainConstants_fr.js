@@ -17,7 +17,7 @@ export const EDUCATION = "Formation";
 export const CONTACT = "Contact";
 
 //Constants for Footer.jsx
-export const FOOTER_TITLE = "Restons en contact !";
+export const FOOTER_TITLE = "Restons en contact!";
 export const EMAIL = "theminh.luong9@gmail.com";
 export const LINKEDIN = "LinkedIn";
 export const GITHUB = "Github";
