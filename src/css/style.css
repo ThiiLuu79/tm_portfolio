@@ -73,13 +73,9 @@ header{
 
 .translator{
   position:fixed;
-  left: 2%;
   z-index:99;
-  top: 95%;
-}
-
-.translator button{
-  margin-right: 2px;
+  top: 2%;
+  left: 2%;
 }
 
 .go__top .button__arrow {
