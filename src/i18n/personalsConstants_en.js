@@ -1,7 +1,7 @@
 //Constant for Personals.jsx
 export const PERSONALS_WELCOME = "Here are my ";
 export const PERSONALS_PROJECT = "Personal Projects";
-
+export const VISIT = "Visit";
 
 //CSS ZEN GARDEN PROJECT
 export const CSS_ZEN_GARDEN_PROJECT = {

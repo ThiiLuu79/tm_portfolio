@@ -48,7 +48,7 @@ const Personals = () => {
                     grades={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.grades}
                     image={cssZenGarden}
                     imgAlt={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.imgAlt}
-                    buttons={[<Button key="button1" text="Visit" redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
+                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
                 />
 
                 <Project
@@ -76,7 +76,7 @@ const Personals = () => {
                     grades={personnalsConstants.TITITEA_PROJECT.grades}
                     image={tititea}
                     imgAlt={personnalsConstants.TITITEA_PROJECT.imgAlt}
-                    buttons={[<Button key="button1" text="Visit" redirect='https://tititea.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
+                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://tititea.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
                 />
 
 

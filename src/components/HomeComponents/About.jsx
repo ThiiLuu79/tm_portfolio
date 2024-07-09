@@ -25,7 +25,7 @@ const About = () => {
                 <br></br>
                 <p className = "user_about_p3">{homeConstants.ABOUT_P3}</p>
                 <br></br>
-                <Button text="Working experiences" redirect="/Work" blank={false} noreferrer={false} buttonType='Link'/>
+                <Button text={homeConstants.BUTTON} redirect="/Work" blank={false} noreferrer={false} buttonType='Link'/>
                 <br></br><br></br>
 
             </div>

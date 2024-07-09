@@ -8,9 +8,10 @@ export const ROLE = "Software Engineering Student";
 //Constant for About.jsx
 export const ABOUT_TITLE = "About Me";
 export const ABOUT_LOCATION = "Montreal, Canada";
-export const ABOUT_P1 = "I'm currently a Software Engineering student at ETS, with a passion for coding and problem-solving. My last experience as a Full Stack Developer intern at National Bank of Canada gave me the opportunity to work on diverse projects and enhance my skills. My expertise lies in Java, JavaScript and SQL, enabling me to tackle front-end, back-end and database development challenges.";
+export const ABOUT_P1 = "I'm currently a Software Engineering student at ÉTS, with a passion for coding and problem-solving. My last experience as a Full Stack Developer intern at National Bank of Canada gave me the opportunity to work on diverse projects and enhance my skills. My expertise lies in Java, JavaScript and SQL, enabling me to tackle front-end, back-end and database development challenges.";
 export const ABOUT_P2 = "As I look towards the future, my goal is to become a senior developer, contributing my skills and knowledge to complex software solutions. During my previous internships, I had the chance to work as a Full Stack Developer, where I customized websites for various clients. This experience honed my ability to deliver tailored solutions that meet unique requirements.";
 export const ABOUT_P3 = "One of the defining qualities I bring to my work is resilience. I approach challenges with determination, always seeking innovative solutions to overcome obstacles. Outside of my professional life, I find joy in expressing my creativity through drawing and photography.";
+export const BUTTON = "Working experiences";
 
 //Constants for CSProjects.jsx
 export const CS_PROJECTS_TITLE = "Computer Science Projects";
