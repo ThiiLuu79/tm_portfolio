@@ -39,10 +39,10 @@ export const INLIBRO_EXPERIENCE = {
 
 // CIUSS
 export const CIUSS_EXPERIENCE = {
-    title: "Préposé aux bénéficiaires",
+    title: "Préposé alimentaire",
     company: "Centres d'hébergement et de soins de longue durée (CHSLD)",
     location: "Montréal, Canada",
-    description: "Travaillé comme Préposé aux bénéficiaires dans plusieurs centres de soins, tels que CHSLD Nicolet et CHSLD J-H Charbonneau.",
+    description: "Travaillé comme Préposé alimentaire dans plusieurs centres de soins, tels que CHSLD Nicolet et CHSLD J-H Charbonneau.",
     contributions: ["Préparé des plateaux repas pour les résidents âgés", "Offert des services aux résidents âgés pendant le petit-déjeuner, le déjeuner et le dîner", "Maintenu et nettoyé la cuisine", "Livré les repas dans les chambres des résidents âgés", "Fait l'inventaire des articles alimentaires dans la cuisine"],
     tools: ["Chariots de Livraison de Repas", "Appareils de Cuisine", "Équipement de Nettoyage", "Gestion de l'Inventaire"],
     imgAlt: "ciuss",
