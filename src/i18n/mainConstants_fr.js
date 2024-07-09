@@ -13,7 +13,7 @@ export const ACADEMIC_PROJECTS = "Projets académiques";
 export const PERSONAL_PROJECTS = "Projets personnels";
 export const ART_GALLERY = "Galerie d'art";
 export const PHOTO_GALLERY = "Galerie photo";
-export const EDUCATION = "Formation";
+export const EDUCATION = "Éducation";
 export const CONTACT = "Contact";
 
 //Constants for Footer.jsx
