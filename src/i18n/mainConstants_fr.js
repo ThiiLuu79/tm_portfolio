@@ -12,7 +12,7 @@ export const PROJECTS = "Projets";
 export const ACADEMIC_PROJECTS = "Projets académiques";
 export const PERSONAL_PROJECTS = "Projets personnels";
 export const ART_GALLERY = "Galerie d'art";
-export const PHOTO_GALLERY = "Galerie photo";
+export const PHOTO_GALLERY = "Galerie de photo";
 export const EDUCATION = "Éducation";
 export const CONTACT = "Contact";
 
@@ -32,7 +32,7 @@ export const GO_BACK = "Retourner à la page d'accueil";
 
 //Constants for NotFound.jsx
 export const ERROR_404 = "404";
-export const ERROR_MESSAGE = "Oups ! On dirait que nous avons atteint une impasse. Reprenons le bon chemin.";
+export const ERROR_MESSAGE = "Oups! On dirait que nous avons atteint une impasse. Reprenons le bon chemin.";
 export const NAVIGATE_BACK = "Naviguez de retour à la page d'accueil pour continuer votre exploration";
 export const HINTS = 'Vous pouvez toujours utiliser le bouton "Retourner à la page d\'accueil" ou la barre de navigation pour revenir à la page d\'accueil.';
-export const SEE_YOU = "À bientôt !";
+export const SEE_YOU = "À bientôt!";

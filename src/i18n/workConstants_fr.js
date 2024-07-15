@@ -7,7 +7,7 @@ export const INTACT_EXPERIENCE = {
     company: "Intact Corporation Financière",
     location: "Montréal, Canada",
     description: "Travaillé comme Développeur Logiciel dans le département d'Acquisition chez Intact Corporation Financière.",
-    contributions: ["Rejoint l'équipe Groot Hacks (Growth hacking).", "Conduit des tests A/B pour analyser et optimiser la performance de deux versions d'interface avec les clients.", "Développé et lancé de nouvelles fonctionnalités impactantes pour améliorer l'expérience utilisateur.", "Contribué au développement de microfrontaux."],
+    contributions: ["Rejoint l'équipe Groot Hacks (Growth hacking).", "Conduit des tests A/B pour analyser et optimiser la performance de deux versions d'interface avec les clients.", "Développé et lancé de nouvelles fonctionnalités impactantes pour améliorer l'expérience utilisateur.", "Contribué au développement de microfrontends."],
     tools: ["Environnement : MacOS, Windows", "Langages : Angular, TypeScript, HTML, CSS/SASS", "Méthodologie : Agile, Scrum, SAFe", "Autres : NgRx, RxJS, NodeJS, Jest, Git/Github, IntelliJ, VSCode, SonarQube, Jira, Confluence, Teams"],
     imgAlt: "intact",
     companyLink: "https://www.intactfc.com/"
@@ -18,7 +18,7 @@ export const NBC_EXPERIENCE = {
     title: "Développeur Full Stack (Stage)",
     company: "Banque Nationale du Canada",
     location: "Montréal, Canada",
-    description: "Travaillé comme Développeur Full Stack à la Banque Nationale du Canada. Contribué à la refonte du site transactionnel (projet DBE).",
+    description: "Travaillé comme Développeur Full Stack à la Banque Nationale du Canada. Contribué à la refonte du site transactionnel (projet BNE).",
     contributions: ["Rejoint l'équipe Vikings. Travaillé sur la navigation hybride entre l'ancienne et la nouvelle interface.", "Implémenté de nouvelles fonctionnalités pour améliorer l'interface.", "Corrigé des défauts sur l'interface.", "Analysé les données et soulevé des anomalies dans un rapport SQL.", "Créé des tables plates pour stocker les données de plusieurs systèmes."],
     tools : ["Environnement : MacOS, Windows", "Base de données : Oracle", "Langages : Java, JavaScript, Page Serveur Java (JSP), HTML, SQL", "Méthodologie : Agile, Kanban, SAFe", "Autres : IntelliJ, Git, JUnit, Bitbucket, Jira, Confluence, Maven, DBeaver, Docker, Serveur d'Application Websphere, Urban Code Deploy, Jenkins, DataHub, Snowflake, AWS Cloud, Teams, Slack"],
     imgAlt: "stagiaires nbc",
@@ -44,7 +44,7 @@ export const CIUSS_EXPERIENCE = {
     location: "Montréal, Canada",
     description: "Travaillé comme Préposé alimentaire dans plusieurs centres de soins, tels que CHSLD Nicolet et CHSLD J-H Charbonneau.",
     contributions: ["Préparé des plateaux repas pour les résidents âgés", "Offert des services aux résidents âgés pendant le petit-déjeuner, le déjeuner et le dîner", "Maintenu et nettoyé la cuisine", "Livré les repas dans les chambres des résidents âgés", "Fait l'inventaire des articles alimentaires dans la cuisine"],
-    tools: ["Chariots de Livraison de Repas", "Appareils de Cuisine", "Équipement de Nettoyage", "Gestion de l'Inventaire"],
+    tools: ["Chariots de livraison de repas", "Appareils de cuisine", "Équipement de nettoyage", "Gestion de l'inventaire"],
     imgAlt: "ciuss",
     companyLink: "https://ciusss-estmtl.gouv.qc.ca/"
 }

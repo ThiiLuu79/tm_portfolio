@@ -33,17 +33,17 @@ function GetExpTimeString(date1, date2, displayMonth=true, displayTime=true, dis
     if(!displayTime){
       timePeriod = "";
     }else if(monthDiff < 12){
-      timePeriod = " • " + monthDiff + " " + dateConst.months;
+      timePeriod = " • " + monthDiff + " " + dateConst.MONTHS;
     }else if(monthDiff%12 === 0){
       let years = monthDiff/12;
-      timePeriod = " • " + years + " " + dateConst.years;
+      timePeriod = " • " + years + " " + dateConst.YEARS;
     }else if(monthDiff % 12 >= 1){
       let months = monthDiff % 12;
-      timePeriod = " • " + yearDiff + " " + dateConst.years + months + " " + dateConst.months;
+      timePeriod = " • " + yearDiff + " " + dateConst.YEARS + months + " " + dateConst.MONTHS;
     }
 
     if(isToday(date1) && displayPresent){
-      endMonth = dateConst.present;
+      endMonth = dateConst.PRESENT;
       endYear = "";
     }
 
@@ -98,3 +98,4 @@ function isToday(date){
   }
 
   export default GetExpTimeString
+  

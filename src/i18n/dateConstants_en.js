@@ -11,6 +11,6 @@ export const OCTOBER = "October";
 export const NOVEMBER = "November";
 export const DECEMBER = "December";
 
-export const present = "Present";
-export const months = "month(s)";
-export const years = "year(s)";
+export const PRESENT = "Present";
+export const MONTHS = "month(s)";
+export const YEARS = "year(s)";

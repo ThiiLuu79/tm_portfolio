@@ -23,9 +23,6 @@ The portfolio is organized into the following directories:
  - /LanguageContext : Translation management
  - App.js : Main application
 
-
-
-
 ## How to Navigate
 
 Feel free to explore the various sections to learn more about my experiences, projects, and achievements.
