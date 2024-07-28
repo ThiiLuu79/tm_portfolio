@@ -4,11 +4,11 @@ import './css/style.css';
 
 import Header from './components/MainComponents/Header';
 import Home from './components/HomeComponents/Home';
-import Work from './components/Work/Work';
-import Academics from './components/Academics/Academics';
-import Personals from './components/Personals/Personals';
-import ArtGallery from './components/ArtGallery/ArtGallery';
-import PhotoGallery from './components/PhotoGallery/PhotoGallery';
+import Work from './components/WorkComponent/Work';
+import Academics from './components/AcademicsComponent/Academics';
+import Personals from './components/PersonalsComponent/Personals';
+import ArtGallery from './components/ArtGalleryComponent/ArtGallery';
+import PhotoGallery from './components/PhotoGalleryComponent/PhotoGallery';
 import Footer from './components/MainComponents/Footer';
 import NotFound from './components/MainComponents/NotFound';
 

@@ -16,14 +16,14 @@ The portfolio is organized into the following directories:
  - /css : Contains stylesheets
  - /utils : Contains JavaScript files
  - /components :
-      - /Academics : React component for academics projects
-      - /ArtGallery : React component for art projects
+      - /AcademicsComponent : React component for academics projects
+      - /ArtGalleryComponent : React component for art projects
       - /HomeComponents : React components for Home page 
       - /MainComponents : Basic React components, such as Header, Footer, etc.
-      - /Personals : React component for personal projects
-      - /PhotoGallery : React component for photo projects
+      - /PersonalsComponent : React component for personal projects
+      - /PhotoGalleryComponent : React component for photo projects
       - /ReusableComponents : Reusable React components
-      - /Work : React component for work experiences
+      - /WorkComponent : React component for work experiences
  - /i18n : Text files
  - /LanguageContext : Translation management
  - App.js : Main application
