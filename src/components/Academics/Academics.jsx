@@ -1,18 +1,18 @@
-import GoBack from './MainComponents/GoBack';
-import Button from "./ReusableComponents/Button";
-import Project from "./ReusableComponents/Project";
+import GoBack from '../MainComponents/GoBack';
+import Button from "../ReusableComponents/Button";
+import Project from "../ReusableComponents/Project";
 
-import cover from "../img/academic/spCover.jpg";
-import webflix from "../img/academic/webflix.png";
-import pusher from "../img/academic/pushers.png";
-import huffman from "../img/academic/huffman.png";
-import chain from "../img/academic/chain.jpg";
-import opac from "../img/academic/CSJV.jpg";
+import cover from "../../img/academic/spCover.jpg";
+import webflix from "../../img/academic/webflix.png";
+import pusher from "../../img/academic/pushers.png";
+import huffman from "../../img/academic/huffman.png";
+import chain from "../../img/academic/chain.jpg";
+import opac from "../../img/academic/CSJV.jpg";
 
-import { useLanguage } from '../LanguageContext/languageContext';
+import { useLanguage } from '../../LanguageContext/languageContext';
 
-import * as academicsConstantsEn from '../i18n/academicsConstants_en';
-import * as academicsConstantsFr from '../i18n/academicsConstants_fr';
+import * as academicsConstantsEn from '../../i18n/academicsConstants_en';
+import * as academicsConstantsFr from '../../i18n/academicsConstants_fr';
 
 const Academics = () => {
 

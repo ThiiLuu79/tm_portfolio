@@ -1,43 +1,43 @@
 import React, { useEffect } from 'react';
 
-import GoBack from './MainComponents/GoBack';
+import GoBack from '../MainComponents/GoBack';
 
-import cover from "../img/photography/photo16.JPG";
+import cover from "../../img/photography/photo16.JPG";
 
-import p1 from "../img/photography/photo1.JPG";
-import p2 from "../img/photography/photo2.JPG";
-import p3 from "../img/photography/photo3.JPG";
-import p4 from "../img/photography/photo4.JPG";
-import p5 from "../img/photography/photo5.JPG";
-import p6 from "../img/photography/photo6.JPG";
-import p7 from "../img/photography/photo7.JPG";
-import p8 from "../img/photography/photo8.JPG";
-import p9 from "../img/photography/photo9.JPG";
-import p10 from "../img/photography/photo10.JPG";
-import p11 from "../img/photography/photo11.JPG";
-import p12 from "../img/photography/photo12.JPG";
-import p13 from "../img/photography/photo13.JPG";
-import p15 from "../img/photography/photo15.JPG";
-import p16 from "../img/photography/photo16.JPG";
-import p18 from "../img/photography/photo18.JPG";
-import p19 from "../img/photography/photo19.JPG";
-import p20 from "../img/photography/photo20.JPG";
-import p21 from "../img/photography/photo21.JPG";
-import p22 from "../img/photography/photo22.JPG";
-import p23 from "../img/photography/photo23.JPG";
-import p25 from "../img/photography/photo25.JPG";
-import p26 from "../img/photography/photo26.JPG";
-import p27 from "../img/photography/photo27.JPG";
-import p28 from "../img/photography/photo28.JPG";
-import p30 from "../img/photography/photo30.JPG";
-import p33 from "../img/photography/photo33.JPG";
-import p34 from "../img/photography/photo34.JPG";
+import p1 from "../../img/photography/photo1.JPG";
+import p2 from "../../img/photography/photo2.JPG";
+import p3 from "../../img/photography/photo3.JPG";
+import p4 from "../../img/photography/photo4.JPG";
+import p5 from "../../img/photography/photo5.JPG";
+import p6 from "../../img/photography/photo6.JPG";
+import p7 from "../../img/photography/photo7.JPG";
+import p8 from "../../img/photography/photo8.JPG";
+import p9 from "../../img/photography/photo9.JPG";
+import p10 from "../../img/photography/photo10.JPG";
+import p11 from "../../img/photography/photo11.JPG";
+import p12 from "../../img/photography/photo12.JPG";
+import p13 from "../../img/photography/photo13.JPG";
+import p15 from "../../img/photography/photo15.JPG";
+import p16 from "../../img/photography/photo16.JPG";
+import p18 from "../../img/photography/photo18.JPG";
+import p19 from "../../img/photography/photo19.JPG";
+import p20 from "../../img/photography/photo20.JPG";
+import p21 from "../../img/photography/photo21.JPG";
+import p22 from "../../img/photography/photo22.JPG";
+import p23 from "../../img/photography/photo23.JPG";
+import p25 from "../../img/photography/photo25.JPG";
+import p26 from "../../img/photography/photo26.JPG";
+import p27 from "../../img/photography/photo27.JPG";
+import p28 from "../../img/photography/photo28.JPG";
+import p30 from "../../img/photography/photo30.JPG";
+import p33 from "../../img/photography/photo33.JPG";
+import p34 from "../../img/photography/photo34.JPG";
 
 
-import { useLanguage } from '../LanguageContext/languageContext';
+import { useLanguage } from '../../LanguageContext/languageContext';
 
-import * as freeTimeConstantsEn from '../i18n/freeTimeConstants_en';
-import * as freeTimeConstantsFr from '../i18n/freeTimeConstants_fr';
+import * as freeTimeConstantsEn from '../../i18n/freeTimeConstants_en';
+import * as freeTimeConstantsFr from '../../i18n/freeTimeConstants_fr';
 
 
 const PhotoGallery = () => {
