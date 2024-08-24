@@ -20,7 +20,7 @@ const Work = () => {
     const workConstants = language === 'en' ? workConstantsEn : workConstantsFr;
 
     var intactStart = new Date(2024, 4, 6);
-    var intactEnd = new Date();
+    var intactEnd = new Date(2024, 7, 23);
     var nbcStart = new Date(2023, 4, 14);
     var nbcEnd = new Date(2023, 7, 30);
     var inlibroStart = new Date(2022, 0);
