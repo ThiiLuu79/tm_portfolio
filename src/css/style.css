@@ -75,7 +75,24 @@ header{
   z-index:99;
   top: 2%;
   left: 2%;
-  margin: 20px 10px 0 20px;
+  margin:10px 10px 0 20px;
+}
+
+.translator_button {
+  background: linear-gradient(to right, var(--clr-accent) 50%, var(--clr-dark) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: var(--clr-light);
+  border: 2px solid var(--clr-accent);
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.translator_button:hover {
+  background-position: left bottom;
+  background-color: var(--clr-partial-dark)
 }
 
 .go__top .button__arrow {

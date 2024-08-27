@@ -13,10 +13,8 @@ export const LanguageToggler = () => {
 
     return (
         <div className='translator'>
-            <button className="pushable" onClick={toggleLanguage}>
-                <span className="front">
+            <button className='translator_button' onClick={toggleLanguage}>
                     {currentLanguage === 'en' ? 'Français' : 'English'}
-                </span>
             </button>
         </div>
     );
