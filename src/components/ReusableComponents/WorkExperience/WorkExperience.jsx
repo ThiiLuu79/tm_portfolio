@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as reusableConstantsEn from '../../i18n/reusableConstants_en';
-import * as reusableConstantsFr from '../../i18n/reusableConstants_fr';
+import * as reusableConstantsEn from '../../../i18n/reusableConstants_en';
+import * as reusableConstantsFr from '../../../i18n/reusableConstants_fr';
 
 const WorkExperience = ({ title, image, imgAlt, company, companyLink, location, workTime, description, contributions, tools }) => {
     

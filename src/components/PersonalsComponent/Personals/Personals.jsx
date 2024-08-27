@@ -1,21 +1,21 @@
-import GoBack from '../MainComponents/GoBack';
+import GoBack from '../../MainComponents/GoBack/GoBack';
 
-import cover from "../../img/personal/html.jpg";
-import cssZenGarden from "../../img/personal/cssZenGarden.jpg";
-import pygames from "../../img/personal/games.gif";
-import tititea from "../../img/personal/tititea.jpg";
+import cover from "../../../img/personal/html.jpg";
+import cssZenGarden from "../../../img/personal/cssZenGarden.jpg";
+import pygames from "../../../img/personal/games.gif";
+import tititea from "../../../img/personal/tititea.jpg";
 
-import sharkZip from "../../archives/zip/Hungry Shark.zip";
-import carZip from "../../archives/zip/Car Crash.zip";
-import spaceZip from "../../archives/zip/Space Invaders.zip";
+import sharkZip from "../../../archives/zip/Hungry Shark.zip";
+import carZip from "../../../archives/zip/Car Crash.zip";
+import spaceZip from "../../../archives/zip/Space Invaders.zip";
 
-import Button from "../ReusableComponents/Button";
-import Project from "../ReusableComponents/Project";
+import Button from "../../ReusableComponents/Button/Button";
+import Project from "../../ReusableComponents/Project/Project";
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as personnalsConstantsEn from '../../i18n/personalsConstants_en';
-import * as personnalsConstantsFr from '../../i18n/personalsConstants_fr';
+import * as personnalsConstantsEn from '../../../i18n/personalsConstants_en';
+import * as personnalsConstantsFr from '../../../i18n/personalsConstants_fr';
 
 
 const Personals = () => {

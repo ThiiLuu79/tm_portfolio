@@ -1,10 +1,10 @@
-import GoBack from './GoBack';
+import GoBack from '../GoBack/GoBack.jsx';
 import {Link} from 'react-router-dom';
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext.js';
 
-import * as mainConstantsEn from '../../i18n/mainConstants_en.js';
-import * as mainConstantsFr from '../../i18n/mainConstants_fr.js';
+import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
+import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';
 
 const NotFound = () => {
 

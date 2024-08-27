@@ -1,13 +1,13 @@
-import academics from "../../img/home/academic.jpg";
-import personals from "../../img/home/personal.jpg";
+import academics from "../../../img/home/academic.jpg";
+import personals from "../../../img/home/personal.jpg";
 import {Link} from 'react-router-dom';
 
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
+import ScrollToTopOnLoad from "../../MainComponents/ScrollToTopOnLoad/ScrollToTopOnLoad";
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as homeConstantsEn from '../../i18n/homeConstants_en';
-import * as homeConstantsFr from '../../i18n/homeConstants_fr';
+import * as homeConstantsEn from '../../../i18n/homeConstants_en';
+import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
 
 const CSProjects = () => {
 

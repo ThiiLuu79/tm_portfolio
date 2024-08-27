@@ -1,27 +1,27 @@
 import React, { useEffect } from 'react';
 
-import GoBack from '../MainComponents/GoBack';
+import GoBack from '../../MainComponents/GoBack/GoBack';
 
-import cover from "../../img/art/art_cover.jpg";
+import cover from "../../../img/art/art_cover.jpg";
 
-import p1 from "../../img/art/art01.jpg";
-import p2 from "../../img/art/art02.jpg";
-import p3 from "../../img/art/art03.jpg";
-import p4 from "../../img/art/art04.jpg";
-import p5 from "../../img/art/art05.jpg";
-import p6 from "../../img/art/art06.jpg";
-import p7 from "../../img/art/art07.jpg";
-import p8 from "../../img/art/art08.jpg";
-import p9 from "../../img/art/art09.jpg";
-import p10 from "../../img/art/art10.jpg";
-import p11 from "../../img/art/art11.jpg";
-import p12 from "../../img/art/art12.jpg";
-import p13 from "../../img/art/art13.jpg";
+import p1 from "../../../img/art/art01.jpg";
+import p2 from "../../../img/art/art02.jpg";
+import p3 from "../../../img/art/art03.jpg";
+import p4 from "../../../img/art/art04.jpg";
+import p5 from "../../../img/art/art05.jpg";
+import p6 from "../../../img/art/art06.jpg";
+import p7 from "../../../img/art/art07.jpg";
+import p8 from "../../../img/art/art08.jpg";
+import p9 from "../../../img/art/art09.jpg";
+import p10 from "../../../img/art/art10.jpg";
+import p11 from "../../../img/art/art11.jpg";
+import p12 from "../../../img/art/art12.jpg";
+import p13 from "../../../img/art/art13.jpg";
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as freeTimeConstantsEn from '../../i18n/freeTimeConstants_en';
-import * as freeTimeConstantsFr from '../../i18n/freeTimeConstants_fr';
+import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
+import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
 
 const ArtGallery = () => {

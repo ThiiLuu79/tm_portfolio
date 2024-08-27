@@ -1,10 +1,10 @@
-import GoToTop from './GoToTop';
+import GoToTop from '../GoToTop/GoToTop';
 
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext.js';
 
-import * as mainConstantsEn from '../../i18n/mainConstants_en.js';
-import * as mainConstantsFr from '../../i18n/mainConstants_fr.js';
+import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
+import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';
 
 const Footer = () => {
   var today = new Date();

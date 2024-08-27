@@ -1,9 +1,9 @@
-import profile from "../../img/home/pfp.jpg";
+import profile from "../../../img/home/pfp.jpg";
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as homeConstantsEn from '../../i18n/homeConstants_en';
-import * as homeConstantsFr from '../../i18n/homeConstants_fr';
+import * as homeConstantsEn from '../../../i18n/homeConstants_en';
+import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
 
 const Card = () => {
 

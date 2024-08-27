@@ -1,11 +1,11 @@
-import about from "../../img/home/about_img.jpg";
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
-import Button from "../ReusableComponents/Button";
+import about from "../../../img/home/about_img.jpg";
+import ScrollToTopOnLoad from "../../MainComponents/ScrollToTopOnLoad/ScrollToTopOnLoad";
+import Button from "../../ReusableComponents/Button/Button";
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as homeConstantsEn from '../../i18n/homeConstants_en';
-import * as homeConstantsFr from '../../i18n/homeConstants_fr';
+import * as homeConstantsEn from '../../../i18n/homeConstants_en';
+import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
 
 const About = () => {
 

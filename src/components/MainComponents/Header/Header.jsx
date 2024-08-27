@@ -1,11 +1,11 @@
-import Navbar from './Navbar';
+import Navbar from '../Navbar/Navbar.jsx';
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext.js';
 
-import * as mainConstantsEn from '../../i18n/mainConstants_en.js';
-import * as mainConstantsFr from '../../i18n/mainConstants_fr.js';
+import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
+import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';
 
-import { LanguageToggler } from '../../LanguageContext/languageToggler.jsx';
+import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
 
 const Header = () => {
 

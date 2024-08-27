@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as reusableConstantsEn from '../../i18n/reusableConstants_en';
-import * as reusableConstantsFr from '../../i18n/reusableConstants_fr';
+import * as reusableConstantsEn from '../../../i18n/reusableConstants_en';
+import * as reusableConstantsFr from '../../../i18n/reusableConstants_fr';
 
 
 const Project = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons }) => {

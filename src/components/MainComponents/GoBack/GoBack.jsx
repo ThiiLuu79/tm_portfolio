@@ -1,11 +1,11 @@
 import {Link} from 'react-router-dom';
 
-import ScrollToTopOnLoad from './ScrollToTopOnLoad';
+import ScrollToTopOnLoad from '../ScrollToTopOnLoad/ScrollToTopOnLoad.jsx';
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext.js';
 
-import * as mainConstantsEn from '../../i18n/mainConstants_en.js';
-import * as mainConstantsFr from '../../i18n/mainConstants_fr.js';
+import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
+import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';
 
 
 const GoBack = () => {

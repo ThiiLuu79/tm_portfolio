@@ -1,9 +1,9 @@
-import GetExpTimeString from "../../utils/time";
+import GetExpTimeString from "../../../utils/time";
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as homeConstantsEn from '../../i18n/homeConstants_en';
-import * as homeConstantsFr from '../../i18n/homeConstants_fr';
+import * as homeConstantsEn from '../../../i18n/homeConstants_en';
+import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
 
 const Education = () => {
 

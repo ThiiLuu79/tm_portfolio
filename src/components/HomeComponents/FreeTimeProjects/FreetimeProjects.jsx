@@ -1,13 +1,13 @@
-import arts from "../../img/home/art_gallery.jpg";
-import photos from "../../img/home/photography_cover.jpg";
+import arts from "../../../img/home/art_gallery.jpg";
+import photos from "../../../img/home/photography_cover.jpg";
 import {Link} from 'react-router-dom';
 
-import ScrollToTopOnLoad from "../MainComponents/ScrollToTopOnLoad";
+import ScrollToTopOnLoad from "../../MainComponents/ScrollToTopOnLoad/ScrollToTopOnLoad";
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as homeConstantsEn from '../../i18n/homeConstants_en';
-import * as homeConstantsFr from '../../i18n/homeConstants_fr';
+import * as homeConstantsEn from '../../../i18n/homeConstants_en';
+import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
 
 const FreetimeProjects = () => {
 

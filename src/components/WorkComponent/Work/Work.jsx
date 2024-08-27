@@ -1,18 +1,18 @@
-import GoBack from '../MainComponents/GoBack';
-import WorkExperience from "../ReusableComponents/WorkExperience";
+import GoBack from '../../MainComponents/GoBack/GoBack';
+import WorkExperience from "../../ReusableComponents/WorkExperience/WorkExperience";
 
-import cover from "../../img/experiences/experience.jpg";
-import intactImg from "../../img/experiences/intact.png";
-import nbcImg from "../../img/experiences/nbc_interns.jpg";
-import inlibro from "../../img/experiences/inlibro.png";
-import ciuss from "../../img/experiences/ciuss.jpg";
+import cover from "../../../img/experiences/experience.jpg";
+import intactImg from "../../../img/experiences/intact.png";
+import nbcImg from "../../../img/experiences/nbc_interns.jpg";
+import inlibro from "../../../img/experiences/inlibro.png";
+import ciuss from "../../../img/experiences/ciuss.jpg";
 
-import GetExpTimeString from "../../utils/time";
+import GetExpTimeString from "../../../utils/time";
 
-import { useLanguage } from '../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageContext/languageContext';
 
-import * as workConstantsEn from '../../i18n/workConstants_en';
-import * as workConstantsFr from '../../i18n/workConstants_fr';
+import * as workConstantsEn from '../../../i18n/workConstants_en';
+import * as workConstantsFr from '../../../i18n/workConstants_fr';
 
 const Work = () => {
 
