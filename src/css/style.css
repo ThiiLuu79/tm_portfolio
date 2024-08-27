@@ -72,10 +72,10 @@ header{
 }
 
 .translator{
-  position:fixed;
   z-index:99;
   top: 2%;
   left: 2%;
+  margin: 20px 10px 0 20px;
 }
 
 .go__top .button__arrow {
@@ -90,6 +90,10 @@ header{
   border-right: 7px solid var(--clr-accent);
   border-top: 7px solid var(--clr-accent);
   transform: rotate(-45deg);
+}
+
+.header__content{
+  display: flex;
 }
 
 @media (max-width: 760px){
@@ -523,6 +527,8 @@ header{
 .project__container {
   height:100%;
   position: relative;
+  border-radius: 15px;
+  margin: 5px;
 }
 
 .project__box{
@@ -538,6 +544,7 @@ header{
   text-align: center;
   display: flex;
   justify-content: center;
+  opacity: 0.85;
 
 }
 
