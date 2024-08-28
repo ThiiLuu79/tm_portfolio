@@ -14,6 +14,8 @@ import { useLanguage } from '../../../LanguageContext/languageContext';
 import * as academicsConstantsEn from '../../../i18n/academicsConstants_en';
 import * as academicsConstantsFr from '../../../i18n/academicsConstants_fr';
 
+import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
+
 const Academics = () => {
 
     const { language } = useLanguage();
@@ -21,6 +23,7 @@ const Academics = () => {
 
     return (
         <div>
+            <LanguageToggler/>
             <GoBack/>
 
             <section className="intro">

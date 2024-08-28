@@ -14,6 +14,8 @@ import { useLanguage } from '../../../LanguageContext/languageContext';
 import * as workConstantsEn from '../../../i18n/workConstants_en';
 import * as workConstantsFr from '../../../i18n/workConstants_fr';
 
+import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
+
 const Work = () => {
 
     const { language } = useLanguage();
@@ -36,6 +38,7 @@ const Work = () => {
 
     return (
         <div>
+            <LanguageToggler/>
             <GoBack/>
             
             <section className="exp_section">

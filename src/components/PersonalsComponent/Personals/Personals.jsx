@@ -17,6 +17,7 @@ import { useLanguage } from '../../../LanguageContext/languageContext';
 import * as personnalsConstantsEn from '../../../i18n/personalsConstants_en';
 import * as personnalsConstantsFr from '../../../i18n/personalsConstants_fr';
 
+import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
 
 const Personals = () => {
 
@@ -25,6 +26,7 @@ const Personals = () => {
 
     return (
         <div>
+            <LanguageToggler/>
             <GoBack/>
             
             <section className="intro">

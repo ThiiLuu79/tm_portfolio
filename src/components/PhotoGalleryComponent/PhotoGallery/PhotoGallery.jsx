@@ -39,6 +39,8 @@ import { useLanguage } from '../../../LanguageContext/languageContext';
 import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
 import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
+import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
+
 
 const PhotoGallery = () => {
 
@@ -76,6 +78,7 @@ const PhotoGallery = () => {
 
     return (
         <div>
+            <LanguageToggler/>
             <GoBack/>
             
             <section className="intro">
