@@ -50,8 +50,8 @@ header{
 
 .go__back .button__arrow {
   position: relative;
-  width: 35px;
-  height: 35px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   background-color: var(--clr-dark);
   display: flex;
@@ -65,8 +65,8 @@ header{
 .go__back .button__arrow::before {
   content: '';
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-right: 2px solid var(--clr-accent);
   border-top: 2px solid var(--clr-accent);
 }
@@ -85,7 +85,7 @@ header{
   position:fixed;
   left: 95%;
   z-index:99;
-  top: 95%;
+  top: 90%;
 }
 
 .translator{
@@ -124,16 +124,14 @@ header{
   box-sizing: border-box;
   border-right: 2px solid var(--clr-accent);
   border-top: 2px solid var(--clr-accent);
-  width: 30px;
-  height: 30px;
   transform: rotate(-45deg);
 }
 
 .go__top .button__arrow::before {
   content: '';
   position: absolute;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border-right: 2px solid var(--clr-accent);
   border-top: 2px solid var(--clr-accent);
 }
