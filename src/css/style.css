@@ -274,26 +274,35 @@ header{
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  background: var(--clr-accent);
-  border: 2px solid black;
+  border: 2px solid var(--clr-accent);
   text-align: center;
   justify-content: center;
   min-width: 160px;
   z-index: 1;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 300px;
+  border-radius: 5px;
 }
 
 .dropdown-content a{
+  background: linear-gradient(to right, var(--clr-accent) 50%, var(--clr-dark) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
   color:white;
   text-decoration: none;
-  margin: 7px 0 7px 0;
-  padding: 7px 0 7px 0;
   border: 0 solid var(--clr-accent);
   height:100%;
+  width: 100%;
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
-.dropdown-content a:hover{
-  color:var(--clr-accent);
-  background-color: var(--clr-very-dark);
+.dropdown-content a:hover {
+  background-position: left bottom;
+  background-color: var(--clr-partial-dark)
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
