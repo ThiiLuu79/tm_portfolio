@@ -297,6 +297,7 @@ header{
   border: 0 solid var(--clr-accent);
   height:100%;
   width: 100%;
+  padding: 10px;
   transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
