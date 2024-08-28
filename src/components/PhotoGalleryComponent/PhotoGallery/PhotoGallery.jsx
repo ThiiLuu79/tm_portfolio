@@ -115,7 +115,14 @@ const PhotoGallery = () => {
                 <img className="collection__img" src={p34} alt='p'/>
             </div>
 
-            <div className="art_gallery_link">{freeTimeConstants.PHOTO_MESSAGE}<a href="https://www.instagram.com/thiiluu.jpg/" target="_blank" rel="noreferrer">{freeTimeConstants.PHOTO_INSTAGRAM}</a>.</div>
+            <div className="wrapper">
+                <a href="https://www.instagram.com/thiiluu.jpg/" target="_blank" rel="noreferrer">
+                <div className="icon instagram">
+                    <div className="tooltip">{freeTimeConstants.PHOTO_INSTA}</div>
+                    <span><i className="fab fa-instagram"></i></span>
+                </div>
+                </a>
+            </div>
     
             <div id="myModal" className="modal">
                 <span className="close">&times;</span>

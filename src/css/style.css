@@ -550,7 +550,7 @@ header{
 .project__container {
   height:100%;
   position: relative;
-  border-radius: 15px;
+  border-radius: 5px;
   margin: 5px;
 }
 
@@ -859,6 +859,14 @@ header{
   background-color: #333333;
   color: #ffffff;
 }
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #E1306C;
+  color: #ffffff;
+}
+
 /*FOOTER*/
 
 /*Page not found*/

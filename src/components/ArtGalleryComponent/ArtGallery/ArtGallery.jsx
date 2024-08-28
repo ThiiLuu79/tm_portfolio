@@ -84,8 +84,15 @@ const ArtGallery = () => {
                 <div className="art__item"><img src={p13} alt="dragon lady drawing" className="collection__img"/></div>
             </div>
 
-            <div className="art_gallery_link">{freeTimeConstants.ART_MESSAGE}<a href="https://www.instagram.com/thiiluu.art/" target="_blank" rel="noreferrer">{freeTimeConstants.ART_INSTAGRAM}</a>.</div>
-    
+            <div className="wrapper">
+                    <a href="https://www.instagram.com/thiiluu.art/" target="_blank" rel="noreferrer">
+                    <div className="icon instagram">
+                        <div className="tooltip">{freeTimeConstants.PHOTO_INSTA}</div>
+                        <span><i className="fab fa-instagram"></i></span>
+                    </div>
+                    </a>
+            </div>
+
             <div id="myModal" className="modal">
                 <span className="close">&times;</span>
                 <img className="modal-content" id="modal_img" alt='modal'/>

@@ -1,5 +1,5 @@
 import arts from "../../../img/home/art_gallery.jpg";
-import photos from "../../../img/home/photography_cover.jpg";
+import photos from "../../../img/photography/photo5.JPG";
 import {Link} from 'react-router-dom';
 
 import ScrollToTopOnLoad from "../../MainComponents/ScrollToTopOnLoad/ScrollToTopOnLoad";
