@@ -50,8 +50,8 @@ header{
 
 .go__back .button__arrow {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   background-color: var(--clr-dark);
   display: flex;
@@ -65,8 +65,8 @@ header{
 .go__back .button__arrow::before {
   content: '';
   position: absolute;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   border-right: 2px solid var(--clr-accent);
   border-top: 2px solid var(--clr-accent);
 }
@@ -113,6 +113,15 @@ header{
 }
 
 .go__top .button__arrow {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--clr-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
   border-right: 2px solid var(--clr-accent);
   border-top: 2px solid var(--clr-accent);
   width: 30px;
@@ -120,10 +129,18 @@ header{
   transform: rotate(-45deg);
 }
 
+.go__top .button__arrow::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid var(--clr-accent);
+  border-top: 2px solid var(--clr-accent);
+}
+
 .go__top .button__arrow:hover {
-  border-right: 7px solid var(--clr-accent);
-  border-top: 7px solid var(--clr-accent);
   transform: rotate(-45deg);
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 .header__content{
