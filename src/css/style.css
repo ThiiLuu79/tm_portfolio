@@ -122,8 +122,7 @@ header{
   align-items: center;
   justify-content: center;
   box-sizing: border-box;
-  border-right: 2px solid var(--clr-accent);
-  border-top: 2px solid var(--clr-accent);
+  border: 2px solid var(--clr-accent);
   transform: rotate(-45deg);
 }
 
