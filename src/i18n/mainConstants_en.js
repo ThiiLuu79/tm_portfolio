@@ -29,5 +29,5 @@ export const PORTFOLIO_START_YEAR = "2021-";
 export const ERROR_404 = "404";
 export const ERROR_MESSAGE = "Whoops! It seems we've hit a dead end. Let's get back on track. ";
 export const NAVIGATE_BACK = "Navigate back to the homepage to continue your exploration";
-export const HINTS = 'You can still use the back button or the navbar to navigate back to the homepage.';
+export const HINTS = "You can still use the back button or the navbar to navigate back to the homepage.";
 export const SEE_YOU = "See you there!";
