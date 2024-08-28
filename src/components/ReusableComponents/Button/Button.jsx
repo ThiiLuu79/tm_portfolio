@@ -12,8 +12,8 @@ const Button = ({text, redirect, blank, noreferrer, buttonType}) => {
     
     const renderPushableButton = () => {
         return (
-            <button className="pushable">
-                <span className="front">
+            <button className="tm_button">
+                <span>
                     {text}
                 </span>
             </button>

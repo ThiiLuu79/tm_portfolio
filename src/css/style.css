@@ -421,26 +421,21 @@ header{
   margin: 20px 0 20px 0;
 }
 
-.pushable {
-  background: var(--clr-dark);
-  border-radius: 12px;
-  border: none;
-  padding: 0;
+.tm_button{
+  background: linear-gradient(to right, var(--clr-dark) 50%, var(--clr-accent) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: var(--clr-light);
+  border: 2px solid var(--clr-accent);
+  border-radius: 5px;
+  padding: 15px;
   cursor: pointer;
-  outline-offset: 4px;
-}
-.front {
-  display: block;
-  padding: 12px 42px;
-  border-radius: 12px;
-  font-size: 1.25rem;
-  background: var(--clr-accent);
-  color: white;
-  transform: translateY(-6px);
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
-.pushable:active .front {
-  transform: translateY(-2px);
+.tm_button:hover {
+  background-position: left bottom;
+  background-color: var(--clr-partial-dark)
 }
 
 @media (min-width: 600px){
@@ -897,10 +892,10 @@ header{
   margin: 10px;
 }
 
-.project__buttons Button, .project__buttons a {
+.project__buttons, .project__buttons a {
   display: flex;
-  flex-direction: row;
-  
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .btn__link:hover, .project__buttons Button:hover, .project__buttons a:hover {
