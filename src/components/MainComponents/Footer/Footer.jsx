@@ -33,18 +33,6 @@ const Footer = () => {
                 <span><i className="fab fa-github"></i></span>
               </div>
             </a>
-            <a href="https://www.instagram.com/thiiluu/" target="_blank" rel="noreferrer">
-              <div className="icon instagram">
-                <div className="tooltip">{mainConstants.INSTAGRAM}</div>
-                <span><i className="fab fa-instagram"></i></span>
-              </div>
-            </a>
-            <a href="https://www.facebook.com/theminh.luong" target="_blank" rel="noreferrer">
-              <div className="icon facebook">
-                <div className="tooltip">{mainConstants.FACEBOOK}</div>
-                <span><i className="fab fa-facebook"></i></span>
-              </div>
-            </a>
       </div>
       <GoToTop/>
       <small className="copyright">&copy; {mainConstants.COPYRIGHT} <span id="portfolioTimePeriod">{mainConstants.PORTFOLIO_START_YEAR}{today.getFullYear()}</span> {mainConstants.ALL_RIGHTS_RESERVED}</small>

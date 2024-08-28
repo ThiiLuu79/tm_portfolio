@@ -859,20 +859,6 @@ header{
   background-color: #333333;
   color: #ffffff;
 }
-
-.wrapper .instagram:hover,
-.wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
-  background-color: #E1306C;
-  color: #ffffff;
-}
-
-.wrapper .facebook:hover,
-.wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
-  background-color: #4267B2;
-  color: #ffffff;
-}
 /*FOOTER*/
 
 /*Page not found*/
