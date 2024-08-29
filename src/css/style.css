@@ -85,6 +85,7 @@ header{
   border-right: 2px solid var(--clr-accent);
   border-top: 2px solid var(--clr-accent);
   transform: translate(-7px) rotate(-135deg);
+  background-color: var(--clr-dark);
 }
 
 .go__back:hover a{
@@ -150,6 +151,7 @@ header{
 .go__top .button__arrow:hover {
   transform: rotate(-45deg);
   transform: translateY(-7px) rotate(-45deg);
+  background-color: var(--clr-dark);
 }
 
 .header__content{
