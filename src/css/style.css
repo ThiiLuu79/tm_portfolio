@@ -18,6 +18,12 @@ header{
   width: 70px;
 }
 
+@media (max-width: 760px){
+  .tm_logo {
+    width: 40px;
+  }
+}
+
 .header__title{
   margin-bottom: .25em;
 }
