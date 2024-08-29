@@ -319,7 +319,7 @@ header{
 }
 
 .button__arrow:hover {
-  transform: translateY(25%) rotate(135deg);
+  cursor: pointer;
 }
 
 /* Dropdown Content (Hidden by Default) */
