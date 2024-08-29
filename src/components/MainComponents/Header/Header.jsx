@@ -1,22 +1,14 @@
+import React from 'react';
 import Navbar from '../Navbar/Navbar.jsx';
-
-import { useLanguage } from '../../../LanguageContext/languageContext.js';
-
-import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
-import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';
+import tm_logo_white from '../../../img/home/TM-white-no-bg.png';
 
 const Header = () => {
-
-    const { language } = useLanguage();
-    const mainConstants = language === 'en' ? mainConstantsEn : mainConstantsFr;
-
     return (
         <header id="top">
             <Navbar/>
-            <div className='header__content'>
-                <h3 className = "header__title tm">{mainConstants.INITIALS} <strong className="portfolio"><b>{mainConstants.PORTFOLIO}</b></strong> </h3>
-            </div>
+            <img src={tm_logo_white} alt="header" className="tm_logo tm_logo_white" />
         </header>
     )
 }
-export default Header
+
+export default Header;

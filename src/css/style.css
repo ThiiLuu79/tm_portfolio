@@ -14,6 +14,10 @@ header{
   padding-bottom: .5em;
 }
 
+.tm_logo {
+  width: 70px;
+}
+
 .header__title{
   margin-bottom: .25em;
 }
