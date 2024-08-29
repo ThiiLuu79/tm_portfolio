@@ -46,7 +46,7 @@ header{
   display: flex;
   position: fixed;
   top: 50%;
-  z-index: 999;
+  z-index: 99;
 }
 
 
