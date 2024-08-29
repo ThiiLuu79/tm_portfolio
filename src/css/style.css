@@ -294,24 +294,32 @@ header{
 }
 
 .button__arrow {
-    /* Transparent background */
-    background-color: transparent;
-    /* Size */
-    height: 12px;
-    width: 12px;
-    cursor: pointer;
-    color: white;
-    border-right: 2px solid #ffffff;
-    border-top: 2px solid #ffffff;
-    transform: translateY(-25%) rotate(135deg) ;
-    transition: ease-out 0.2s;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  top: 10px;
+  border-radius: 50%;
+  background-color: var(--clr-partial-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 2px solid var(--clr-accent);
+  transform: translateY(-25%) rotate(135deg) ;
+  transition: ease-out 0.2s;
+}
+
+.button__arrow::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid var(--clr-accent);
+  border-top: 2px solid var(--clr-accent);
 }
 
 .button__arrow:hover {
-    /* Edges */
-    border-right: 2px solid var(--clr-accent);
-    border-top: 2px solid var(--clr-accent);
-    transform: translateY(25%) rotate(135deg);
+  transform: translateY(25%) rotate(135deg);
 }
 
 /* Dropdown Content (Hidden by Default) */
