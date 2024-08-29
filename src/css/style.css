@@ -299,7 +299,7 @@ header{
   height: 25px;
   top: 10px;
   border-radius: 50%;
-  background-color: var(--clr-partial-light);
+  background-color: var(--clr-dark);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -320,6 +320,7 @@ header{
 
 .button__arrow:hover {
   cursor: pointer;
+  background-color: var(--clr-partial-light);
 }
 
 /* Dropdown Content (Hidden by Default) */
