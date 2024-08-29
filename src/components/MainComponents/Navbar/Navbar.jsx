@@ -19,8 +19,22 @@ const Navbar = () => {
   };
 
   // Function to show the dropdown
-  const showDropdown = (dropdownId, showClass) => {
-    document.getElementById(dropdownId).classList.toggle(showClass);
+  const showDropdown = (dropdownId, showClass, hideClass) => {
+    const dropdown = document.getElementById(dropdownId);
+    if (dropdown.classList.contains(showClass)) {
+      dropdown.classList.remove(showClass);
+      dropdown.classList.add(hideClass);
+      dropdown.addEventListener('animationend', () => {
+        if (dropdown.classList.contains(hideClass)) {
+          dropdown.style.display = 'none';
+        }
+      }, { once: true });
+    } else {
+      dropdown.style.display = 'flex';
+      dropdown.style.flexDirection = 'column';
+      dropdown.classList.remove(hideClass);
+      dropdown.classList.add(showClass);
+    }
   };
 
   // Add event listeners when the component mounts and remove them when it unmounts
@@ -71,7 +85,7 @@ const Navbar = () => {
             <button className="button">
               <div
                 className="dropbtn button__arrow"
-                onClick={() => showDropdown('myDropdownExp', 'show')}
+                onClick={() => showDropdown('myDropdownExp', 'show', 'hide')}
               ></div>
             </button>
           </div>
@@ -87,11 +101,11 @@ const Navbar = () => {
             <button className="button">
               <div
                 className="dropbtn button__arrow"
-                onClick={() => showDropdown('myDropdown', 'show')}
+                onClick={() => showDropdown('myDropdown', 'show', 'hide')}
               ></div>
             </button>
           </div>
-          <div id="myDropdown" className="dropdown-content">
+          <div id="myDropdown" className="dropdown-content drop_pro">
           <Link to="/Academics" className="dropdown_link">{mainConstants.ACADEMIC_PROJECTS}</Link>
           <Link to="/Personals" className="dropdown_link">{mainConstants.PERSONAL_PROJECTS}</Link>
             <hr />
