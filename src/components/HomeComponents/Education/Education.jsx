@@ -29,8 +29,8 @@ const Education = () => {
                     <p className="ets_info">{homeConstants.ETS_DEGREE} {etsExpTimeString} </p>
                     <h4>{homeConstants.COURSES_TITLE}</h4>
                     <ul className="courses_list">
-                        {homeConstants.ETS_COURSES.map((tool) => (
-                                <li key={tool}>{tool}</li>
+                        {homeConstants.ETS_COURSES.map((course) => (
+                                <li key={course}>{course}</li>
                             ))}
                     </ul>
                     <br></br>
