@@ -828,6 +828,10 @@ header{
   display: flex;
 }
 
+.courses_list{
+  margin-left: 50px;
+}
+
 /*EDUCATION*/
 
 /*FOOTER*/

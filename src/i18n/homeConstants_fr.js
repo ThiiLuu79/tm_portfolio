@@ -31,3 +31,17 @@ export const ETS = "ÉTS - Montréal, Canada";
 export const ETS_DEGREE = "Baccalauréat en ingénierie - BE, Génie logiciel, ";
 export const MAISONNEUVE = "Collège de Maisonneuve - Montréal, Canada";
 export const MAISONNEUVE_DEGREE = "Sciences pures et appliquées, ";
+export const COURSES_TITLE = "Cours pertinents";
+export const ETS_COURSES = [
+    "Programmation Orientée Objet (INF111) - Note A",
+    "Bases de Données (TCH055) - Note A",
+    "Bases de Données à Haute Performance (LOG660) - Note A-",
+    "Programmation et Conception Orientées Objet (LOG121) - Note A-",
+    "Structures de Données et Algorithmes (LOG320) - Note B+",
+    "Analyse et Conception de Logiciels (LOG210) - Note A-",
+    "Conception et Évaluation des Interfaces Utilisateur (GTI350) - Note A",
+    "Mathématiques Discrètes (MAT210) - Note A",
+    "Équations Différentielles (MAT265) - Note A",
+    "Probabilités et Statistiques (MAT350) - Note A+",
+    "Algèbre Linéaire (MAT472) - Note A-"
+];

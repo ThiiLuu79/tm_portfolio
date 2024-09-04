@@ -31,3 +31,17 @@ export const ETS = "ÉTS - Montreal, Canada";
 export const ETS_DEGREE = "Bachelor of Engineering - BE, Software Engineering, ";
 export const MAISONNEUVE = "Maisonneuve College - Montreal, Canada";
 export const MAISONNEUVE_DEGREE = "Pure and applied sciences, ";
+export const COURSES_TITLE = "Relevant courses";
+export const ETS_COURSES = [
+    "Object Oriented Programming (INF111) - Grade A",
+    "Databases (TCH055) - Grade A",
+    "High Performance Databases (LOG660) - Grade A-",
+    "Object Oriented Programming and Conception (LOG121) - Grade A-",
+    "Data Structures and Algorithms (LOG320) - Grade B+",
+    "Software Analysis and Design (LOG210) - Grade A-",
+    "Design and Evaluation of User Interfaces (GTI350) - Grade A",
+    "Discrete Mathematics (MAT210) - Grade A",
+    "Differential Equations (MAT265) - Grade A",
+    "Probability and Statistics (MAT350) - Grade A+",
+    "Linear Algebra (MAT472) - Grade A-"
+];

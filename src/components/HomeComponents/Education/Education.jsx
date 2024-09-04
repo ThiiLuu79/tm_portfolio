@@ -27,6 +27,12 @@ const Education = () => {
                     <br></br>
                     <h3 className="ets_">{homeConstants.ETS}</h3>
                     <p className="ets_info">{homeConstants.ETS_DEGREE} {etsExpTimeString} </p>
+                    <h4>{homeConstants.COURSES_TITLE}</h4>
+                    <ul className="courses_list">
+                        {homeConstants.ETS_COURSES.map((tool) => (
+                                <li key={tool}>{tool}</li>
+                            ))}
+                    </ul>
                     <br></br>
                     <h3 className="maisonneuve_"> {homeConstants.MAISONNEUVE} </h3>
                     <p className="maisonneuve_info">{homeConstants.MAISONNEUVE_DEGREE} {maisonneuveExpTimeString} </p>
