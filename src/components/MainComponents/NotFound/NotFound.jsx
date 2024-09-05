@@ -6,6 +6,8 @@ import { useLanguage } from '../../../LanguageContext/languageContext.js';
 import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
 import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';
 
+import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
+
 const NotFound = () => {
 
     const { language } = useLanguage();
@@ -13,6 +15,7 @@ const NotFound = () => {
 
     return (
         <div>
+            <LanguageToggler/>
             <GoBack/>
             <div className="page_not_found">
                 <h2>{mainConstants.ERROR_404}</h2>
