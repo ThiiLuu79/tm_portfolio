@@ -40,13 +40,11 @@ const Education = () => {
                             {isListVisible ? homeConstants.HIDE_COURSES : homeConstants.SHOW_COURSES}
                         </button>
                     </div>
-                    {isListVisible && (
-                        <ul className="courses_list">
+                        <ul className={`courses_list ${isListVisible ? 'visible' : 'hidden'}`}>
                             {homeConstants.ETS_COURSES.map((course) => (
                                 <li key={course} className="courses_list_item">{course}</li>
                             ))}
                         </ul>
-                    )}
                     <br></br>
                     <h3 className="maisonneuve_"> {homeConstants.MAISONNEUVE} </h3>
                     <p className="maisonneuve_info">{homeConstants.MAISONNEUVE_DEGREE} {maisonneuveExpTimeString} </p>
