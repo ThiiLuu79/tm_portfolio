@@ -37,7 +37,7 @@ const Education = () => {
                     <div className="courses_header">
                         <h4>{homeConstants.COURSES_TITLE}</h4>
                         <button onClick={toggleListVisibility} className="courses_button">
-                            {isListVisible ? 'Hide Courses' : 'Show Courses'}
+                            {isListVisible ? homeConstants.HIDE_COURSES : homeConstants.SHOW_COURSES}
                         </button>
                     </div>
                     {isListVisible && (

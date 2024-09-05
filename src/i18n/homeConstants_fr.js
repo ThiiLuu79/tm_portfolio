@@ -32,6 +32,8 @@ export const ETS_DEGREE = "Baccalauréat en ingénierie - BE, Génie logiciel, "
 export const MAISONNEUVE = "Collège de Maisonneuve - Montréal, Canada";
 export const MAISONNEUVE_DEGREE = "Sciences pures et appliquées, ";
 export const COURSES_TITLE = "Cours pertinents";
+export const SHOW_COURSES = "Afficher les cours";
+export const HIDE_COURSES = "Cacher les cours";
 export const ETS_COURSES = [
     "Programmation Orientée Objet (INF111) - Note A",
     "Programmation et Conception Orientées Objet (LOG121) - Note A-",

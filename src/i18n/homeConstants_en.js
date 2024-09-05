@@ -32,6 +32,8 @@ export const ETS_DEGREE = "Bachelor of Engineering - BE, Software Engineering, "
 export const MAISONNEUVE = "Maisonneuve College - Montreal, Canada";
 export const MAISONNEUVE_DEGREE = "Pure and applied sciences, ";
 export const COURSES_TITLE = "Relevant courses";
+export const SHOW_COURSES = "Show Courses";
+export const HIDE_COURSES = "Hide Courses";
 export const ETS_COURSES = [
     "Object Oriented Programming (INF111) - Grade A",
     "Object Oriented Programming and Conception (LOG121) - Grade A-",
