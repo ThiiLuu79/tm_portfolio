@@ -43,6 +43,24 @@
 - **Photo Gallery**: 📸 *Browse through my photography projects.*
 - **Work Experience**: 💼 *Learn about my professional work experiences.*
 
+## How to Run
+
+### Prerequisites
+- Ensure you have [Node.js](https://nodejs.org/) installed (version 14.x or higher recommended).
+- Package manager: [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/).
+
+### Installation
+1. Clone the repository:
+   `git clone https://github.com/ThiiLuu79/tm_portfolio.git`
+
+2. Install dependencies:
+    `npm install` or `yarn install`
+
+3. Install dependencies:
+    `npm start` or `yarn start`
+
+4. Open your browser and navigate to http://localhost:3000 to see the application running.
+
 ## Additional Information
 
 > This portfolio is continuously updated to reflect my latest works and achievements. I invite you to revisit periodically to see new additions and updates.
