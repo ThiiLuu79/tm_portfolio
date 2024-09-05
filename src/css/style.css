@@ -835,6 +835,7 @@ header{
 .courses_button {
   background: linear-gradient(to right, var(--clr-dark) 50%, var(--clr-accent) 50%);
   background-size: 200% 100%;
+  font-size: 15px;
   background-position: right bottom;
   color: var(--clr-light);
   border: 2px solid var(--clr-accent);
