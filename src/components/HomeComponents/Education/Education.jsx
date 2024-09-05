@@ -30,7 +30,7 @@ const Education = () => {
                     <h4>{homeConstants.COURSES_TITLE}</h4>
                     <ul className="courses_list">
                         {homeConstants.ETS_COURSES.map((course) => (
-                                <li key={course}>{course}</li>
+                                <li key={course} className="courses_list_item">{course}</li>
                             ))}
                     </ul>
                     <br></br>
