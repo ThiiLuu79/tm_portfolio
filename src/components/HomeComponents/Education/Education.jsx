@@ -1,4 +1,5 @@
 import GetExpTimeString from "../../../utils/time";
+import React, { useState } from 'react';
 
 import { useLanguage } from '../../../LanguageContext/languageContext';
 
@@ -9,6 +10,12 @@ const Education = () => {
 
     const { language } = useLanguage();
     const homeConstants = language === 'en' ? homeConstantsEn : homeConstantsFr;
+
+    const [isListVisible, setIsListVisible] = useState(false);
+
+    const toggleListVisibility = () => {
+        setIsListVisible(!isListVisible);
+    };
 
     var etsStart = new Date(2020, 0);
     var etsEnd = new Date();
@@ -27,12 +34,19 @@ const Education = () => {
                     <br></br>
                     <h3 className="ets_">{homeConstants.ETS}</h3>
                     <p className="ets_info">{homeConstants.ETS_DEGREE} {etsExpTimeString} </p>
-                    <h4>{homeConstants.COURSES_TITLE}</h4>
-                    <ul className="courses_list">
-                        {homeConstants.ETS_COURSES.map((course) => (
+                    <div className="courses_header">
+                        <h4>{homeConstants.COURSES_TITLE}</h4>
+                        <button onClick={toggleListVisibility} className="courses_button">
+                            {isListVisible ? 'Hide Courses' : 'Show Courses'}
+                        </button>
+                    </div>
+                    {isListVisible && (
+                        <ul className="courses_list">
+                            {homeConstants.ETS_COURSES.map((course) => (
                                 <li key={course} className="courses_list_item">{course}</li>
                             ))}
-                    </ul>
+                        </ul>
+                    )}
                     <br></br>
                     <h3 className="maisonneuve_"> {homeConstants.MAISONNEUVE} </h3>
                     <p className="maisonneuve_info">{homeConstants.MAISONNEUVE_DEGREE} {maisonneuveExpTimeString} </p>

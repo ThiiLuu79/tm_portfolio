@@ -828,6 +828,25 @@ header{
   display: flex;
 }
 
+.courses_header{
+  display: flex;
+}
+
+.courses_button {
+  background-color: var(--clr-accent);
+  color: var(--clr-light);
+  border: none;
+  padding: 5px;
+  margin: 0 0 5px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.courses_button:hover {
+  background-color: var(--clr-very-dark);
+}
+
 .courses_list {
   list-style-type: none;
   padding: 0;
