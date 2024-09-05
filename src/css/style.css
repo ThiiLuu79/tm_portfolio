@@ -846,6 +846,12 @@ header{
   transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
+@media (max-width: 760px){
+  .courses_button {
+    font-size: 10px;
+  }
+}
+
 .courses_button:hover {
   background-position: left bottom;
   background-color: var(--clr-partial-dark)
