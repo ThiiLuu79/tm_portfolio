@@ -873,6 +873,12 @@ header{
   max-height: 500px;
 }
 
+@media (max-width: 760px){
+  .courses_list.visible {
+    margin-right: 30px;
+  }
+}
+
 .courses_list.hidden {
   max-height: 0;
 }
