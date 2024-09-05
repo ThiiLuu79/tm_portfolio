@@ -56,7 +56,7 @@
 2. Install dependencies:
     `npm install` or `yarn install`
 
-3. Install dependencies:
+3. Start the application:
     `npm start` or `yarn start`
 
 4. Open your browser and navigate to http://localhost:3000 to see the application running.
