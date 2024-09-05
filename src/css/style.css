@@ -874,7 +874,7 @@ header{
 }
 
 @media (max-width: 760px){
-  .courses_list.visible {
+  .courses_list {
     margin-right: 30px;
   }
 }
