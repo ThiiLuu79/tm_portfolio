@@ -833,18 +833,21 @@ header{
 }
 
 .courses_button {
-  background-color: var(--clr-accent);
+  background: linear-gradient(to right, var(--clr-dark) 50%, var(--clr-accent) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
   color: var(--clr-light);
-  border: none;
+  border: 2px solid var(--clr-accent);
+  border-radius: 5px;
   padding: 5px;
   margin: 0 0 5px 5px;
-  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
 .courses_button:hover {
-  background-color: var(--clr-very-dark);
+  background-position: left bottom;
+  background-color: var(--clr-partial-dark)
 }
 
 .courses_list {
