@@ -859,7 +859,7 @@ header{
 
 .courses_list {
   list-style-type: none;
-  margin-left: 140px;
+  margin: 0;
   position: absolute;
   background-color: var(--clr-dark);
   z-index: 99;
@@ -875,8 +875,7 @@ header{
 
 @media (max-width: 760px){
   .courses_list {
-    margin-left: 130px;
-    font-size: 10px;
+    margin-right: 30px;
   }
 }
 
