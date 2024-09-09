@@ -118,23 +118,6 @@ header{
   top: 0;
 }
 
-.translator_button {
-  background: linear-gradient(to right, var(--clr-dark) 50%, var(--clr-accent) 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  color: var(--clr-light);
-  border: 2px solid var(--clr-accent);
-  border-radius: 5px;
-  padding: 5px;
-  cursor: pointer;
-  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-.translator_button:hover {
-  background-position: left bottom;
-  background-color: var(--clr-partial-dark)
-}
-
 .go__top .button__arrow {
   position: relative;
   width: 50px;
@@ -535,10 +518,15 @@ header{
   color: var(--clr-light);
   border: 2px solid var(--clr-accent);
   border-radius: 5px;
-  padding: 15px;
+  padding: 5px;
+  margin: 0 0 5px 5px;
   cursor: pointer;
-  width: 220px;
   transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.tm_button_large{
+  width: 220px;
+  padding: 15px;
 }
 
 .tm_button:hover {
@@ -830,31 +818,6 @@ header{
 
 .courses_header{
   display: flex;
-}
-
-.courses_button {
-  background: linear-gradient(to right, var(--clr-dark) 50%, var(--clr-accent) 50%);
-  background-size: 200% 100%;
-  font-size: 15px;
-  background-position: right bottom;
-  color: var(--clr-light);
-  border: 2px solid var(--clr-accent);
-  border-radius: 5px;
-  padding: 5px;
-  margin: 0 0 5px 5px;
-  cursor: pointer;
-  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-@media (max-width: 760px){
-  .courses_button {
-    font-size: 10px;
-  }
-}
-
-.courses_button:hover {
-  background-position: left bottom;
-  background-color: var(--clr-partial-dark)
 }
 
 .courses_list {

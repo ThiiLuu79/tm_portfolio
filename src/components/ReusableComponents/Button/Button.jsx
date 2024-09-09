@@ -12,7 +12,7 @@ const Button = ({text, redirect, blank, noreferrer, buttonType}) => {
     
     const renderPushableButton = () => {
         return (
-            <button className="tm_button">
+            <button className="tm_button tm_button_large">
                 <span>
                     {text}
                 </span>
