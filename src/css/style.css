@@ -529,6 +529,10 @@ header{
   padding: 15px;
 }
 
+.tm_button_small{
+  font-size: 12px;
+}
+
 .tm_button:hover {
   background-position: left bottom;
   background-color: var(--clr-partial-dark)

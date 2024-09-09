@@ -36,7 +36,7 @@ const Education = () => {
                     <p className="ets_info">{homeConstants.ETS_DEGREE} {etsExpTimeString} </p>
                     <div className="courses_header">
                         <h4>{homeConstants.COURSES_TITLE}</h4>
-                        <button onClick={toggleListVisibility} className="tm_button">
+                        <button onClick={toggleListVisibility} className="tm_button tm_button_small">
                             {isListVisible ? homeConstants.HIDE_COURSES : homeConstants.SHOW_COURSES}
                         </button>
                     </div>
