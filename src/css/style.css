@@ -507,6 +507,7 @@ header{
 }
 
 .tm_button_small{
+  width: 120px;
   font-size: 12px;
 }
 
