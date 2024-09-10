@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-const Button = ({text, redirect, blank, noreferrer, buttonType}) => {
+const Button = ({text, redirect, blank, noreferrer, buttonType, onClickFunction}) => {
 
     const linkProps = {};
     if (blank) {
@@ -32,7 +32,16 @@ const Button = ({text, redirect, blank, noreferrer, buttonType}) => {
                 {renderPushableButton()}
             </a>
         )
-    }else{
+    }else if (buttonType === 'Toggle') {
+        return (
+            <button onClick={onClickFunction} className="tm_button" href={redirect} download>
+                <span>
+                    {text}
+                </span>
+            </button>
+        )  
+    }
+    else{
         return null;
     }
 }

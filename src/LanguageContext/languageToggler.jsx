@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from "../components/ReusableComponents/Button/Button";
 import { useLanguage } from './languageContext';
 
 export const LanguageToggler = () => {
@@ -13,9 +14,11 @@ export const LanguageToggler = () => {
 
     return (
         <div className='translator'>
-            <button className='tm_button' onClick={toggleLanguage}>
-                    {currentLanguage === 'en' ? 'Français' : 'English'}
-            </button>
+            <Button
+                text={currentLanguage === 'en' ? 'Français' : 'English'}
+                buttonType='Toggle'
+                onClickFunction={toggleLanguage}
+            />
         </div>
     );
 };

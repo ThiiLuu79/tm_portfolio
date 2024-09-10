@@ -1,6 +1,6 @@
 import GetExpTimeString from "../../../utils/time";
 import React, { useState } from 'react';
-
+import Button from "../../ReusableComponents/Button/Button";
 import { useLanguage } from '../../../LanguageContext/languageContext';
 
 import * as homeConstantsEn from '../../../i18n/homeConstants_en';
@@ -36,9 +36,11 @@ const Education = () => {
                     <p className="ets_info">{homeConstants.ETS_DEGREE} {etsExpTimeString} </p>
                     <div className="courses_header">
                         <h4>{homeConstants.COURSES_TITLE}</h4>
-                        <button onClick={toggleListVisibility} className="tm_button tm_button_small">
-                            {isListVisible ? homeConstants.HIDE_COURSES : homeConstants.SHOW_COURSES}
-                        </button>
+                        <Button
+                            text={isListVisible ? homeConstants.HIDE_COURSES : homeConstants.SHOW_COURSES}
+                            buttonType='Toggle'
+                            onClickFunction={toggleListVisibility}
+                        />
                     </div>
                         <ul className={`courses_list ${isListVisible ? 'visible' : 'hidden'}`}>
                             {homeConstants.ETS_COURSES.map((course) => (
