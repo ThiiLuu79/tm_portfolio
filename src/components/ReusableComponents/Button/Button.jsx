@@ -34,7 +34,7 @@ const Button = ({text, redirect, blank, noreferrer, buttonType, onClickFunction}
         )
     }else if (buttonType === 'Toggle') {
         return (
-            <button onClick={onClickFunction} className="tm_button" href={redirect} download>
+            <button onClick={onClickFunction} className="tm_button tm_button_small" href={redirect} download>
                 <span>
                     {text}
                 </span>
