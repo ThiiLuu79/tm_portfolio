@@ -1,5 +1,7 @@
 //Constants for Work.jsx
-export const WORK_PAGE_TITLE = "Working experiences";
+export const WORK_INTRODUCTION = "Explore my";
+export const WORK_PAGE_TITLE = "Work Experiences";
+export const WORK_SUBTITLE = "Working experiences";
 
 //INTACT
 export const INTACT_EXPERIENCE = {

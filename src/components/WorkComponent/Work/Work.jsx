@@ -1,6 +1,6 @@
 import GoBack from '../../MainComponents/GoBack/GoBack';
 import WorkExperience from "../../ReusableComponents/WorkExperience/WorkExperience";
-
+import Card from '../../HomeComponents/Card/Card';
 import cover from "../../../img/experiences/experience.jpg";
 import intactImg from "../../../img/experiences/intact.png";
 import nbcImg from "../../../img/experiences/nbc_interns.jpg";
@@ -40,11 +40,12 @@ const Work = () => {
         <div>
             <LanguageToggler/>
             <GoBack/>
-            
-            <section className="exp_section">
-                <h2 className = "section__title section__title--block">{workConstants.WORK_PAGE_TITLE}</h2>
-                <img src = {cover} alt="experience page cover" width="500" className="block__img"></img>
-            </section>
+            <Card
+                intro = {workConstants.WORK_INTRODUCTION}
+                title = {workConstants.WORK_PAGE_TITLE}
+                subtitle = {workConstants.WORK_SUBTITLE}
+                image = {cover}
+            />
 
             <div className="block_wrap">
 
