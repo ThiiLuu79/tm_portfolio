@@ -1,5 +1,5 @@
 import GoBack from '../../MainComponents/GoBack/GoBack';
-
+import Card from '../../HomeComponents/Card/Card';
 import cover from "../../../img/personal/html.jpg";
 import cssZenGarden from "../../../img/personal/cssZenGarden.jpg";
 import pygames from "../../../img/personal/games.gif";
@@ -28,12 +28,12 @@ const Personals = () => {
         <div>
             <LanguageToggler/>
             <GoBack/>
-            
-            <section className="intro">
-                <h2 className = "section__title section__title--intro">{personnalsConstants.PERSONALS_WELCOME}  <strong className="name"><b className="personal_name">{personnalsConstants.PERSONALS_PROJECT}</b></strong> </h2>
-                <p className = "section__subtitle section__subtitle--intro personnal_type">{personnalsConstants.PERSONALS_PROJECT}</p>
-                <img src = {cover} alt="web page cover" className="intro__img"></img>
-            </section>
+            <Card
+                intro = {personnalsConstants.PERSONALS_WELCOME}
+                title = {personnalsConstants.PERSONALS_PROJECT}
+                subtitle = {personnalsConstants.PERSONALS_PROJECT}
+                image = {cover}
+            />
 
             <div className="block_wrap">
 

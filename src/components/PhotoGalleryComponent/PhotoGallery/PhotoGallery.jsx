@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-
+import Card from '../../HomeComponents/Card/Card';
 import GoBack from '../../MainComponents/GoBack/GoBack';
 
 import cover from "../../../img/photography/photo16.JPG";
@@ -80,12 +80,12 @@ const PhotoGallery = () => {
         <div>
             <LanguageToggler/>
             <GoBack/>
-            
-            <section className="intro">
-                <h2 className = "section__title section__title--intro">{freeTimeConstants.WELCOME_PHOTO} <strong className="name"><b className="photoPro_name">{freeTimeConstants.PHOTO_GALLERY}</b></strong> </h2>
-                <p className = "section__subtitle section__subtitle--intro photoPro_type">{freeTimeConstants.PHOTO_PROJECT}</p>
-                <img src = {cover} alt="art page cover" className="intro__img"/>
-            </section>
+            <Card
+                intro = {freeTimeConstants.WELCOME_PHOTO}
+                title = {freeTimeConstants.PHOTO_GALLERY}
+                subtitle = {freeTimeConstants.PHOTO_PROJECT}
+                image = {cover}
+            />
 
             <div className="photo_container">
                 <img className="collection__img" src={p1}alt='p'/>

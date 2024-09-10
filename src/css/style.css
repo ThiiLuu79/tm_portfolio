@@ -418,7 +418,7 @@ header{
   background: var(--clr-partial-light);
 }
 
-.intro__img{
+.card__img{
   box-shadow: var(--bs);
   overflow: hidden;
 }
@@ -435,7 +435,7 @@ header{
       "img subtitle";
     grid-template-columns: min-content max-content;
   }
-  .intro__img{
+  .card__img{
     grid-area: img;
     min-width: 300px;
     position: relative;
@@ -477,7 +477,7 @@ header{
 }
 
 /* https://css-tricks.com/snippets/css/typewriter-effect/ */
-.name{
+.card-title{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid var(--clr-accent); /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */

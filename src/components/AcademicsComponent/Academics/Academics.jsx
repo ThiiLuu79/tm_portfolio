@@ -1,7 +1,7 @@
 import GoBack from '../../MainComponents/GoBack/GoBack';
 import Button from "../../ReusableComponents/Button/Button";
 import Project from "../../ReusableComponents/Project/Project";
-
+import Card from '../../HomeComponents/Card/Card';
 import cover from "../../../img/academic/spCover.jpg";
 import webflix from "../../../img/academic/webflix.png";
 import pusher from "../../../img/academic/pushers.png";
@@ -25,13 +25,13 @@ const Academics = () => {
         <div>
             <LanguageToggler/>
             <GoBack/>
-
-            <section className="intro">
-                <h2 className = "section__title section__title--intro">{academicsConstants.ACADEMICS_WELCOME}<strong className="name"><b className="academicPro_name">{academicsConstants.ACADEMICS_PROJECT}</b></strong> </h2>
-                <p className = "section__subtitle section__subtitle--intro academicPro_type">{academicsConstants.ACADEMICS_PROJECT}</p>
-                <img src = {cover} alt="web page cover" className="intro__img"></img>
-            </section>
-
+            <Card
+                intro = {academicsConstants.ACADEMICS_WELCOME}
+                title = {academicsConstants.ACADEMICS_PROJECT}
+                subtitle = {academicsConstants.ACADEMICS_PROJECT}
+                image = {cover}
+            />
+            
             <div className="block_wrap">
 
                 <Project
