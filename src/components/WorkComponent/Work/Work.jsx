@@ -1,6 +1,6 @@
 import GoBack from '../../MainComponents/GoBack/GoBack';
 import WorkExperience from "../../ReusableComponents/WorkExperience/WorkExperience";
-import Card from '../../HomeComponents/Card/Card';
+import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/experiences/experience.jpg";
 import intactImg from "../../../img/experiences/intact.png";
 import nbcImg from "../../../img/experiences/nbc_interns.jpg";

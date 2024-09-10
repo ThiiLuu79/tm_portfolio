@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Card from '../../HomeComponents/Card/Card';
+import Card from '../../ReusableComponents/Card/Card';
 import GoBack from '../../MainComponents/GoBack/GoBack';
 
 import cover from "../../../img/photography/photo16.JPG";

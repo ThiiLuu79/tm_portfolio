@@ -1,5 +1,5 @@
 import GoBack from '../../MainComponents/GoBack/GoBack';
-import Card from '../../HomeComponents/Card/Card';
+import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/personal/html.jpg";
 import cssZenGarden from "../../../img/personal/cssZenGarden.jpg";
 import pygames from "../../../img/personal/games.gif";
