@@ -1,4 +1,4 @@
-import Card from '../Card/Card';
+import Card from '../../ReusableComponents/Card/Card';
 import About from '../About/About';
 import CSProjects from '../CSProjects/CSProjects';
 import FreetimeProjects from '../FreeTimeProjects/FreetimeProjects';
