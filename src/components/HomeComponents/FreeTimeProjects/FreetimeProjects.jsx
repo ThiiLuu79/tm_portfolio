@@ -1,6 +1,5 @@
 import arts from "../../../img/home/art_gallery.jpg";
 import photos from "../../../img/photography/photo5.JPG";
-import {Link} from 'react-router-dom';
 
 import ScrollToTopOnLoad from "../../MainComponents/ScrollToTopOnLoad/ScrollToTopOnLoad";
 
@@ -8,6 +7,7 @@ import { useLanguage } from '../../../LanguageContext/languageContext';
 
 import * as homeConstantsEn from '../../../i18n/homeConstants_en';
 import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
+import ProjectLink from "../../ReusableComponents/ProjectLink/ProjectLink";
 
 const FreetimeProjects = () => {
 
@@ -22,24 +22,19 @@ const FreetimeProjects = () => {
 
             <div className = "portfolio">
 
-            <Link to="/ArtGallery">
-                <div className="project__container portfolio__item drawPro_link">
-                    <img src = {arts} alt="art-project cover" width="900" className = "portfolio__img project__img"></img>
-                    <div className="project__box">
-                    <p className="project__text drawPro_">{homeConstants.ART_PROJECTS}</p>
-                    </div>
-                </div>
+            <ProjectLink
+                redirect="/ArtGallery"
+                image={arts}
+                alt="art_project_cover"
+                text={homeConstants.ART_PROJECTS}
+            />
 
-            </Link>
-
-            <Link to="/PhotoGallery">
-                <div className="project__container portfolio__item photoPro_link">
-                    <img src = {photos} alt="photo_project_cover" width="900" className = "portfolio__img project__img"></img>
-                    <div className="project__box">
-                        <p className="project__text photoPro_">{homeConstants.PHOTO_PROJECTS}</p>
-                    </div>
-                </div>
-            </Link>
+            <ProjectLink
+                redirect="/PhotoGallery"
+                image={photos}
+                alt="photo_project_cover"
+                text={homeConstants.PHOTO_PROJECTS}
+            />
                 
             </div>
         </section>
