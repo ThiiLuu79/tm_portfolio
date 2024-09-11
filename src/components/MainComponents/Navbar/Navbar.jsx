@@ -13,31 +13,10 @@ const Navbar = () => {
   const { language } = useLanguage();
   const mainConstants = language === 'en' ? mainConstantsEn : mainConstantsFr;
 
-  // Function to toggle the navbar
   const toggleNavbar = () => {
     document.body.classList.toggle('nav-open');
   };
 
-  // Function to show the dropdown
-  const showDropdown = (dropdownId, showClass, hideClass) => {
-    const dropdown = document.getElementById(dropdownId);
-    if (dropdown.classList.contains(showClass)) {
-      dropdown.classList.remove(showClass);
-      dropdown.classList.add(hideClass);
-      dropdown.addEventListener('animationend', () => {
-        if (dropdown.classList.contains(hideClass)) {
-          dropdown.style.display = 'none';
-        }
-      }, { once: true });
-    } else {
-      dropdown.style.display = 'flex';
-      dropdown.style.flexDirection = 'column';
-      dropdown.classList.remove(hideClass);
-      dropdown.classList.add(showClass);
-    }
-  };
-
-  // Add event listeners when the component mounts and remove them when it unmounts
   useEffect(() => {
     const handleNavbarToggle = () => {
       document.body.classList.remove('nav-open');
@@ -60,7 +39,7 @@ const Navbar = () => {
         element.removeEventListener('click', handleNavbarToggle);
       });
     };
-  }, []); // Empty dependency array means this effect will run only once when the component mounts
+  }, []);
 
   ScrollToTopOnLoad();
 
@@ -76,42 +55,16 @@ const Navbar = () => {
               {mainConstants.HOME}
             </a>
           </li>
-          <div className="drop_about">
-            <li className="nav__item">
-              <a href="/#about" className="nav__link">
-                {mainConstants.ABOUT_ME}
-              </a>
-            </li>
-            <button className="button">
-              <div
-                className="dropbtn button__arrow"
-                onClick={() => showDropdown('myDropdownExp', 'show', 'hide')}
-              ></div>
-            </button>
-          </div>
-          <div id="myDropdownExp" className="dropdown-content drop_exp">
-          <Link to="/Work" className="dropdown_link">{mainConstants.WORKING_EXPERIENCES}</Link>
-          </div>
-          <div className="drop_projects">
-            <li className="nav__item">
-              <a href="/#cs_projects" className="nav__link">
-                {mainConstants.PROJECTS}
-              </a>
-            </li>
-            <button className="button">
-              <div
-                className="dropbtn button__arrow"
-                onClick={() => showDropdown('myDropdown', 'show', 'hide')}
-              ></div>
-            </button>
-          </div>
-          <div id="myDropdown" className="dropdown-content drop_pro">
-          <Link to="/Academics" className="dropdown_link">{mainConstants.ACADEMIC_PROJECTS}</Link>
-          <Link to="/Personals" className="dropdown_link">{mainConstants.PERSONAL_PROJECTS}</Link>
-            <hr />
-          <Link to="/ArtGallery" className="dropdown_link">{mainConstants.ART_GALLERY}</Link>
-          <Link to="/PhotoGallery" className="dropdown_link">{mainConstants.PHOTO_GALLERY}</Link>
-          </div>
+          <li className="nav__item">
+            <a href="/#about" className="nav__link">
+              {mainConstants.ABOUT_ME}
+            </a>
+          </li>
+          <li className="nav__item">
+            <a href="/#cs_projects" className="nav__link">
+              {mainConstants.PROJECTS}
+            </a>
+          </li>
           <li className="nav__item">
             <a href="/#education" className="nav__link">
               {mainConstants.EDUCATION}

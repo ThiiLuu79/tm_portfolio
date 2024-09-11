@@ -406,10 +406,6 @@ header{
 .drop_exp {
   top: 35%;
 }
-
-.drop_projects, .drop_about{
-  display: flex;
-}
 /*NAVIGATION MENU*/
 
 /*INTRO*/
