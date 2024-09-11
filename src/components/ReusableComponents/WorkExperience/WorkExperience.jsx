@@ -24,14 +24,14 @@ const WorkExperience = ({ title, image, imgAlt, company, companyLink, location, 
                     <p>{description}</p>
                 </div>
                 <br></br>
-                <b><p>{reusableConstants.CONTRIBUTIONS}</p></b>
+                <h4>{reusableConstants.CONTRIBUTIONS}</h4>
                 <ul className="cont">
                     {contributions.map((contribution) => (
                         <li key={contribution}>{contribution}</li>
                     ))}
                 </ul>
                 <div>
-                    <b><p>{reusableConstants.TOOLS}</p></b>
+                    <h4>{reusableConstants.TOOLS}</h4>
                     <ul className="tool-list">
                         {tools.map((tool) => (
                             <li key={tool}>{tool}</li>
