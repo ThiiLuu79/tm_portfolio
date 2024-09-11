@@ -16,7 +16,7 @@ const Project = ({ title, period, description, contributions, workTime, tools, i
             <h2 className = "section__title section__title--block">{title}</h2>
             <p className = "section__subtitle section__subtitle--block">{period}</p>
 
-            <div className = "block__body">
+            <div>
                 <p>{description}
                 </p>
                 <br></br>

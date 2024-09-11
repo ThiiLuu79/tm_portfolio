@@ -12,7 +12,7 @@ const WorkExperience = ({ title, image, imgAlt, company, companyLink, location, 
     
     return(
         <section className="block project__item">
-            <div className = "block__body">
+            <div>
                 <div className="job-details">
                     <h3>{title}</h3>
                     <img src = {image} alt={imgAlt} width="500" className="block__img"></img>
@@ -20,7 +20,7 @@ const WorkExperience = ({ title, image, imgAlt, company, companyLink, location, 
                     <p id="nbc_time">{workTime}</p>
                 </div>
 
-                <div className="job-summary">
+                <div>
                     <p>{description}</p>
                 </div>
                 <br></br>
@@ -30,7 +30,7 @@ const WorkExperience = ({ title, image, imgAlt, company, companyLink, location, 
                         <li key={contribution}>{contribution}</li>
                     ))}
                 </ul>
-                <div className="environment">
+                <div>
                     <p className="tools">{reusableConstants.TOOLS}</p>
                     <ul className="tool-list">
                         {tools.map((tool) => (

@@ -1,9 +1,5 @@
 //Constants for MainComponents
 
-//Constants for Header.jsx
-export const INITIALS = "tm's";
-export const PORTFOLIO = "portfolio";
-
 //Constants for Navbar.jsx
 export const HOME = "Accueil";
 export const ABOUT_ME = "À propos de moi";

@@ -47,7 +47,7 @@ const Work = () => {
                 image = {cover}
             />
 
-            <div className="block_wrap">
+            <div>
 
             <WorkExperience
                     title={workConstants.INTACT_EXPERIENCE.title}

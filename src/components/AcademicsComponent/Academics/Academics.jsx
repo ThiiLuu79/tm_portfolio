@@ -32,7 +32,7 @@ const Academics = () => {
                 image = {cover}
             />
             
-            <div className="block_wrap">
+            <div>
 
                 <Project
                     title={academicsConstants.WEBFLIX_PROJECT.title}

@@ -3,6 +3,19 @@ General styles for CSS.
 */
 
 /*GENERAL STYLES*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+
 html{
     scroll-behavior: smooth;
   }

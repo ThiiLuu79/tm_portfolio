@@ -23,24 +23,9 @@ header{
     width: 40px;
   }
 }
+/*HEADER*/
 
-.header__title{
-  margin-bottom: .25em;
-}
-
-.portfolio{
-  font-weight: var(--fw-reg);
-}
-
-.tm strong{
-  display: block;
-}
-
-.header__click{
-  text-decoration: none;
-  color:inherit;
-}
-
+/*ARROWS*/
 .button__arrow {
   position: relative;
   width: 50px;
@@ -131,7 +116,9 @@ header{
     top: 90%;
   }
 }
+/*ARROWS*/
 
+/*TRANSLATOR*/
 .translator{
   z-index:99;
   top: 2%;
@@ -140,11 +127,7 @@ header{
   position: sticky;
   top: 0;
 }
-
-.header__content{
-  display: flex;
-}
-/*HEADER*/
+/*TRANSLATOR*/
 
 /*NAVIGATION MENU*/
 .nav{
@@ -255,7 +238,6 @@ header{
 .nav-open .hamburger::after{
   opacity: 0;
 }
-
 /*NAVIGATION MENU*/
 
 /*INTRO*/
@@ -334,34 +316,6 @@ header{
   margin: 20px 0 20px 0;
 }
 
-.tm_button{
-  background: linear-gradient(to right, var(--clr-dark) 50%, var(--clr-accent) 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  color: var(--clr-light);
-  border: 2px solid var(--clr-accent);
-  border-radius: 5px;
-  padding: 5px;
-  margin: 0 0 5px 5px;
-  cursor: pointer;
-  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-.tm_button_large{
-  width: 220px;
-  padding: 15px;
-}
-
-.tm_button_small{
-  width: 120px;
-  font-size: 12px;
-}
-
-.tm_button:hover {
-  background-position: left bottom;
-  background-color: var(--clr-partial-dark)
-}
-
 @media (min-width: 600px){
   .block{
     display:grid;
@@ -391,9 +345,6 @@ header{
     grid-area: img;
     position: relative;
     z-index: 2;
-  }
-
-  .block__img{
     grid-row: 1/-1;
     grid-column: 2;
   }
@@ -428,8 +379,8 @@ header{
   margin-bottom: 1em;
 }
 
-
 .portfolio{
+  font-weight: var(--fw-reg);
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
 }
@@ -451,7 +402,6 @@ header{
   opacity: .75;
 }
 
-/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slidebottom */
 .project__img{
   height: 100%;
   width: 100%;
@@ -486,7 +436,6 @@ header{
   opacity: 0.85;
 
 }
-
 
 .project__container:hover .project__box {
   height: 100%;
@@ -526,7 +475,7 @@ header{
 }
 /*PROJECT ITEM*/
 
-/*ART PAGE*/
+/*IMAGES PAGE*/
 .photo_container{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
@@ -562,17 +511,17 @@ header{
 }
 
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 9999; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    padding-top: 100px;
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
 }
 
 .modal-content {
@@ -614,7 +563,7 @@ header{
         width: 100%;
     }
 }
-/*ART PAGE*/
+/*IMAGES PAGE*/
 
 /*EDUCATION*/
 .section__title--education b{
@@ -674,7 +623,6 @@ header{
 .courses_list_item:hover {
   background-color: var(--clr-light);
 }
-
 /*EDUCATION*/
 
 /*FOOTER*/
@@ -707,10 +655,6 @@ header{
   padding: 25px;
 }
 
-.footer__link:hover:hover{
-  opacity: .7;
-}
-
 .footer-link:hover{
   opacity: .7;
   text-decoration: underline;
@@ -718,18 +662,6 @@ header{
 
 .copyright {
   padding: 25px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-*:focus,
-*:active {
-  outline: none !important;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .wrapper {
@@ -743,7 +675,6 @@ header{
   position: relative;
   background-color: var(--clr-light);
   border-radius: 50%;
-
   margin: 10px;
   width: 50px;
   height: 50px;
@@ -831,8 +762,37 @@ header{
   width: 70%;
   max-width: 600px;
 }
+/*Page not found*/
 
 /*CSS for reusable buttons*/
+.tm_button{
+  background: linear-gradient(to right, var(--clr-dark) 50%, var(--clr-accent) 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: var(--clr-light);
+  border: 2px solid var(--clr-accent);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 0 0 5px 5px;
+  cursor: pointer;
+  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.tm_button_large{
+  width: 220px;
+  padding: 15px;
+}
+
+.tm_button_small{
+  width: 120px;
+  font-size: 12px;
+}
+
+.tm_button:hover {
+  background-position: left bottom;
+  background-color: var(--clr-partial-dark)
+}
+
 .btn__link{
   margin: 10px;
 }
@@ -846,3 +806,4 @@ header{
   flex-direction: column;
   align-items: flex-start;
 }
+/*CSS for reusable buttons*/

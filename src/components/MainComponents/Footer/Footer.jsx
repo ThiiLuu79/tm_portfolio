@@ -1,6 +1,3 @@
-import GoToTop from '../GoToTop/GoToTop';
-
-
 import { useLanguage } from '../../../LanguageContext/languageContext.js';
 
 import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
@@ -34,7 +31,6 @@ const Footer = () => {
               fabClass="fab fa-github"
             />
       </div>
-      <GoToTop/>
       <small className="copyright">&copy; {mainConstants.COPYRIGHT} <span>{mainConstants.PORTFOLIO_START_YEAR}{today.getFullYear()}</span> {mainConstants.ALL_RIGHTS_RESERVED}</small>
     </footer>
     )

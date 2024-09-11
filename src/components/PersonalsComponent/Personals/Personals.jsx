@@ -35,7 +35,7 @@ const Personals = () => {
                 image = {cover}
             />
 
-            <div className="block_wrap">
+            <div>
 
                 <Project
                     title={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.title}
