@@ -21,21 +21,18 @@ const CSProjects = () => {
             <p className = "section__subtitle section__subtitle--projects">{homeConstants.CS_PROJECTS_SUBTITLE}</p>
 
             <div className = "portfolio">
-
                 <ProjectLink
                     redirect="/Academics"
                     image={academics}
                     alt="academic_project_cover"
                     text={homeConstants.ACADEMIC_PROJECTS}
                 />
-
                 <ProjectLink
                     redirect="/Personals"
                     image={personals}
                     alt="personal_project cover"
                     text={homeConstants.PERSONAL_PROJECTS}
                 />
-
             </div>
 
         </section>

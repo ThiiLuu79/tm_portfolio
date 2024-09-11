@@ -21,21 +21,18 @@ const FreetimeProjects = () => {
             <p className = "section__subtitle section__subtitle--projects">{homeConstants.FREETIME_PROJECTS_SUBTITLE}</p>
 
             <div className = "portfolio">
-
-            <ProjectLink
-                redirect="/ArtGallery"
-                image={arts}
-                alt="art_project_cover"
-                text={homeConstants.ART_PROJECTS}
-            />
-
-            <ProjectLink
-                redirect="/PhotoGallery"
-                image={photos}
-                alt="photo_project_cover"
-                text={homeConstants.PHOTO_PROJECTS}
-            />
-                
+                <ProjectLink
+                    redirect="/ArtGallery"
+                    image={arts}
+                    alt="art_project_cover"
+                    text={homeConstants.ART_PROJECTS}
+                />
+                <ProjectLink
+                    redirect="/PhotoGallery"
+                    image={photos}
+                    alt="photo_project_cover"
+                    text={homeConstants.PHOTO_PROJECTS}
+                />
             </div>
         </section>
     )
