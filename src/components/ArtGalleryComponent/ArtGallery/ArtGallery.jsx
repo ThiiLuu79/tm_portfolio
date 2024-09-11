@@ -17,12 +17,12 @@ import p11 from "../../../img/art/art11.jpg";
 import p12 from "../../../img/art/art12.jpg";
 import p13 from "../../../img/art/art13.jpg";
 
-import { useLanguage } from '../../../LanguageToggler/LanguageContext.js';
+import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
 import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
 import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
-import { LanguageToggler } from '../../../LanguageToggler/LanguageToggler.jsx';
+import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
 
 
 const ArtGallery = () => {

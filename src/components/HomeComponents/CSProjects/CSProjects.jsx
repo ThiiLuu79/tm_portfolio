@@ -3,7 +3,7 @@ import personals from "../../../img/home/personal.jpg";
 
 import ScrollToTopOnLoad from "../../MainComponents/ScrollToTopOnLoad/ScrollToTopOnLoad";
 
-import { useLanguage } from '../../../LanguageToggler/LanguageContext';
+import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
 import * as homeConstantsEn from '../../../i18n/homeConstants_en';
 import * as homeConstantsFr from '../../../i18n/homeConstants_fr';

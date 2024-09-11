@@ -33,13 +33,13 @@ import p33 from "../../../img/photography/photo33.JPG";
 import p34 from "../../../img/photography/photo34.JPG";
 
 
-import { useLanguage } from '../../../LanguageToggler/LanguageContext.js';
+import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
 import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
 import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
-import { LanguageToggler } from '../../../LanguageToggler/LanguageToggler.jsx';
-import ImagesGallery from '../../ReusableComponents/ImagesGallery/ImagesGallery.jsx';
+import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
+import ImagesGallery from '../../ReusableComponents/ImagesGallery/ImagesGallery';
 
 
 const PhotoGallery = () => {

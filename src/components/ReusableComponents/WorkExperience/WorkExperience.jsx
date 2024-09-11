@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useLanguage } from '../../../LanguageToggler/LanguageContext';
+import { useLanguage } from '../LanguageToggler/LanguageContext';
 
 import * as reusableConstantsEn from '../../../i18n/reusableConstants_en';
 import * as reusableConstantsFr from '../../../i18n/reusableConstants_fr';

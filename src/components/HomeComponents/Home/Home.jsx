@@ -3,12 +3,12 @@ import About from '../About/About';
 import CSProjects from '../CSProjects/CSProjects';
 import FreetimeProjects from '../FreeTimeProjects/FreetimeProjects';
 import Education from '../Education/Education';
-import { useLanguage } from '../../../LanguageToggler/LanguageContext.js';
+import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 import profile from '../../../img/home/pfp.jpg';
 
 import * as homeConstantsEn from '../../../i18n/homeConstants_en';
 import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
-import { LanguageToggler } from '../../../LanguageToggler/LanguageToggler.jsx'
+import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
 
 const Home = () => {
 

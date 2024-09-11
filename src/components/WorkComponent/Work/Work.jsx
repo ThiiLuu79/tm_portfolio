@@ -8,12 +8,12 @@ import ciuss from "../../../img/experiences/ciuss.jpg";
 
 import GetExpTimeString from "../../../utils/time";
 
-import { useLanguage } from '../../../LanguageToggler/LanguageContext';
+import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
 import * as workConstantsEn from '../../../i18n/workConstants_en';
 import * as workConstantsFr from '../../../i18n/workConstants_fr';
 
-import { LanguageToggler } from '../../../LanguageToggler/LanguageToggler.jsx';
+import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
 
 const Work = () => {
 

@@ -11,12 +11,12 @@ import spaceZip from "../../../archives/zip/Space Invaders.zip";
 import Button from "../../ReusableComponents/Button/Button";
 import Project from "../../ReusableComponents/Project/Project";
 
-import { useLanguage } from '../../../LanguageToggler/LanguageContext.js';
+import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
 import * as personnalsConstantsEn from '../../../i18n/personalsConstants_en';
 import * as personnalsConstantsFr from '../../../i18n/personalsConstants_fr';
 
-import { LanguageToggler } from '../../../LanguageToggler/LanguageToggler.jsx';
+import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
 
 const Personals = () => {
 

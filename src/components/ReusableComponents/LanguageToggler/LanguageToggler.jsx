@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from "../components/ReusableComponents/Button/Button";
+import Button from "../Button/Button";
 import { useLanguage } from './LanguageContext';
 
 export const LanguageToggler = () => {

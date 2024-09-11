@@ -15,7 +15,6 @@
 | **/css** | 🖌️ Contains stylesheets for the application. |
 | **/utils** | 🔧 Contains utility JavaScript files. |
 | **/i18n** | 🌐 Contains text files for internationalization. |
-| **/LanguageToggler** | 🗣️ Manages translation and language context. |
 | **App.js** | 🚀 The main application file. |
 | **/components** | 🧩 Contains various React components. |
 

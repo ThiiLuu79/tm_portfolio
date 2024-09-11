@@ -1,6 +1,6 @@
 import * as date_en from '../i18n/dateConstants_en';
 import * as date_fr from '../i18n/dateConstants_fr';
-import { useLanguage } from '../LanguageToggler/LanguageContext';
+import { useLanguage } from '../components/ReusableComponents/LanguageToggler/LanguageContext';
 
 /** 
  * GetExpTimeString : return the working time in string
