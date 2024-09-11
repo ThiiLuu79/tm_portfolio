@@ -46,22 +46,19 @@ const Work = () => {
                 subtitle = {workConstants.WORK_SUBTITLE}
                 image = {cover}
             />
-
             <div>
-
-            <WorkExperience
-                    title={workConstants.INTACT_EXPERIENCE.title}
-                    image={intactImg}
-                    imgAlt={workConstants.INTACT_EXPERIENCE.imgAlt}
-                    company={workConstants.INTACT_EXPERIENCE.company}
-                    companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
-                    location={workConstants.INTACT_EXPERIENCE.location}
-                    workTime={intactExpTimeString}
-                    description={workConstants.INTACT_EXPERIENCE.description}
-                    contributions={workConstants.INTACT_EXPERIENCE.contributions}
-                    tools={workConstants.INTACT_EXPERIENCE.tools}
+                <WorkExperience
+                        title={workConstants.INTACT_EXPERIENCE.title}
+                        image={intactImg}
+                        imgAlt={workConstants.INTACT_EXPERIENCE.imgAlt}
+                        company={workConstants.INTACT_EXPERIENCE.company}
+                        companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
+                        location={workConstants.INTACT_EXPERIENCE.location}
+                        workTime={intactExpTimeString}
+                        description={workConstants.INTACT_EXPERIENCE.description}
+                        contributions={workConstants.INTACT_EXPERIENCE.contributions}
+                        tools={workConstants.INTACT_EXPERIENCE.tools}
                 />
-
                 <WorkExperience
                     title={workConstants.NBC_EXPERIENCE.title}
                     image={nbcImg}
@@ -74,7 +71,6 @@ const Work = () => {
                     contributions={workConstants.NBC_EXPERIENCE.contributions}
                     tools={workConstants.NBC_EXPERIENCE.tools}
                 />
-
                 <WorkExperience
                     title={workConstants.INLIBRO_EXPERIENCE.title}
                     image={inlibro}
@@ -87,7 +83,6 @@ const Work = () => {
                     contributions={workConstants.INLIBRO_EXPERIENCE.contributions}
                     tools={workConstants.INLIBRO_EXPERIENCE.tools}
                 />
-
                 <WorkExperience
                     title={workConstants.CIUSS_EXPERIENCE.title}
                     image={ciuss}
@@ -101,7 +96,6 @@ const Work = () => {
                     tools={workConstants.CIUSS_EXPERIENCE.tools}
                 />
             </div>
-            
         </div>
     )
 }
