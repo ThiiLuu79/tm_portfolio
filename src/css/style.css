@@ -618,6 +618,12 @@ header{
   margin: 5px;
 }
 
+@media (max-width: 760px){
+  .project__container {
+    height:95%;
+  }
+}
+
 .project__box{
   position: absolute;
   bottom: 0;
