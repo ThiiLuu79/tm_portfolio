@@ -16,14 +16,14 @@ const About = () => {
     return (
         <section className="block" id = "about">
             <h2 className = "section__title section__title--block">{homeConstants.ABOUT_TITLE}</h2>
-            <p className = "section__subtitle section__subtitle--block user_country">{homeConstants.ABOUT_LOCATION}</p>
+            <p className = "section__subtitle section__subtitle--block">{homeConstants.ABOUT_LOCATION}</p>
 
             <div>
-                <p className="block__content user_about_p1">{homeConstants.ABOUT_P1}</p>
+                <p>{homeConstants.ABOUT_P1}</p>
                 <br></br>
-                <p className = "user_about_p2">{homeConstants.ABOUT_P2}</p>
+                <p>{homeConstants.ABOUT_P2}</p>
                 <br></br>
-                <p className = "user_about_p3">{homeConstants.ABOUT_P3}</p>
+                <p>{homeConstants.ABOUT_P3}</p>
                 <br></br>
                 <Button text={homeConstants.BUTTON} redirect="/Work" blank={false} noreferrer={false} buttonType='Link'/>
                 <br></br><br></br>
