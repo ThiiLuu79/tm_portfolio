@@ -24,8 +24,6 @@ import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
 import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
 import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
-import ImageModal from '../../ReusableComponents/ImageModal/ImageModal.jsx';
-import ImageClickHandler from '../../ReusableComponents/ImageClickHandler/ImageClickHandler.jsx';
 
 
 const ArtGallery = () => {
@@ -51,7 +49,6 @@ const ArtGallery = () => {
 
     return (
         <div>
-            <ImageClickHandler/>
             <LanguageToggler/>
             <GoBack/>
             <Card
@@ -61,7 +58,6 @@ const ArtGallery = () => {
                 image = {cover}
             />
             <ImagesGallery images={artArray}/>
-            <ImageModal/>
         </div>
     )
 }
