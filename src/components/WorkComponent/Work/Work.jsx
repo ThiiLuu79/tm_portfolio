@@ -1,4 +1,3 @@
-import GoBack from '../../MainComponents/GoBack/GoBack';
 import WorkExperience from "../../ReusableComponents/WorkExperience/WorkExperience";
 import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/experiences/experience.jpg";
@@ -39,7 +38,6 @@ const Work = () => {
     return (
         <div>
             <LanguageToggler/>
-            <GoBack/>
             <Card
                 intro = {workConstants.WORK_INTRODUCTION}
                 title = {workConstants.WORK_PAGE_TITLE}

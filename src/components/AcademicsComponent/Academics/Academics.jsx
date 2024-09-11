@@ -1,4 +1,3 @@
-import GoBack from '../../MainComponents/GoBack/GoBack';
 import Button from "../../ReusableComponents/Button/Button";
 import Project from "../../ReusableComponents/Project/Project";
 import Card from '../../ReusableComponents/Card/Card';
@@ -24,7 +23,6 @@ const Academics = () => {
     return (
         <div>
             <LanguageToggler/>
-            <GoBack/>
             <Card
                 intro = {academicsConstants.ACADEMICS_WELCOME}
                 title = {academicsConstants.ACADEMICS_PROJECT}

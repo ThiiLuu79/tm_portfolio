@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '../../ReusableComponents/Card/Card.jsx';
-import GoBack from '../../MainComponents/GoBack/GoBack';
 import ImagesGallery from '../../ReusableComponents/ImagesGallery/ImagesGallery.jsx';
 import cover from "../../../img/art/art_cover.jpg";
 
@@ -50,7 +49,6 @@ const ArtGallery = () => {
     return (
         <div>
             <LanguageToggler/>
-            <GoBack/>
             <Card
                 intro = {freeTimeConstants.WELCOME_ART}
                 title = {freeTimeConstants.ART_GALLERY}

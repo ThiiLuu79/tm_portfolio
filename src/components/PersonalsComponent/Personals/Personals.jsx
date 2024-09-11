@@ -1,4 +1,3 @@
-import GoBack from '../../MainComponents/GoBack/GoBack';
 import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/personal/html.jpg";
 import cssZenGarden from "../../../img/personal/cssZenGarden.jpg";
@@ -27,7 +26,6 @@ const Personals = () => {
     return (
         <div>
             <LanguageToggler/>
-            <GoBack/>
             <Card
                 intro = {personnalsConstants.PERSONALS_WELCOME}
                 title = {personnalsConstants.PERSONALS_PROJECT}

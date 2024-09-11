@@ -1,6 +1,5 @@
 import React from 'react';
 import Card from '../../ReusableComponents/Card/Card.jsx';
-import GoBack from '../../MainComponents/GoBack/GoBack';
 
 import cover from "../../../img/photography/photo16.JPG";
 
@@ -82,7 +81,6 @@ const PhotoGallery = () => {
     return (
         <div>
             <LanguageToggler/>
-            <GoBack/>
             <Card
                 intro = {freeTimeConstants.WELCOME_PHOTO}
                 title = {freeTimeConstants.PHOTO_GALLERY}
