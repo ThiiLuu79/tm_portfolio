@@ -40,12 +40,44 @@ import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
 import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
 import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
+import ImageGallery from '../../ReusableComponents/ImageGallery/ImageGallery.jsx';
 
 
 const PhotoGallery = () => {
 
     const { language } = useLanguage();
     const freeTimeConstants = language === 'en' ? freeTimeConstantsEn : freeTimeConstantsFr;
+
+    const photoArray = [
+        {src: p1, alt: 'p1'},
+        {src: p2, alt: 'p2'},
+        {src: p3, alt: 'p3'},
+        {src: p4, alt: 'p4'},
+        {src: p5, alt: 'p5'},
+        {src: p6, alt: 'p6'},
+        {src: p7, alt: 'p7'},
+        {src: p8, alt: 'p8'},
+        {src: p9, alt: 'p9'},
+        {src: p10, alt: 'p10'},
+        {src: p11, alt: 'p11'},
+        {src: p12, alt: 'p12'},
+        {src: p13, alt: 'p13'},
+        {src: p15, alt: 'p15'},
+        {src: p16, alt: 'p16'},
+        {src: p18, alt: 'p18'},
+        {src: p19, alt: 'p19'},
+        {src: p20, alt: 'p20'},
+        {src: p21, alt: 'p21'},
+        {src: p22, alt: 'p22'},
+        {src: p23, alt: 'p23'},
+        {src: p25, alt: 'p25'},
+        {src: p26, alt: 'p26'},
+        {src: p27, alt: 'p27'},
+        {src: p28, alt: 'p28'},
+        {src: p30, alt: 'p30'},
+        {src: p33, alt: 'p33'},
+        {src: p34, alt: 'p34'},
+    ]
 
     useEffect(() => {
         // JavaScript function to handle click events
@@ -87,46 +119,8 @@ const PhotoGallery = () => {
                 image = {cover}
             />
 
-            <div className="photo_container">
-                <img className="collection__img" src={p1}alt='p'/>
-                <img className="collection__img" src={p2}alt='p'/>
-                <img className="collection__img" src={p3}alt='p'/>
-                <img className="collection__img" src={p4}alt='p'/>
-                <img className="collection__img" src={p5}alt='p'/>
-                <img className="collection__img" src={p6}alt='p'/>
-                <img className="collection__img" src={p7}alt='p'/>
-                <img className="collection__img" src={p8}alt='p'/>
-                <img className="collection__img" src={p9}alt='p'/>
-                <img className="collection__img" src={p10} alt='p'/>
-                <img className="collection__img" src={p11} alt='p'/>
-                <img className="collection__img" src={p12} alt='p'/>
-                <img className="collection__img" src={p13} alt='p'/>
-                <img className="collection__img" src={p15} alt='p'/>
-                <img className="collection__img" src={p16} alt='p'/>
-                <img className="collection__img" src={p18} alt='p'/>
-                <img className="collection__img" src={p19} alt='p'/>
-                <img className="collection__img" src={p20} alt='p'/>
-                <img className="collection__img" src={p21} alt='p'/>
-                <img className="collection__img" src={p22} alt='p'/>
-                <img className="collection__img" src={p23} alt='p'/>
-                <img className="collection__img" src={p25} alt='p'/>
-                <img className="collection__img" src={p26} alt='p'/>
-                <img className="collection__img" src={p27} alt='p'/>
-                <img className="collection__img" src={p28} alt='p'/>
-                <img className="collection__img" src={p30} alt='p'/>
-                <img className="collection__img" src={p33} alt='p'/>
-                <img className="collection__img" src={p34} alt='p'/>
-            </div>
+            <ImageGallery images={photoArray}/>
 
-            <div className="wrapper">
-                <a href="https://www.instagram.com/thiiluu.jpg/" target="_blank" rel="noreferrer">
-                <div className="icon instagram">
-                    <div className="tooltip">{freeTimeConstants.PHOTO_INSTA}</div>
-                    <span><i className="fab fa-instagram"></i></span>
-                </div>
-                </a>
-            </div>
-    
             <div id="myModal" className="modal">
                 <span className="close">&times;</span>
                 <img className="modal-content" id="modal_img" alt='modal'/>

@@ -675,7 +675,7 @@ header{
 /*PROJECT ITEM*/
 
 /*ART PAGE*/
-.art__container,.certificates_container, .photo_container{
+.photo_container{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
   gap:10px;
@@ -684,15 +684,15 @@ header{
 }
 
 @media (max-width: 760px){
-  .art__container,.certificates_container, .photo_container{
+  .photo_container{
     margin:0;
   }
-  .collection__img,.certificate{
+  .collection__img{
     height: unset;
   }
 }
 
-.collection__img,.collection__img{
+.collection__img{
   box-shadow: none;
   transition: ease-out 0.2s;
 }
@@ -761,10 +761,6 @@ header{
     .modal-content {
         width: 100%;
     }
-}
-
-.art_gallery_link {
-  margin: 20px;
 }
 /*ART PAGE*/
 
@@ -871,10 +867,6 @@ header{
 .copyright {
   padding: 25px;
 }
-/*
-    Auther: Abdelrhman Said
-*/
-
 
 * {
   margin: 0;

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Card from '../../ReusableComponents/Card/Card';
 import GoBack from '../../MainComponents/GoBack/GoBack';
-
+import ImageGallery from '../../ReusableComponents/ImageGallery/ImageGallery.jsx';
 import cover from "../../../img/art/art_cover.jpg";
 
 import p1 from "../../../img/art/art01.jpg";
@@ -30,6 +30,22 @@ const ArtGallery = () => {
 
     const { language } = useLanguage();
     const freeTimeConstants = language === 'en' ? freeTimeConstantsEn : freeTimeConstantsFr;
+
+    const artArray = [
+        {src: p1, alt: 'p1'},
+        {src: p2, alt: 'p2'},
+        {src: p3, alt: 'p3'},
+        {src: p4, alt: 'p4'},
+        {src: p5, alt: 'p5'},
+        {src: p6, alt: 'p6'},
+        {src: p7, alt: 'p7'},
+        {src: p8, alt: 'p8'},
+        {src: p9, alt: 'p9'},
+        {src: p10, alt: 'p10'},
+        {src: p11, alt: 'p11'},
+        {src: p12, alt: 'p12'},
+        {src: p13, alt: 'p13'},
+    ];
 
     useEffect(() => {
         // JavaScript function to handle click events
@@ -71,30 +87,7 @@ const ArtGallery = () => {
                 image = {cover}
             />
 
-            <div className="art__container">       
-                <div className="art__item"><img src={p1} alt="shinobu drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p2} alt="snake lady drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p3} alt="bird lady drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p4} alt="fairy girl drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p5} alt="dragin drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p6} alt="miyeon drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p7} alt="ying yang fish drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p8} alt="japanese lady drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p9} alt="maleficient drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p10} alt="fish girl drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p11} alt="ghost lady drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p12} alt="scary faces drawing" className="collection__img"/></div>
-                <div className="art__item"><img src={p13} alt="dragon lady drawing" className="collection__img"/></div>
-            </div>
-
-            <div className="wrapper">
-                    <a href="https://www.instagram.com/thiiluu.art/" target="_blank" rel="noreferrer">
-                    <div className="icon instagram">
-                        <div className="tooltip">{freeTimeConstants.PHOTO_INSTA}</div>
-                        <span><i className="fab fa-instagram"></i></span>
-                    </div>
-                    </a>
-            </div>
+            <ImageGallery images={artArray}/>
 
             <div id="myModal" className="modal">
                 <span className="close">&times;</span>
