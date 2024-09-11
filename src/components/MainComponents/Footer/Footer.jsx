@@ -1,4 +1,4 @@
-import { useLanguage } from '../../../LanguageContext/languageContext.js';
+import { useLanguage } from '../../../LanguageToggler/LanguageContext.js';
 
 import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
 import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';

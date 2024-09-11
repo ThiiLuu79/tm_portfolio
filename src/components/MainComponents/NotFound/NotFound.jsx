@@ -1,12 +1,12 @@
 import GoBack from '../GoBack/GoBack.jsx';
 import {Link} from 'react-router-dom';
 
-import { useLanguage } from '../../../LanguageContext/languageContext.js';
+import { useLanguage } from '../../../LanguageToggler/LanguageContext.js';
 
 import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
 import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';
 
-import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
+import { LanguageToggler } from '../../../LanguageToggler/LanguageToggler.jsx';
 
 const NotFound = () => {
 

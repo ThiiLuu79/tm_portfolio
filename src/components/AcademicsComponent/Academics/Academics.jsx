@@ -8,12 +8,12 @@ import huffman from "../../../img/academic/huffman.png";
 import chain from "../../../img/academic/chain.jpg";
 import opac from "../../../img/academic/CSJV.jpg";
 
-import { useLanguage } from '../../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageToggler/LanguageContext.js';
 
 import * as academicsConstantsEn from '../../../i18n/academicsConstants_en';
 import * as academicsConstantsFr from '../../../i18n/academicsConstants_fr';
 
-import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
+import { LanguageToggler } from '../../../LanguageToggler/LanguageToggler.jsx';
 
 const Academics = () => {
 

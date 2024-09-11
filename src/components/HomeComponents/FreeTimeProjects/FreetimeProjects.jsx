@@ -3,7 +3,7 @@ import photos from "../../../img/photography/photo5.JPG";
 
 import ScrollToTopOnLoad from "../../MainComponents/ScrollToTopOnLoad/ScrollToTopOnLoad";
 
-import { useLanguage } from '../../../LanguageContext/languageContext';
+import { useLanguage } from '../../../LanguageToggler/LanguageContext';
 
 import * as homeConstantsEn from '../../../i18n/homeConstants_en';
 import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
