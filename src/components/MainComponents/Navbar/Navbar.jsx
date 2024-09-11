@@ -25,7 +25,7 @@ const Navbar = () => {
       element.addEventListener('click', toggleNavbar);
     });
 
-    document.querySelectorAll('.nav__link, .dropdown_link').forEach(element => {
+    document.querySelectorAll('.nav__link').forEach(element => {
       element.addEventListener('click', handleNavbarToggle);
     });
 

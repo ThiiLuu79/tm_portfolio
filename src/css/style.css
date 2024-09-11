@@ -269,25 +269,6 @@ header{
   opacity: 0;
 }
 
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-}
-
-.button {
-    /* Center the content */
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    background: none;
-    border: none;
-    /* Spacing */
-    padding: 8px;
-    margin-left:10px;
-}
-
 .button__arrow {
   position: relative;
   width: 25px;
@@ -304,108 +285,11 @@ header{
   transition: ease-out 0.2s;
 }
 
-.button__arrow::before {
-  content: '';
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  border-right: 2px solid var(--clr-accent);
-  border-top: 2px solid var(--clr-accent);
-}
-
 .button__arrow:hover {
   cursor: pointer;
   background-color: var(--clr-partial-light);
 }
 
-/* Dropdown Content (Hidden by Default) */
-
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes slideUp {
-  from {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  to {
-    opacity: 0;
-    transform: translateY(-20px);
-  }
-}
-
-.dropdown-content {
-  display: none;
-  border: 2px solid var(--clr-accent);
-  text-align: center;
-  justify-content: center;
-  min-width: 160px;
-  z-index: 1;
-  position: absolute;
-  top: 100%;
-  transform: translateX(-50%);
-  width: auto;
-  max-width: 300px;
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-}
-
-.dropdown-content.show {
-  animation: slideDown 0.3s forwards;
-}
-
-.dropdown-content.hide {
-  animation: slideUp 0.3s forwards;
-  animation-fill-mode: forwards;
-}
-
-.dropdown-content a{
-  background: linear-gradient(to right, var(--clr-accent) 50%, var(--clr-dark) 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  color:white;
-  text-decoration: none;
-  border: 0 solid var(--clr-accent);
-  height:100%;
-  width: 100%;
-  padding: 10px;
-  transition: background-position 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-.dropdown-content a:hover {
-  background-position: left bottom;
-  background-color: var(--clr-partial-dark)
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-  display: flex;
-  flex-direction: column;
-  position:absolute;
-  top: 55%;
-}
-
-.hide {
-  animation: slideUp 0.3s forwards;
-  animation-fill-mode: forwards;
-}
-
-.drop_pro{
-  top: 55%;
-}
-
-.drop_exp {
-  top: 35%;
-}
 /*NAVIGATION MENU*/
 
 /*INTRO*/
