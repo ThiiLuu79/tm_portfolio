@@ -1,7 +1,7 @@
-import React, { useEffect } from 'react';
-import Card from '../../ReusableComponents/Card/Card';
+import React from 'react';
+import Card from '../../ReusableComponents/Card/Card.jsx';
 import GoBack from '../../MainComponents/GoBack/GoBack';
-import ImageGallery from '../../ReusableComponents/ImageGallery/ImageGallery.jsx';
+import ImagesGallery from '../../ReusableComponents/ImagesGallery/ImagesGallery.jsx';
 import cover from "../../../img/art/art_cover.jpg";
 
 import p1 from "../../../img/art/art01.jpg";
@@ -24,6 +24,8 @@ import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
 import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
 import { LanguageToggler } from '../../../LanguageContext/languageToggler.jsx';
+import ImageModal from '../../ReusableComponents/ImageModal/ImageModal.jsx';
+import ImageClickHandler from '../../ReusableComponents/ImageClickHandler/ImageClickHandler.jsx';
 
 
 const ArtGallery = () => {
@@ -47,37 +49,9 @@ const ArtGallery = () => {
         {src: p13, alt: 'p13'},
     ];
 
-    useEffect(() => {
-        // JavaScript function to handle click events
-        function handleImageClick() {
-            document.getElementById('myModal').style.display = "block";
-            document.getElementById('modal_img').src = this.src;
-        }
-
-        function handleCloseClick() {
-            document.getElementById('myModal').style.display = "none";
-        }
-
-        // Add click event listeners to all images
-        var collectionImages = document.querySelectorAll('.collection__img');
-        collectionImages.forEach(function(image) {
-            image.addEventListener('click', handleImageClick);
-        });
-
-        // Add click event listener to the close button
-        document.querySelector('.close').addEventListener('click', handleCloseClick);
-
-        // Clean up function to remove event listeners when component unmounts
-        return () => {
-            collectionImages.forEach(function(image) {
-                image.removeEventListener('click', handleImageClick);
-            });
-            
-        };
-    }, []);
-
     return (
         <div>
+            <ImageClickHandler/>
             <LanguageToggler/>
             <GoBack/>
             <Card
@@ -86,14 +60,8 @@ const ArtGallery = () => {
                 subtitle = {freeTimeConstants.ART_PROJECT}
                 image = {cover}
             />
-
-            <ImageGallery images={artArray}/>
-
-            <div id="myModal" className="modal">
-                <span className="close">&times;</span>
-                <img className="modal-content" id="modal_img" alt='modal'/>
-            </div>
-
+            <ImagesGallery images={artArray}/>
+            <ImageModal/>
         </div>
     )
 }
