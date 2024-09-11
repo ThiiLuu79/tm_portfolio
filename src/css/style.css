@@ -357,10 +357,6 @@ header{
   margin: 20px 0 20px 0;
 }
 
-.cont-title, .tools{
-  text-decoration: underline;
-}
-
 .cont, .tool-list{
   padding-left: 50px;
 }
@@ -790,7 +786,7 @@ header{
 
 .tm_button:hover {
   background-position: left bottom;
-  background-color: var(--clr-partial-dark)
+  background-color: var(--clr-partial-dark);
 }
 
 .btn__link{

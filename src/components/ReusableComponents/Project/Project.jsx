@@ -21,7 +21,7 @@ const Project = ({ title, period, description, contributions, workTime, tools, i
                 </p>
                 <br></br>
 
-                <p className="cont-title">{reusableConstants.CONTRIBUTIONS}</p>
+                <b><p>{reusableConstants.CONTRIBUTIONS}</p></b>
                 <ul className="cont">
                     {contributions.map((contribution) => (
                     <li key={contribution}>{contribution}</li>
