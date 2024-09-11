@@ -48,16 +48,16 @@ const Work = () => {
             />
             <div>
                 <WorkExperience
-                        title={workConstants.INTACT_EXPERIENCE.title}
-                        image={intactImg}
-                        imgAlt={workConstants.INTACT_EXPERIENCE.imgAlt}
-                        company={workConstants.INTACT_EXPERIENCE.company}
-                        companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
-                        location={workConstants.INTACT_EXPERIENCE.location}
-                        workTime={intactExpTimeString}
-                        description={workConstants.INTACT_EXPERIENCE.description}
-                        contributions={workConstants.INTACT_EXPERIENCE.contributions}
-                        tools={workConstants.INTACT_EXPERIENCE.tools}
+                    title={workConstants.INTACT_EXPERIENCE.title}
+                    image={intactImg}
+                    imgAlt={workConstants.INTACT_EXPERIENCE.imgAlt}
+                    company={workConstants.INTACT_EXPERIENCE.company}
+                    companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
+                    location={workConstants.INTACT_EXPERIENCE.location}
+                    workTime={intactExpTimeString}
+                    description={workConstants.INTACT_EXPERIENCE.description}
+                    contributions={workConstants.INTACT_EXPERIENCE.contributions}
+                    tools={workConstants.INTACT_EXPERIENCE.tools}
                 />
                 <WorkExperience
                     title={workConstants.NBC_EXPERIENCE.title}
