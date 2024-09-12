@@ -9,7 +9,7 @@ import carZip from "../../../archives/zip/Car Crash.zip";
 import spaceZip from "../../../archives/zip/Space Invaders.zip";
 
 import Button from "../../ReusableComponents/Button/Button";
-import Project from "../../ReusableComponents/Project/Project";
+import PageItem from "../../ReusableComponents/PageItem/PageItem";
 
 import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
@@ -32,7 +32,7 @@ const Personals = () => {
 
             <div>
 
-                <Project
+                <PageItem
                     title={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.title}
                     period={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.period}
                     description= {personnalsConstants.CSS_ZEN_GARDEN_PROJECT.description}
@@ -45,7 +45,7 @@ const Personals = () => {
                     buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
                 />
 
-                <Project
+                <PageItem
                     title= {personnalsConstants.PYGAMES_PROJECT.title}
                     period= {personnalsConstants.PYGAMES_PROJECT.period}
                     description= {personnalsConstants.PYGAMES_PROJECT.description}
@@ -60,7 +60,7 @@ const Personals = () => {
                                 <Button key="button3" text="Space Invaders (.zip)" redirect={spaceZip} buttonType='Download'/>]}
                 />
                 
-                <Project
+                <PageItem
                     title={personnalsConstants.TITITEA_PROJECT.title}
                     period={personnalsConstants.TITITEA_PROJECT.period}
                     description= {personnalsConstants.TITITEA_PROJECT.description}

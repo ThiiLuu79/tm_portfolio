@@ -6,7 +6,7 @@ import * as reusableConstantsEn from '../../../i18n/reusableConstants_en';
 import * as reusableConstantsFr from '../../../i18n/reusableConstants_fr';
 
 
-const Project = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons, projectType, companyLink, company, location }) => {
+const PageItem = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons, itemType, companyLink, company, location }) => {
 
     const { language } = useLanguage();
     const reusableConstants = language === 'en' ? reusableConstantsEn : reusableConstantsFr;
@@ -15,7 +15,7 @@ const Project = ({ title, period, description, contributions, workTime, tools, i
         <section className="block project__item">
             <h2 className = "section__title section__title--block">{title}</h2>
             <p className = "section__subtitle section__subtitle--block">{period}</p>
-            {projectType === 'work' && (
+            {itemType === 'work' && (
                     <div>
                         <h4><a href={companyLink} target="_blank" rel="noreferrer">{company}</a> - {location}</h4>
                     </div>
@@ -34,7 +34,7 @@ const Project = ({ title, period, description, contributions, workTime, tools, i
                 </ul>
 
                 <br></br>
-                {projectType !== 'work' && (
+                {itemType !== 'work' && (
                     <div>
                         <h4>{reusableConstants.WORK_TIME} {workTime}</h4>
                         <ul style={{listStyleType:"none"}}>
@@ -62,4 +62,4 @@ const Project = ({ title, period, description, contributions, workTime, tools, i
     )
 };
 
-export default Project;
+export default PageItem;

@@ -11,7 +11,7 @@ import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageCo
 
 import * as workConstantsEn from '../../../i18n/workConstants_en';
 import * as workConstantsFr from '../../../i18n/workConstants_fr';
-import Project from "../../ReusableComponents/Project/Project";
+import PageItem from "../../ReusableComponents/PageItem/PageItem";
 
 
 const Work = () => {
@@ -43,7 +43,7 @@ const Work = () => {
                 image = {cover}
             />
             <div>
-                <Project
+                <PageItem
                     title={workConstants.INTACT_EXPERIENCE.title}
                     period={intactExpTimeString}
                     description= {workConstants.INTACT_EXPERIENCE.description}
@@ -56,7 +56,7 @@ const Work = () => {
                     company={workConstants.INTACT_EXPERIENCE.company}
                     location={workConstants.INTACT_EXPERIENCE.location}
                 />
-                <Project
+                <PageItem
                     title={workConstants.NBC_EXPERIENCE.title}
                     period={nbcExpTimeString}
                     description={workConstants.NBC_EXPERIENCE.description}
@@ -69,7 +69,7 @@ const Work = () => {
                     company={workConstants.NBC_EXPERIENCE.company}
                     location={workConstants.NBC_EXPERIENCE.location}
                 />
-                <Project
+                <PageItem
                     title={workConstants.INLIBRO_EXPERIENCE.title}
                     period={inlibroExpTimeString}
                     description={workConstants.INLIBRO_EXPERIENCE.description}
@@ -82,7 +82,7 @@ const Work = () => {
                     company={workConstants.INLIBRO_EXPERIENCE.company}
                     location={workConstants.INLIBRO_EXPERIENCE.location}
                 />
-                <Project
+                <PageItem
                     title={workConstants.CIUSS_EXPERIENCE.title}
                     period={ciussExpTimeString}
                     description={workConstants.CIUSS_EXPERIENCE.description}

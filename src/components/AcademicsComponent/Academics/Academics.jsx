@@ -1,5 +1,5 @@
 import Button from "../../ReusableComponents/Button/Button";
-import Project from "../../ReusableComponents/Project/Project";
+import PageItem from "../../ReusableComponents/PageItem/PageItem";
 import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/academic/spCover.jpg";
 import webflix from "../../../img/academic/webflix.png";
@@ -29,7 +29,7 @@ const Academics = () => {
             
             <div>
 
-                <Project
+                <PageItem
                     title={academicsConstants.WEBFLIX_PROJECT.title}
                     period={academicsConstants.WEBFLIX_PROJECT.period}
                     description= {academicsConstants.WEBFLIX_PROJECT.description}
@@ -43,7 +43,7 @@ const Academics = () => {
                 />
 
                 
-                <Project
+                <PageItem
                     title={academicsConstants.PUSHERS_PROJECT.title}
                     period={academicsConstants.PUSHERS_PROJECT.period}
                     description= {academicsConstants.PUSHERS_PROJECT.description}
@@ -56,7 +56,7 @@ const Academics = () => {
                     buttons={[]}
                 />
 
-                <Project
+                <PageItem
                     title={academicsConstants.HUFFMAN_PROJECT.title}
                     period={academicsConstants.HUFFMAN_PROJECT.period}
                     description= {academicsConstants.HUFFMAN_PROJECT.description}
@@ -69,7 +69,7 @@ const Academics = () => {
                     buttons={[]}
                 />
 
-                <Project
+                <PageItem
                     title={academicsConstants.CHAIN_PROJECT.title}
                     period={academicsConstants.CHAIN_PROJECT.period}
                     description= {academicsConstants.CHAIN_PROJECT.description}
@@ -82,7 +82,7 @@ const Academics = () => {
                     buttons={[]}
                 />
 
-                <Project
+                <PageItem
                     title={academicsConstants.KOHA_PROJECT.title}
                     period={academicsConstants.KOHA_PROJECT.period}
                     description= {academicsConstants.KOHA_PROJECT.description}
