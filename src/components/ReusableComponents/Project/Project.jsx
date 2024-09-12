@@ -6,7 +6,7 @@ import * as reusableConstantsEn from '../../../i18n/reusableConstants_en';
 import * as reusableConstantsFr from '../../../i18n/reusableConstants_fr';
 
 
-const Project = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons }) => {
+const Project = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons, projectType, companyLink, company, location }) => {
 
     const { language } = useLanguage();
     const reusableConstants = language === 'en' ? reusableConstantsEn : reusableConstantsFr;
@@ -15,6 +15,11 @@ const Project = ({ title, period, description, contributions, workTime, tools, i
         <section className="block project__item">
             <h2 className = "section__title section__title--block">{title}</h2>
             <p className = "section__subtitle section__subtitle--block">{period}</p>
+            {projectType === 'work' && (
+                    <div>
+                        <h4><a href={companyLink} target="_blank" rel="noreferrer">{company}</a> - {location}</h4>
+                    </div>
+            )}
 
             <div>
                 <p>{description}
@@ -29,15 +34,19 @@ const Project = ({ title, period, description, contributions, workTime, tools, i
                 </ul>
 
                 <br></br>
-                <h4>{reusableConstants.WORK_TIME} {workTime}</h4>
-                <ul style={{listStyleType:"none"}}>
-                    {grades.map((grade) => (
-                    <b key={grade}><li>{grade}</li></b>
-                    ))}
-                </ul>
+                {projectType !== 'work' && (
+                    <div>
+                        <h4>{reusableConstants.WORK_TIME} {workTime}</h4>
+                        <ul style={{listStyleType:"none"}}>
+                        {grades.map((grade) => (
+                            <b key={grade}><li>{grade}</li></b>
+                        ))}
+                        </ul>
+                    </div>
+                )}
                 <br/>
-                <h4>{reusableConstants.SKILLS}</h4>
-                <ul style={{listStyleType:"none"}}>
+                <h4>{reusableConstants.TOOLS}</h4>
+                <ul className="tool-list">
                     {tools.map((tool) => (
                         <li key={tool}>{tool}</li>
                     ))}

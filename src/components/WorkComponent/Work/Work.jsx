@@ -1,4 +1,3 @@
-import WorkExperience from "../../ReusableComponents/WorkExperience/WorkExperience";
 import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/experiences/experience.jpg";
 import intactImg from "../../../img/experiences/intact.png";
@@ -12,6 +11,7 @@ import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageCo
 
 import * as workConstantsEn from '../../../i18n/workConstants_en';
 import * as workConstantsFr from '../../../i18n/workConstants_fr';
+import Project from "../../ReusableComponents/Project/Project";
 
 
 const Work = () => {
@@ -43,53 +43,57 @@ const Work = () => {
                 image = {cover}
             />
             <div>
-                <WorkExperience
+                <Project
                     title={workConstants.INTACT_EXPERIENCE.title}
-                    image={intactImg}
-                    imgAlt={workConstants.INTACT_EXPERIENCE.imgAlt}
-                    company={workConstants.INTACT_EXPERIENCE.company}
-                    companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
-                    location={workConstants.INTACT_EXPERIENCE.location}
-                    workTime={intactExpTimeString}
-                    description={workConstants.INTACT_EXPERIENCE.description}
+                    period={intactExpTimeString}
+                    description= {workConstants.INTACT_EXPERIENCE.description}
                     contributions={workConstants.INTACT_EXPERIENCE.contributions}
                     tools={workConstants.INTACT_EXPERIENCE.tools}
+                    image={intactImg}
+                    imgAlt={workConstants.INTACT_EXPERIENCE.imgAlt}
+                    projectType={"work"}
+                    companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
+                    company={workConstants.INTACT_EXPERIENCE.company}
+                    location={workConstants.INTACT_EXPERIENCE.location}
                 />
-                <WorkExperience
+                <Project
                     title={workConstants.NBC_EXPERIENCE.title}
-                    image={nbcImg}
-                    imgAlt={workConstants.NBC_EXPERIENCE.imgAlt}
-                    company={workConstants.NBC_EXPERIENCE.company}
-                    companyLink={workConstants.NBC_EXPERIENCE.companyLink}
-                    location={workConstants.NBC_EXPERIENCE.location}
-                    workTime={nbcExpTimeString}
+                    period={nbcExpTimeString}
                     description={workConstants.NBC_EXPERIENCE.description}
                     contributions={workConstants.NBC_EXPERIENCE.contributions}
                     tools={workConstants.NBC_EXPERIENCE.tools}
+                    image={nbcImg}
+                    imgAlt={workConstants.NBC_EXPERIENCE.imgAlt}
+                    projectType={"work"}
+                    companyLink={workConstants.NBC_EXPERIENCE.companyLink}
+                    company={workConstants.NBC_EXPERIENCE.company}
+                    location={workConstants.NBC_EXPERIENCE.location}
                 />
-                <WorkExperience
+                <Project
                     title={workConstants.INLIBRO_EXPERIENCE.title}
-                    image={inlibro}
-                    imgAlt={workConstants.INLIBRO_EXPERIENCE.imgAlt}
-                    company={workConstants.INLIBRO_EXPERIENCE.company}
-                    companyLink={workConstants.INLIBRO_EXPERIENCE.companyLink}
-                    location={workConstants.INLIBRO_EXPERIENCE.location}
-                    workTime={inlibroExpTimeString}
+                    period={inlibroExpTimeString}
                     description={workConstants.INLIBRO_EXPERIENCE.description}
                     contributions={workConstants.INLIBRO_EXPERIENCE.contributions}
                     tools={workConstants.INLIBRO_EXPERIENCE.tools}
+                    image={inlibro}
+                    imgAlt={workConstants.INLIBRO_EXPERIENCE.imgAlt}
+                    projectType={"work"}
+                    companyLink={workConstants.INLIBRO_EXPERIENCE.companyLink}
+                    company={workConstants.INLIBRO_EXPERIENCE.company}
+                    location={workConstants.INLIBRO_EXPERIENCE.location}
                 />
-                <WorkExperience
+                <Project
                     title={workConstants.CIUSS_EXPERIENCE.title}
-                    image={ciuss}
-                    imgAlt={workConstants.CIUSS_EXPERIENCE.imgAlt}
-                    company={workConstants.CIUSS_EXPERIENCE.company}
-                    companyLink={workConstants.CIUSS_EXPERIENCE.companyLink}
-                    location={workConstants.CIUSS_EXPERIENCE.location}
-                    workTime={ciussExpTimeString}
+                    period={ciussExpTimeString}
                     description={workConstants.CIUSS_EXPERIENCE.description}
                     contributions={workConstants.CIUSS_EXPERIENCE.contributions}
                     tools={workConstants.CIUSS_EXPERIENCE.tools}
+                    image={ciuss}
+                    imgAlt={workConstants.CIUSS_EXPERIENCE.imgAlt}
+                    projectType={"work"}
+                    companyLink={workConstants.CIUSS_EXPERIENCE.companyLink}
+                    company={workConstants.CIUSS_EXPERIENCE.company}
+                    location={workConstants.CIUSS_EXPERIENCE.location}
                 />
             </div>
         </div>
