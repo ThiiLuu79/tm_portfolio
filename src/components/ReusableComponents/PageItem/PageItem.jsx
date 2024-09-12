@@ -6,7 +6,7 @@ import * as reusableConstantsEn from '../../../i18n/reusableConstants_en';
 import * as reusableConstantsFr from '../../../i18n/reusableConstants_fr';
 
 
-const PageItem = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons, itemType, companyLink, company, location }) => {
+const PageItem = ({ title, period, description, contributions, workTime, tools, image, imgAlt, grades, buttons, itemType, companyLink, company, location, linkedinPost }) => {
 
     const { language } = useLanguage();
     const reusableConstants = language === 'en' ? reusableConstantsEn : reusableConstantsFr;
@@ -51,6 +51,12 @@ const PageItem = ({ title, period, description, contributions, workTime, tools, 
                         <li key={tool}>{tool}</li>
                     ))}
                 </ul>
+                <br/>
+                {itemType === 'work' && linkedinPost && (
+                    <div>
+                        <h4><a href={linkedinPost} target="_blank" rel="noreferrer">{reusableConstants.LEARN_MORE}</a></h4>
+                    </div>
+                )}
                 <br></br>
             </div>
             <div className="project__buttons">
