@@ -772,13 +772,15 @@ header{
   font-size: 18px;
   color: var(--clr-very-very-dark);
   text-align: center;
-  padding: 40px;
-  margin: 120px auto;
+  padding: 5em;
+  margin: 6em auto;
   background-color: var(--clr-light);
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 70%;
-  max-width: 600px;
+}
+
+.not_found_container{
+  padding: 2em;
 }
 /*Page not found*/
 
