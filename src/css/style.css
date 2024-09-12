@@ -18,7 +18,9 @@ header{
 }
 
 .tm_logo {
+  position: relative;
   width: 70px;
+  top: 0.3em;
 }
 
 @media (max-width: 760px){
@@ -130,7 +132,7 @@ header{
 
 @media (max-width: 760px){
   .translator{
-    top: 0.2em;
+    top: 0.01em;
   }
 }
 
@@ -185,7 +187,7 @@ header{
 
 @media (max-width: 760px){
   .nav-toggle{
-    top: 1.5em;
+    top: 1.3em;
   }
 }
 
