@@ -10,7 +10,7 @@ import Personals from './components/PersonalsComponent/Personals/Personals';
 import ArtGallery from './components/ArtGalleryComponent/ArtGallery/ArtGallery';
 import PhotoGallery from './components/PhotoGalleryComponent/PhotoGallery/PhotoGallery';
 import Footer from './components/MainComponents/Footer/Footer';
-import NotFound from './components/MainComponents/NotFound/NotFound';
+import NotFound from './components/NotFoundComponent/NotFound/NotFound';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
