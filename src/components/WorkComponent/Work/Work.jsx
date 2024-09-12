@@ -51,7 +51,7 @@ const Work = () => {
                     tools={workConstants.INTACT_EXPERIENCE.tools}
                     image={intactImg}
                     imgAlt={workConstants.INTACT_EXPERIENCE.imgAlt}
-                    projectType={"work"}
+                    itemType={"work"}
                     companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
                     company={workConstants.INTACT_EXPERIENCE.company}
                     location={workConstants.INTACT_EXPERIENCE.location}
@@ -64,7 +64,7 @@ const Work = () => {
                     tools={workConstants.NBC_EXPERIENCE.tools}
                     image={nbcImg}
                     imgAlt={workConstants.NBC_EXPERIENCE.imgAlt}
-                    projectType={"work"}
+                    itemType={"work"}
                     companyLink={workConstants.NBC_EXPERIENCE.companyLink}
                     company={workConstants.NBC_EXPERIENCE.company}
                     location={workConstants.NBC_EXPERIENCE.location}
@@ -77,7 +77,7 @@ const Work = () => {
                     tools={workConstants.INLIBRO_EXPERIENCE.tools}
                     image={inlibro}
                     imgAlt={workConstants.INLIBRO_EXPERIENCE.imgAlt}
-                    projectType={"work"}
+                    itemType={"work"}
                     companyLink={workConstants.INLIBRO_EXPERIENCE.companyLink}
                     company={workConstants.INLIBRO_EXPERIENCE.company}
                     location={workConstants.INLIBRO_EXPERIENCE.location}
@@ -90,7 +90,7 @@ const Work = () => {
                     tools={workConstants.CIUSS_EXPERIENCE.tools}
                     image={ciuss}
                     imgAlt={workConstants.CIUSS_EXPERIENCE.imgAlt}
-                    projectType={"work"}
+                    itemType={"work"}
                     companyLink={workConstants.CIUSS_EXPERIENCE.companyLink}
                     company={workConstants.CIUSS_EXPERIENCE.company}
                     location={workConstants.CIUSS_EXPERIENCE.location}
