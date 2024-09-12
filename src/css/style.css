@@ -74,15 +74,6 @@ header{
   z-index: 99;
 }
 
-
-@media (max-width: 1111px){
-  .go_back_container{
-    position: sticky;
-    margin-top: 10px;
-    top: 40px;
-  }
-}
-
 .go__back .button__arrow {
   transform: rotate(-135deg);
 }
