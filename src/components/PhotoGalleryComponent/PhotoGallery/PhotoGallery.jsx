@@ -38,7 +38,6 @@ import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageCo
 import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
 import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
-import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
 import ImagesGallery from '../../ReusableComponents/ImagesGallery/ImagesGallery';
 
 
@@ -80,7 +79,6 @@ const PhotoGallery = () => {
 
     return (
         <div>
-            <LanguageToggler/>
             <Card
                 intro = {freeTimeConstants.WELCOME_PHOTO}
                 title = {freeTimeConstants.PHOTO_GALLERY}

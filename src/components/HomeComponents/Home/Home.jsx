@@ -8,7 +8,6 @@ import profile from '../../../img/home/pfp.jpg';
 
 import * as homeConstantsEn from '../../../i18n/homeConstants_en';
 import * as homeConstantsFr from '../../../i18n/homeConstants_fr';
-import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
 
 const Home = () => {
 
@@ -17,7 +16,6 @@ const Home = () => {
 
     return (
         <div>
-            <LanguageToggler/>
             <Card
                 intro = {homeConstants.INTRODUCTION}
                 title = {homeConstants.MY_NAME}

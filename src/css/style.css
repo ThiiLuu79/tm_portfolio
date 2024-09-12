@@ -9,9 +9,12 @@
 
 /*HEADER*/
 header{
-  background: var(--clr-dark);
+  background: var(--clr-very-dark);
   flex-direction: column;
   padding-bottom: .5em;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
 }
 
 .tm_logo {
@@ -74,6 +77,13 @@ header{
   z-index: 99;
 }
 
+@media (max-width: 760px){
+  .go_back_container{
+    margin-top: 10px;
+    top: 35px;
+  }
+}
+
 .go__back .button__arrow {
   transform: rotate(-135deg);
 }
@@ -112,12 +122,18 @@ header{
 /*TRANSLATOR*/
 .translator{
   z-index:99;
-  top: 2%;
-  left: 2%;
   margin:10px 10px 0 5px;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  right: 3em;
+  top: 0.6em;
 }
+
+@media (max-width: 760px){
+  .translator{
+    top: 0.2em;
+  }
+}
+
 /*TRANSLATOR*/
 
 /*NAVIGATION MENU*/
@@ -163,8 +179,14 @@ header{
   cursor:pointer;
   position: fixed;
   right: 1em;
-  top:1em;
+  top: 1.8em;
   z-index: 1000;
+}
+
+@media (max-width: 760px){
+  .nav-toggle{
+    top: 1.5em;
+  }
 }
 
 .nav-open .nav{
@@ -235,6 +257,13 @@ header{
 .intro{
   position: relative;
   background: var(--clr-partial-light);
+  padding-top: 200px;
+}
+
+@media (max-width: 760px){
+  .intro {
+    padding-top: 100px;
+  }
 }
 
 .card__img{

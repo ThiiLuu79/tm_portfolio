@@ -22,9 +22,6 @@ import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageCo
 import * as freeTimeConstantsEn from '../../../i18n/freeTimeConstants_en';
 import * as freeTimeConstantsFr from '../../../i18n/freeTimeConstants_fr';
 
-import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
-
-
 const ArtGallery = () => {
 
     const { language } = useLanguage();
@@ -48,7 +45,6 @@ const ArtGallery = () => {
 
     return (
         <div>
-            <LanguageToggler/>
             <Card
                 intro = {freeTimeConstants.WELCOME_ART}
                 title = {freeTimeConstants.ART_GALLERY}

@@ -13,8 +13,6 @@ import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageCo
 import * as academicsConstantsEn from '../../../i18n/academicsConstants_en';
 import * as academicsConstantsFr from '../../../i18n/academicsConstants_fr';
 
-import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
-
 const Academics = () => {
 
     const { language } = useLanguage();
@@ -22,7 +20,6 @@ const Academics = () => {
 
     return (
         <div>
-            <LanguageToggler/>
             <Card
                 intro = {academicsConstants.ACADEMICS_WELCOME}
                 title = {academicsConstants.ACADEMICS_PROJECT}

@@ -16,8 +16,6 @@ import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageCo
 import * as personnalsConstantsEn from '../../../i18n/personalsConstants_en';
 import * as personnalsConstantsFr from '../../../i18n/personalsConstants_fr';
 
-import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
-
 const Personals = () => {
 
     const { language } = useLanguage();
@@ -25,7 +23,6 @@ const Personals = () => {
 
     return (
         <div>
-            <LanguageToggler/>
             <Card
                 intro = {personnalsConstants.PERSONALS_WELCOME}
                 title = {personnalsConstants.PERSONALS_PROJECT}

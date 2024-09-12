@@ -13,7 +13,6 @@ import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageCo
 import * as workConstantsEn from '../../../i18n/workConstants_en';
 import * as workConstantsFr from '../../../i18n/workConstants_fr';
 
-import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
 
 const Work = () => {
 
@@ -37,7 +36,6 @@ const Work = () => {
 
     return (
         <div>
-            <LanguageToggler/>
             <Card
                 intro = {workConstants.WORK_INTRODUCTION}
                 title = {workConstants.WORK_PAGE_TITLE}
