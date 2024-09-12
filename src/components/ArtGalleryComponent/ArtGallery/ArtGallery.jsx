@@ -1,6 +1,6 @@
 import React from 'react';
-import Card from '../../ReusableComponents/Card/Card.jsx';
-import ImagesGallery from '../../ReusableComponents/ImagesGallery/ImagesGallery.jsx';
+import Card from '../../ReusableComponents/Card/Card';
+import ImagesGallery from '../../ReusableComponents/ImagesGallery/ImagesGallery';
 import cover from "../../../img/art/art_cover.jpg";
 
 import p1 from "../../../img/art/art01.jpg";

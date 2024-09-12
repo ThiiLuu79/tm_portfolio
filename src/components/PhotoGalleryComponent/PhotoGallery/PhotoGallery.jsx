@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from '../../ReusableComponents/Card/Card.jsx';
+import Card from '../../ReusableComponents/Card/Card';
 
 import cover from "../../../img/photography/photo16.JPG";
 

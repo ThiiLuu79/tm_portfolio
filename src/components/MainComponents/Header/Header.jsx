@@ -1,10 +1,10 @@
 import React from 'react';
 import { useLocation } from 'react-router-dom';
-import Navbar from '../Navbar/Navbar.jsx';
+import Navbar from '../Navbar/Navbar';
 import tm_logo_white from '../../../img/home/TM-white-no-bg.png';
 import GoToTop from '../GoToTop/GoToTop';
 import GoBack from '../../MainComponents/GoBack/GoBack';
-import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler.jsx';
+import { LanguageToggler } from '../../ReusableComponents/LanguageToggler/LanguageToggler';
 
 const Header = () => {
     const location = useLocation();

@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
 
-import ScrollToTopOnLoad from '../ScrollToTopOnLoad/ScrollToTopOnLoad.jsx';
+import ScrollToTopOnLoad from '../ScrollToTopOnLoad/ScrollToTopOnLoad';
 
-import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext.js';
+import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
-import * as mainConstantsEn from '../../../i18n/mainConstants_en.js';
-import * as mainConstantsFr from '../../../i18n/mainConstants_fr.js';
+import * as mainConstantsEn from '../../../i18n/mainConstants_en';
+import * as mainConstantsFr from '../../../i18n/mainConstants_fr';
 
 const Navbar = () => {
 

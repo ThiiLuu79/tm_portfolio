@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 
-import ScrollToTopOnLoad from '../ScrollToTopOnLoad/ScrollToTopOnLoad.jsx';
+import ScrollToTopOnLoad from '../ScrollToTopOnLoad/ScrollToTopOnLoad';
 
 const GoBack = () => {
 
