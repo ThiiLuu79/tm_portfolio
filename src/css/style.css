@@ -613,7 +613,7 @@ header{
 }
 
 .courses_list.visible {
-  max-height: 500px;
+  max-height: 1500px;
 }
 
 @media (max-width: 760px){

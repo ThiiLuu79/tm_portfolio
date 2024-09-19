@@ -35,15 +35,15 @@ export const COURSES_TITLE = "Relevant courses";
 export const SHOW_COURSES = "Show Courses";
 export const HIDE_COURSES = "Hide Courses";
 export const ETS_COURSES = [
-    "Object Oriented Programming (INF111) - Grade A",
-    "Object Oriented Programming and Conception (LOG121) - Grade A-",
-    "Databases (TCH055) - Grade A",
-    "High Performance Databases (LOG660) - Grade A-",
-    "Data Structures and Algorithms (LOG320) - Grade B+",
-    "Software Analysis and Design (LOG210) - Grade A-",
-    "Design and Evaluation of User Interfaces (GTI350) - Grade A",
-    "Discrete Mathematics (MAT210) - Grade A",
-    "Differential Equations (MAT265) - Grade A",
-    "Probability and Statistics (MAT350) - Grade A+",
-    "Linear Algebra (MAT472) - Grade A-"
+    "Object Oriented Programming (A)",
+    "Object Oriented Programming and Conception (A-)",
+    "Databases (A)",
+    "High Performance Databases (A-)",
+    "Data Structures and Algorithms (B+)",
+    "Software Analysis and Design (A-)",
+    "Design and Evaluation of User Interfaces (A)",
+    "Discrete Mathematics (A)",
+    "Differential Equations (A)",
+    "Probability and Statistics (A+)",
+    "Linear Algebra (A-)"
 ];

@@ -35,15 +35,15 @@ export const COURSES_TITLE = "Cours pertinents";
 export const SHOW_COURSES = "Afficher les cours";
 export const HIDE_COURSES = "Cacher les cours";
 export const ETS_COURSES = [
-    "Programmation Orientée Objet (INF111) - Note A",
-    "Programmation et Conception Orientées Objet (LOG121) - Note A-",
-    "Bases de Données (TCH055) - Note A",
-    "Bases de Données à Haute Performance (LOG660) - Note A-",
-    "Structures de Données et Algorithmes (LOG320) - Note B+",
-    "Analyse et Conception de Logiciels (LOG210) - Note A-",
-    "Conception et Évaluation des Interfaces Utilisateur (GTI350) - Note A",
-    "Mathématiques Discrètes (MAT210) - Note A",
-    "Équations Différentielles (MAT265) - Note A",
-    "Probabilités et Statistiques (MAT350) - Note A+",
-    "Algèbre Linéaire (MAT472) - Note A-"
+    "Programmation Orientée Objet (A)",
+    "Programmation et Conception Orientées Objet (A-)",
+    "Bases de Données (A)",
+    "Bases de Données à Haute Performance (A-)",
+    "Structures de Données et Algorithmes (B+)",
+    "Analyse et Conception de Logiciels (A-)",
+    "Conception et Évaluation des Interfaces Utilisateur (A)",
+    "Mathématiques Discrètes (A)",
+    "Équations Différentielles (A)",
+    "Probabilités et Statistiques (A+)",
+    "Algèbre Linéaire (A-)"
 ];
