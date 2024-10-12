@@ -19,18 +19,12 @@ export const WEBFLIX_PROJECT = {
         "Designed and optimized the star schema for the analytical data system.",
         "Utilized the ETL (Extract, Transform, Load) process to transform data and seamlessly insert it into both fact and dimensions tables."
     ],
-    workTime: "10 weeks",
     tools: [
         "Language(s): Java, SQL, PLSQL, HQL, JDBC, UML, ERD, XML", 
         "Database: Oracle",
         "Framework(s): Hibernate, JavaSwing",
         "Pattern Design(s): Data Access Object (DAO), Singleton",
         "Tool(s): Git/GitHub, IntelliJ, Visual Paradigm, SQL Developer"
-    ],
-    grades: [
-        "Grade for phase 1: 95%", 
-        "Grade for phase 2: 92%", 
-        "Grade for phase 3: 96%"
     ],
     imgAlt: "webflix"
 };
@@ -45,15 +39,11 @@ export const PUSHERS_PROJECT = {
         "Implemented the minimax algorithm with prunning to score all the possible moves.",
         "Implemented a static evaluation function in order to determine the AI's strategy."
     ],
-    workTime: "6 weeks",
     tools: [
         "Language(s): Java",
         "Algorithm(s): MiniMax, Alpha-Beta Pruning, Recursive",
         "Data structure(s): 2D arrays",
         "Tool(s): Git/GitHub, IntelliJ"
-    ],
-    grades: [
-        []
     ],
     imgAlt: "pushers"
 };
@@ -67,15 +57,11 @@ export const HUFFMAN_PROJECT = {
         "Implemented frequency table of all the characters in a file.",
         "Implemented the Huffman algorithm to encode/decode a file."
     ],
-    workTime: "3 weeks",
     tools: [
         "Language(s): Java",
         "Algorithm(s): Huffman, Recursive",
         "Data structure(s): Binary search tree, HashMap, ArrayList, PriorityQueue",
         "Tool(s): Git/GitHub, IntelliJ"
-    ],
-    grades: [
-        "Final grade: 97.5%"
     ],
     imgAlt: "huffman"
 };
@@ -90,15 +76,11 @@ export const CHAIN_PROJECT = {
         "Implemented the chain of production with Java and JavaSwing.",
         "Applied the observator and stategy pattern design to make the code more maintainable."
     ],
-    workTime: "4 weeks",
     tools: [
         "Language(s): Java, XML, UML",
         "Framework(s): JavaSwing",
         "Pattern Design(s): Observator, Strategy, Singleton",
         "Tool(s): Git/GitHub, IntelliJ, Visual Paradigm"
-    ],
-    grades: [
-        "Final grade : 91%"
     ],
     imgAlt: "chain"
 };
@@ -111,13 +93,9 @@ export const KOHA_PROJECT = {
     contributions: [
         "Customized the OPAC page for both St-Jean Vianney College and the Cultural French Center of Vancouver."
     ],
-    workTime: "4 weeks",
     tools: [
         "Language(s): JavaScript, CSS",
         "Tool(s): Git/GitHub, Koha"
-    ],
-    grades: [
-        []
     ],
     imgAlt: "opac"
 };

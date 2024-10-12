@@ -35,15 +35,15 @@ export const COURSES_TITLE = "Cours pertinents";
 export const SHOW_COURSES = "Afficher les cours";
 export const HIDE_COURSES = "Cacher les cours";
 export const ETS_COURSES = [
-    "Programmation Orientée Objet (A)",
-    "Programmation et Conception Orientées Objet (A-)",
-    "Bases de Données (A)",
-    "Bases de Données à Haute Performance (A-)",
-    "Structures de Données et Algorithmes (B+)",
-    "Analyse et Conception de Logiciels (A-)",
-    "Conception et Évaluation des Interfaces Utilisateur (A)",
-    "Mathématiques Discrètes (A)",
-    "Équations Différentielles (A)",
-    "Probabilités et Statistiques (A+)",
-    "Algèbre Linéaire (A-)"
+    "Programmation Orientée Objet",
+    "Programmation et Conception Orientées Objet",
+    "Bases de Données",
+    "Bases de Données à Haute Performance",
+    "Structures de Données et Algorithmes",
+    "Analyse et Conception de Logiciels",
+    "Conception et Évaluation des Interfaces Utilisateur",
+    "Mathématiques Discrètes",
+    "Équations Différentielles",
+    "Probabilités et Statistiques",
+    "Algèbre Linéaire"
 ];

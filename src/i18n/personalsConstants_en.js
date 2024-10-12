@@ -11,13 +11,9 @@ export const CSS_ZEN_GARDEN_PROJECT = {
     contributions: [
         "Styled a common webpage using only CSS, without changing the original HTML"
     ],
-    workTime: "1 week",
     tools: [
         "Language(s): CSS",
         "Tool(s): Git/GitHub, VSCode"
-    ],
-    grades: [
-        []
     ],
     imgAlt: "cssZenGarden"
 };
@@ -31,13 +27,9 @@ export const PYGAMES_PROJECT = {
         "Crafted a variety of engaging games using Python's game module, Pygame",
         "Created titles like Space Invaders, Car Crash, and Hungry Shark"
     ],
-    workTime: "1 week per game",
     tools: [
         "Language(s): Python / Pygame",
         "Tool(s): Git/GitHub, Pycharm"
-    ],
-    grades: [
-        []
     ],
     imgAlt: "pygames"
 };
@@ -54,13 +46,9 @@ export const TITITEA_PROJECT = {
         "Set up a system on the back end to safely store the info people entered into a database",
         "Users would get a quick confirmation message, letting them know their request was successfully sent to the back end"
     ],
-    workTime: "2 weeks",
     tools: [
-        "Language(s): HTML, CSS, JavaScript",
+        "Language(s): HTML, CSS, JavaScript, PHP, MySQL, XAMPP Stack",
         "Tool(s): Git/GitHub, VSCode"
-    ],
-    grades: [
-        []
     ],
     imgAlt: "tititea"
 };

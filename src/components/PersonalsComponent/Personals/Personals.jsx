@@ -37,9 +37,7 @@ const Personals = () => {
                     period={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.period}
                     description= {personnalsConstants.CSS_ZEN_GARDEN_PROJECT.description}
                     contributions={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.contributions}
-                    workTime={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.workTime}
                     tools={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.tools}
-                    grades={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.grades}
                     image={cssZenGarden}
                     imgAlt={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.imgAlt}
                     buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
@@ -50,9 +48,7 @@ const Personals = () => {
                     period= {personnalsConstants.PYGAMES_PROJECT.period}
                     description= {personnalsConstants.PYGAMES_PROJECT.description}
                     contributions= {personnalsConstants.PYGAMES_PROJECT.contributions}
-                    workTime= {personnalsConstants.PYGAMES_PROJECT.workTime}
                     tools= {personnalsConstants.PYGAMES_PROJECT.tools}
-                    grades= {personnalsConstants.PYGAMES_PROJECT.grades}
                     image={pygames}
                     imgAlt={personnalsConstants.PYGAMES_PROJECT.imgAlt}
                     buttons={[<Button key="button1" text="Hungry Shark (.zip)" redirect={sharkZip} buttonType='Download'/>,
@@ -65,17 +61,12 @@ const Personals = () => {
                     period={personnalsConstants.TITITEA_PROJECT.period}
                     description= {personnalsConstants.TITITEA_PROJECT.description}
                     contributions={personnalsConstants.TITITEA_PROJECT.contributions}
-                    workTime= {personnalsConstants.TITITEA_PROJECT.workTime}
                     tools= {personnalsConstants.TITITEA_PROJECT.tools}
-                    grades={personnalsConstants.TITITEA_PROJECT.grades}
                     image={tititea}
                     imgAlt={personnalsConstants.TITITEA_PROJECT.imgAlt}
                     buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://tititea.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
                 />
-
-
             </div>
-            
         </div>
     )
 }

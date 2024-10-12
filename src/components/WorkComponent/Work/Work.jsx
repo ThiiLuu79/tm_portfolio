@@ -55,7 +55,6 @@ const Work = () => {
                     companyLink={workConstants.INTACT_EXPERIENCE.companyLink}
                     company={workConstants.INTACT_EXPERIENCE.company}
                     location={workConstants.INTACT_EXPERIENCE.location}
-                    linkedinPost={workConstants.INTACT_EXPERIENCE.linkedinPost}
                 />
                 <PageItem
                     title={workConstants.NBC_EXPERIENCE.title}
@@ -69,7 +68,6 @@ const Work = () => {
                     companyLink={workConstants.NBC_EXPERIENCE.companyLink}
                     company={workConstants.NBC_EXPERIENCE.company}
                     location={workConstants.NBC_EXPERIENCE.location}
-                    linkedinPost={workConstants.NBC_EXPERIENCE.linkedinPost}
                 />
                 <PageItem
                     title={workConstants.INLIBRO_EXPERIENCE.title}
@@ -83,7 +81,6 @@ const Work = () => {
                     companyLink={workConstants.INLIBRO_EXPERIENCE.companyLink}
                     company={workConstants.INLIBRO_EXPERIENCE.company}
                     location={workConstants.INLIBRO_EXPERIENCE.location}
-                    linkedinPost={workConstants.INLIBRO_EXPERIENCE.linkedinPost}
                 />
                 <PageItem
                     title={workConstants.CIUSS_EXPERIENCE.title}

@@ -19,18 +19,12 @@ export const WEBFLIX_PROJECT = {
         "Conçu et optimisé le schéma étoile pour le système de données analytiques.",
         "Utilisé le processus ETL (Extract, Transform, Load) pour transformer les données et les insérer de manière transparente dans les tables de faits et de dimensions."
     ],
-    workTime: "10 semaines",
     tools: [
         "Langage(s) : Java, SQL, PLSQL, HQL, JDBC, UML, ERD, XML",
         "Base de données : Oracle",
         "Framework(s) : Hibernate, JavaSwing",
         "Modèle(s) de conception : Data Access Object (DAO), Singleton",
         "Outil(s) : Git/GitHub, IntelliJ, Visual Paradigm, SQL Developer"
-    ],
-    grades: [
-        "Note pour la phase 1 : 95%",
-        "Note pour la phase 2 : 92%",
-        "Note pour la phase 3 : 96%"
     ],
     imgAlt: "webflix"
 };
@@ -45,15 +39,11 @@ export const PUSHERS_PROJECT = {
         "Implémenté l'algorithme minimax avec élagage pour évaluer tous les mouvements possibles.",
         "Implémenté une fonction d'évaluation statique afin de déterminer la stratégie de l'IA."
     ],
-    workTime: "6 semaines",
     tools: [
         "Langage(s) : Java",
         "Algorithme(s) : MiniMax, Élagage Alpha-Bêta, Récursif",
         "Structure(s) de données : Tableaux 2D",
         "Outil(s) : Git/GitHub, IntelliJ"
-    ],
-    grades: [
-        []
     ],
     imgAlt: "pushers"
 };
@@ -67,15 +57,11 @@ export const HUFFMAN_PROJECT = {
         "Implémenté le tableau de fréquences de tous les caractères dans un fichier.",
         "Implémenté l'algorithme de Huffman pour encoder/décoder un fichier."
     ],
-    workTime: "3 semaines",
     tools: [
         "Langage(s) : Java",
         "Algorithme(s) : Huffman, Récursif",
         "Structure(s) de données : Arbre de recherche binaire, HashMap, ArrayList, PriorityQueue",
         "Outil(s) : Git/GitHub, IntelliJ"
-    ],
-    grades: [
-        "Note finale : 97,5%"
     ],
     imgAlt: "huffman"
 };
@@ -90,15 +76,11 @@ export const CHAIN_PROJECT = {
         "Implémenté la chaîne de production avec Java et JavaSwing.",
         "Appliqué le modèle de conception observateur et stratégie pour rendre le code plus maintenable."
     ],
-    workTime: "4 semaines",
     tools: [
         "Langage(s) : Java, XML, UML",
         "Framework(s) : JavaSwing",
         "Modèle(s) de conception : Observateur, Stratégie, Singleton",
         "Outil(s) : Git/GitHub, IntelliJ, Visual Paradigm"
-    ],
-    grades: [
-        "Note finale : 91%"
     ],
     imgAlt: "chain"
 };
@@ -111,13 +93,9 @@ export const KOHA_PROJECT = {
     contributions: [
         "Personnalisé la page OPAC pour le Collège St-Jean Vianney et le Centre Culturel Français de Vancouver."
     ],
-    workTime: "4 semaines",
     tools: [
         "Langage(s) : JavaScript, CSS",
         "Outil(s) : Git/GitHub, Koha"
-    ],
-    grades: [
-        []
     ],
     imgAlt: "opac"
 };

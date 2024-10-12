@@ -12,8 +12,7 @@ export const INTACT_EXPERIENCE = {
     contributions: ["Joined the Groot Hacks (Growth hacking) team.", "Conducted A/B tests to analyze and optimize the performance of two interface versions with clients.", "Developed and launched new, impactful features to enhance user experience.", "Contributed to the development of microfrontends.", "Fixed bugs", "Worked as a Goalkeeper, a role that involves working on unplanned tasks and helping with production and security issues."],
     tools: ["Environment: MacOS, Windows", "Languages: Angular, TypeScript, HTML, CSS/SASS, Java", "Methodology: Agile, Scrum, SAFe, BDD", "Others: NgRx, RxJS, NodeJS, Jest, Git/Github, Github Desktop, IntelliJ, VSCode, SonarQube, Redux DevTools, Jira, Confluence, Teams, CI/CD pipelines, JUnit"],
     imgAlt: "intact",
-    companyLink: "https://www.intactfc.com/",
-    linkedinPost: "https://www.linkedin.com/posts/tmluong19_intactfuturetalent-myintact-activity-7233116314221842432-iDzA?utm_source=share&utm_medium=member_desktop"
+    companyLink: "https://www.intactfc.com/"
 }
 
 //NBC
@@ -25,8 +24,7 @@ export const NBC_EXPERIENCE = {
     contributions: ["Joined the Vikings team. Worked on the hybrid navigation between the older and newer interface.", "Implemented new features to enhance the interface.", "Fixed defects on the interface.", "Analyzed the data and raised anomalies in a SQL report.", "Created flat tables to store data from multiple systems."],
     tools : ["Environment: MacOS, Windows", "Database: Oracle", "Languages: Java, JavaScript, Java Server Page (JSP), HTML, SQL", "Methodology: Agile, Kanban, SAFe", "Others: IntelliJ, Git, JUnit, Bitbucket, Jira, Confluence, Maven, DBeaver, Docker, Websphere Application Server, Urban Code Deploy, Jenkins, DataHub, Snowflake, AWS Cloud, Teams, Slack"],
     imgAlt: "nbc interns",
-    companyLink: "https://www.bnc.ca/",
-    linkedinPost: "https://www.linkedin.com/posts/tmluong19_english-content-will-follow-shortly-activity-7103524826501263360--rzo?utm_source=share&utm_medium=member_desktop"
+    companyLink: "https://www.bnc.ca/"
 }
 
 //Inlibro
@@ -38,8 +36,7 @@ export const INLIBRO_EXPERIENCE = {
     contributions: ["Fixed bugs on Koha’s UI and UX", "Created patches to improve Koha’s system", "Rebased old patches to make them work on the current Koha system", "Interacted with Koha community to solve problems", "Personalized the client’s interface for different schools", "Worked on inLibro’s plugins, which can be used in Koha", "Maintenance", "Unit testing", "QA testing", "Assisted new interns"],
     tools: ["Environment: Linux, Koha", "Database: MariaDB", "Languages: Perl, CSS, JavaScript, SQL", "Methodology: Agile", "Others: Git, Apache, Bugzilla"],
     imgAlt: "inlibro",
-    companyLink: "https://inlibro.com/",
-    linkedinPost: "https://www.linkedin.com/posts/tmluong19_today-officially-marks-4-months-of-my-first-activity-6923411194473029632-9iU9?utm_source=share&utm_medium=member_desktop"
+    companyLink: "https://inlibro.com/"
 }
 
 //CIUSS

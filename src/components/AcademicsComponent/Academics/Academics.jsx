@@ -34,9 +34,7 @@ const Academics = () => {
                     period={academicsConstants.WEBFLIX_PROJECT.period}
                     description= {academicsConstants.WEBFLIX_PROJECT.description}
                     contributions={academicsConstants.WEBFLIX_PROJECT.contributions}
-                    workTime={academicsConstants.WEBFLIX_PROJECT.workTime}
                     tools={academicsConstants.WEBFLIX_PROJECT.tools}
-                    grades={academicsConstants.WEBFLIX_PROJECT.grades}
                     image={webflix}
                     imgAlt={academicsConstants.WEBFLIX_PROJECT.imgAlt}
                     buttons={[]}
@@ -48,9 +46,7 @@ const Academics = () => {
                     period={academicsConstants.PUSHERS_PROJECT.period}
                     description= {academicsConstants.PUSHERS_PROJECT.description}
                     contributions={academicsConstants.PUSHERS_PROJECT.contributions}
-                    workTime={academicsConstants.PUSHERS_PROJECT.workTime}
                     tools={academicsConstants.PUSHERS_PROJECT.tools}
-                    grades={academicsConstants.PUSHERS_PROJECT.grades}
                     image={pusher}
                     imgAlt={academicsConstants.PUSHERS_PROJECT.imgAlt}
                     buttons={[]}
@@ -61,9 +57,7 @@ const Academics = () => {
                     period={academicsConstants.HUFFMAN_PROJECT.period}
                     description= {academicsConstants.HUFFMAN_PROJECT.description}
                     contributions={academicsConstants.HUFFMAN_PROJECT.contributions}
-                    workTime={academicsConstants.HUFFMAN_PROJECT.workTime}
                     tools={academicsConstants.HUFFMAN_PROJECT.tools}
-                    grades={academicsConstants.HUFFMAN_PROJECT.grades}
                     image={huffman}
                     imgAlt={academicsConstants.HUFFMAN_PROJECT.imgAlt}
                     buttons={[]}
@@ -74,9 +68,7 @@ const Academics = () => {
                     period={academicsConstants.CHAIN_PROJECT.period}
                     description= {academicsConstants.CHAIN_PROJECT.description}
                     contributions={academicsConstants.CHAIN_PROJECT.contributions}
-                    workTime={academicsConstants.CHAIN_PROJECT.workTime}
                     tools={academicsConstants.CHAIN_PROJECT.tools}
-                    grades={academicsConstants.CHAIN_PROJECT.grades}
                     image={chain}
                     imgAlt={academicsConstants.CHAIN_PROJECT.imgAlt}
                     buttons={[]}
@@ -87,9 +79,7 @@ const Academics = () => {
                     period={academicsConstants.KOHA_PROJECT.period}
                     description= {academicsConstants.KOHA_PROJECT.description}
                     contributions={academicsConstants.KOHA_PROJECT.contributions}
-                    workTime={academicsConstants.KOHA_PROJECT.workTime}
                     tools={academicsConstants.KOHA_PROJECT.tools}
-                    grades={[]}
                     image={opac}
                     imgAlt={academicsConstants.KOHA_PROJECT.imgAlt}
                     buttons={[<Button key="button1" text="CSJV" redirect='https://csjv-biblio.inlibro.net/' blank={true} noreferrer={true} buttonType='Link'/>,
