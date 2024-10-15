@@ -3,21 +3,6 @@ export const PERSONALS_WELCOME = "Voici mes ";
 export const PERSONALS_PROJECT = "Projets Personnels";
 export const VISIT = "Visiter";
 
-// PROJET CSS ZEN GARDEN
-export const CSS_ZEN_GARDEN_PROJECT = {
-    title: "Jardin Zen CSS",
-    period: "2021",
-    description: "Pour améliorer mes compétences en CSS, j'ai décidé de relever le 'Défi du Jardin Zen CSS'. La tâche consistait à styliser une page web commune en utilisant uniquement du CSS, sans modifier le HTML original. Cela s'est avéré être un projet cool qui m'a aidé à apprendre différentes astuces CSS. J'étais fier de ce que j'avais accompli, et c'était intéressant de voir comment d'autres développeurs ont abordé le même défi. Dans l'ensemble, c'était une manière amusante pour moi d'explorer et d'améliorer mes compétences en CSS.",
-    contributions: [
-        "Stylisé une page web commune en utilisant uniquement du CSS, sans changer le HTML original"
-    ],
-    tools: [
-        "Langue(s) : CSS",
-        "Outil(s) : Git/GitHub, VSCode"
-    ],
-    imgAlt: "jardinZenCSS"
-};
-
 // PROJET PYGAME
 export const PYGAMES_PROJECT = {
     title: "Projets Pygame",

@@ -2,6 +2,25 @@
 export const ACADEMICS_WELCOME = "Here are my ";
 export const ACADEMICS_PROJECT = "Academic Projects";
 
+//WEATERMATE PROJECT
+export const WEATHERMATE_PROJECT = {
+    title: "Weather Mate Application",
+    period: "Fall 2024 (ÉTS)",
+    description: "As part of the Web Development Technologies (GTI525) course, we were tasked with developing a weather application named Weather Mate. This application was designed to provide users with real-time weather information, including temperature, wind speed, and precipitation of each Canadian provinces. The application was designed to be user-friendly, with an intuitive interface that allowed users to easily navigate through the various features and functionalities. As for the first part, we had the responsability to develop the front-end and gathering the data from CSV files.",
+    contributions: [
+        "Parsed data from CSV files to display the weather information.",
+        "Designed and implemented the front-end of the application.",
+        "Implemented the data and statistic view, displaying the weather information of each Canadian provinces."
+    ],
+    tools: [
+        "Language(s): JavaScript, HTML, CSS", 
+        "Framework(s): Vue.js",
+        "Architectural pattern: Micro-frontends",
+        "Tool(s): Git/GitHub, VSCode"
+    ],
+    imgAlt: "weathermate"
+};
+
 //WEBFLIX PROJECT
 export const WEBFLIX_PROJECT = {
     title: "Webflix Application",
@@ -46,24 +65,6 @@ export const PUSHERS_PROJECT = {
         "Tool(s): Git/GitHub, IntelliJ"
     ],
     imgAlt: "pushers"
-};
-
-//HUFFMAN PROJECT
-export const HUFFMAN_PROJECT = {
-    title: "Huffman algorithm",
-    period: "Winter 2023 (ÉTS)",
-    description: "As part of the Data Structures and Algorithms (LOG320) course, we tackled the Huffman algorithm, a key technique for compressing and decompressing files. The process began by analyzing a file to create a table showing how often each character appears. Then, we built the Huffman tree using this table. From the tree, we derived the Huffman code, which assigns a unique binary sequence to each character. Finally, we used this code to encode and decode files, completing the task.",
-    contributions: [
-        "Implemented frequency table of all the characters in a file.",
-        "Implemented the Huffman algorithm to encode/decode a file."
-    ],
-    tools: [
-        "Language(s): Java",
-        "Algorithm(s): Huffman, Recursive",
-        "Data structure(s): Binary search tree, HashMap, ArrayList, PriorityQueue",
-        "Tool(s): Git/GitHub, IntelliJ"
-    ],
-    imgAlt: "huffman"
 };
 
 //CHAIN OF PRODDUCTION PROJECT

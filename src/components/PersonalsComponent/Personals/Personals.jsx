@@ -1,6 +1,5 @@
 import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/personal/html.jpg";
-import cssZenGarden from "../../../img/personal/cssZenGarden.jpg";
 import pygames from "../../../img/personal/games.gif";
 import tititea from "../../../img/personal/tititea.jpg";
 
@@ -31,17 +30,6 @@ const Personals = () => {
             />
 
             <div>
-
-                <PageItem
-                    title={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.title}
-                    period={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.period}
-                    description= {personnalsConstants.CSS_ZEN_GARDEN_PROJECT.description}
-                    contributions={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.contributions}
-                    tools={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.tools}
-                    image={cssZenGarden}
-                    imgAlt={personnalsConstants.CSS_ZEN_GARDEN_PROJECT.imgAlt}
-                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://csszengardentm.netlify.app' blank={true} noreferrer={true} buttonType='Link'/>]}
-                />
 
                 <PageItem
                     title= {personnalsConstants.PYGAMES_PROJECT.title}

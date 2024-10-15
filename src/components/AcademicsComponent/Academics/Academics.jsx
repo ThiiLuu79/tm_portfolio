@@ -4,9 +4,9 @@ import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/academic/spCover.jpg";
 import webflix from "../../../img/academic/webflix.png";
 import pusher from "../../../img/academic/pushers.png";
-import huffman from "../../../img/academic/huffman.png";
 import chain from "../../../img/academic/chain.jpg";
 import opac from "../../../img/academic/CSJV.jpg";
+import weathermate from "../../../img/academic/weathermate.png";
 
 import { useLanguage } from '../../ReusableComponents/LanguageToggler/LanguageContext';
 
@@ -30,6 +30,17 @@ const Academics = () => {
             <div>
 
                 <PageItem
+                        title={academicsConstants.WEATHERMATE_PROJECT.title}
+                        period={academicsConstants.WEATHERMATE_PROJECT.period}
+                        description= {academicsConstants.WEATHERMATE_PROJECT.description}
+                        contributions={academicsConstants.WEATHERMATE_PROJECT.contributions}
+                        tools={academicsConstants.WEATHERMATE_PROJECT.tools}
+                        image={weathermate}
+                        imgAlt={academicsConstants.WEATHERMATE_PROJECT.imgAlt}
+                        buttons={[]}
+                />
+
+                <PageItem
                     title={academicsConstants.WEBFLIX_PROJECT.title}
                     period={academicsConstants.WEBFLIX_PROJECT.period}
                     description= {academicsConstants.WEBFLIX_PROJECT.description}
@@ -49,17 +60,6 @@ const Academics = () => {
                     tools={academicsConstants.PUSHERS_PROJECT.tools}
                     image={pusher}
                     imgAlt={academicsConstants.PUSHERS_PROJECT.imgAlt}
-                    buttons={[]}
-                />
-
-                <PageItem
-                    title={academicsConstants.HUFFMAN_PROJECT.title}
-                    period={academicsConstants.HUFFMAN_PROJECT.period}
-                    description= {academicsConstants.HUFFMAN_PROJECT.description}
-                    contributions={academicsConstants.HUFFMAN_PROJECT.contributions}
-                    tools={academicsConstants.HUFFMAN_PROJECT.tools}
-                    image={huffman}
-                    imgAlt={academicsConstants.HUFFMAN_PROJECT.imgAlt}
                     buttons={[]}
                 />
 
