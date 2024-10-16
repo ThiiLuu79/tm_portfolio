@@ -49,16 +49,22 @@
 - Package manager: [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/).
 
 ### Installation
-1. Clone the repository:
-   `git clone https://github.com/ThiiLuu79/tm_portfolio.git`
 
-2. Install dependencies:
-    `npm install` or `yarn install`
+1. Clone the repository :
+    ```sh
+    git clone https://github.com/ThiiLuu79/tm_portfolio.git
+    ```
 
-3. Start the application:
-    `npm start` or `yarn start`
+2. Install dependencies :
+    ```sh
+    npm install
+    ```
 
-4. Open your browser and navigate to http://localhost:3000 to see the application running.
+3. Start the application :
+    ```sh
+    npm start
+    ```
+4. Access the application locally at http://localhost:3000/
 
 ## Additional Information
 
