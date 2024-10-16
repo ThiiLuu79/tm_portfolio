@@ -42,7 +42,6 @@ export const ETS_COURSES = [
     "Data Structures and Algorithms",
     "Software Analysis and Design",
     "Design and Evaluation of User Interfaces",
-    "Web Development Technologies",
     "Discrete Mathematics",
     "Differential Equations",
     "Probability and Statistics",

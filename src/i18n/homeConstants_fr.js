@@ -42,7 +42,6 @@ export const ETS_COURSES = [
     "Structures de Données et Algorithmes",
     "Analyse et Conception de Logiciels",
     "Conception et Évaluation des Interfaces Utilisateur",
-    "Technologies de développement Internet",
     "Mathématiques Discrètes",
     "Équations Différentielles",
     "Probabilités et Statistiques",
