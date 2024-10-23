@@ -1,6 +1,11 @@
 # The Minh's personal Portfolio
 
-> Welcome to my portfolio, a showcase of my personal works and achievements. This portfolio is crafted using **ReactJS**, **JavaScript**, and **CSS**.
+> Welcome to my portfolio, a showcase of my personal works and achievements.
+
+## Technologies Used
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 
 ## Project Structure
 
