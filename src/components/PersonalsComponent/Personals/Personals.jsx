@@ -2,6 +2,7 @@ import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/personal/html.jpg";
 import pygames from "../../../img/personal/games.gif";
 import tititea from "../../../img/personal/tititea.jpg";
+import cookinglab from "../../../img/personal/cookingLab.png";
 
 import sharkZip from "../../../archives/zip/Hungry Shark.zip";
 import carZip from "../../../archives/zip/Car Crash.zip";
@@ -30,6 +31,17 @@ const Personals = () => {
             />
 
             <div>
+
+                <PageItem
+                    title= {personnalsConstants.COOKINGLAB_PROJECT.title}
+                    period= {personnalsConstants.COOKINGLAB_PROJECT.period}
+                    description= {personnalsConstants.COOKINGLAB_PROJECT.description}
+                    contributions= {personnalsConstants.COOKINGLAB_PROJECT.contributions}
+                    tools= {personnalsConstants.COOKINGLAB_PROJECT.tools}
+                    image={cookinglab}
+                    imgAlt={personnalsConstants.COOKINGLAB_PROJECT.imgAlt}
+                    buttons={[<Button key="button1" text={personnalsConstants.GITHUB_LINK} redirect='https://github.com/ThiiLuu79/cooking-lab' blank={true} noreferrer={true} buttonType='Link'/>]}
+                />
 
                 <PageItem
                     title= {personnalsConstants.PYGAMES_PROJECT.title}

@@ -2,6 +2,28 @@
 export const PERSONALS_WELCOME = "Voici mes ";
 export const PERSONALS_PROJECT = "Projets Personnels";
 export const VISIT = "Visiter";
+export const GITHUB_LINK = "Repertoire GitHub";
+
+//COOKING LAB PROJECT
+export const COOKINGLAB_PROJECT = {
+    title: "Application Cooking Lab",
+    period: "2024",
+    description: "CookingLab est une application de découverte de recettes personnalisées, conçue pour simplifier la planification des repas de manière ludique. Inspirée par la difficulté de choisir quoi cuisiner avec des restrictions alimentaires, CookingLab génère des recettes adaptées en fonction des préférences de l’utilisateur, telles que le type de cuisine, le type de repas, les régimes alimentaires et les allergies. Alimentée par l’API Edamam, l’application propose une variété d’options de recettes pour satisfaire tous les goûts et contraintes, permettant ainsi de trouver le plat idéal facilement. Développée en collaboration avec ma partenaire, CookingLab est une solution innovante pour tous ceux qui recherchent des idées de repas sans prise de tête.",
+    contributions: [
+        "Créé le design UI/UX avec AxureRP",
+        "Créé et séparé les récits utilisateur pour l'application",
+        "Développé le front-end en utilisant React, Redux et Bootstrap",
+        "Récupéré les données de l'API d'Edamam pour afficher les recettes"
+    ],
+    tools: [
+        "Language(s): TypeScript, CSS", 
+        "Framework(s): React, Bootstrap, Redux, Node.js, Express",
+        "Architecture: Micro-frontends",
+        "Methodologie: Kanban",
+        "Outil(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP"
+    ],
+    imgAlt: "cookinglab"
+};
 
 // PROJET PYGAME
 export const PYGAMES_PROJECT = {
