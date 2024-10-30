@@ -32,7 +32,7 @@ export const COOKINGLAB_PROJECT = {
 
 //TITITEA PROJECT
 export const TITITEA_PROJECT = {
-    title: "Tititea",
+    title: "Tititea Application",
     period: "2021",
     description: "For my first website, I made a page for TiTiTea, a pretend tea shop. On this page, people could order tea, give ratings, and even check out job openings. While working on it, I picked up some useful web development skills. I started by making the page look good and easy to use. Then, I added features to help users, like messages that pop up if they forgot to fill in all the required info in a form. To wrap it up, I set up a system on the back end to safely store the info people entered into a database. Users would get a quick confirmation message, letting them know their request was successfully sent to the back end.",
     contributions: [
