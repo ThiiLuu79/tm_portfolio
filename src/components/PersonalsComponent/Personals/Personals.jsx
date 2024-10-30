@@ -36,7 +36,7 @@ const Personals = () => {
                     image={cookinglab}
                     imgAlt={personnalsConstants.COOKINGLAB_PROJECT.imgAlt}
                     buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://cooking-lab.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>,
-                        <Button key="button2" text={personnalsConstants.GITHUB_LINK} redirect='https://github.com/ThiiLuu79/cooking-lab' blank={true} noreferrer={true} buttonType='Link'/>
+                        <Button key="button2" text={personnalsConstants.GITHUB_LINK} redirect='https://github.com/CookingLab/cooking-lab' blank={true} noreferrer={true} buttonType='Link'/>
                     ]}
                 />
                 
