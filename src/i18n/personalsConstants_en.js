@@ -25,7 +25,7 @@ export const COOKINGLAB_PROJECT = {
         "Framework(s): React, Bootstrap, Redux, Node.js, Express",
         "Architectural pattern: Micro-frontends, Redux",
         "Methodology: Kanban",
-        "Tool(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP"
+        "Tool(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP, Edamam API"
     ],
     imgAlt: "cookinglab"
 };
@@ -34,13 +34,11 @@ export const COOKINGLAB_PROJECT = {
 export const TITITEA_PROJECT = {
     title: "Tititea Application",
     period: "2021",
-    description: "For my first website, I made a page for TiTiTea, a pretend tea shop. On this page, people could order tea, give ratings, and even check out job openings. While working on it, I picked up some useful web development skills. I started by making the page look good and easy to use. Then, I added features to help users, like messages that pop up if they forgot to fill in all the required info in a form. To wrap it up, I set up a system on the back end to safely store the info people entered into a database. Users would get a quick confirmation message, letting them know their request was successfully sent to the back end.",
+    description: "For very my first website, I made a page for TiTiTea, a pretend tea shop. On this page, people could order tea, give ratings, and even apply for positions. While working on it, I picked up some useful web development skills. I started by making the page look good and easy to use. Then, I added features to help users, like messages that pop up if they forgot to fill in all the required info in a form. To wrap it up, I set up a system on the back end to safely store the info people entered into a database. Users would get a quick confirmation message, letting them know their request was successfully sent to the back end.",
     contributions: [
         "Made a page for TiTiTea, a pretend tea shop",
-        "Users could order tea, give ratings, and check out job openings",
-        "Added features to help users, like messages that pop up if they forgot to fill in all the required info in a form",
-        "Set up a system on the back end to safely store the info people entered into a database",
-        "Users would get a quick confirmation message, letting them know their request was successfully sent to the back end"
+        "Created the front-end using HTML, CSS, and JavaScript",
+        "Created the back-end using PHP, MySQL, and XAMPP stack"
     ],
     tools: [
         "Language(s): HTML, CSS, JavaScript, PHP, MySQL, XAMPP Stack",

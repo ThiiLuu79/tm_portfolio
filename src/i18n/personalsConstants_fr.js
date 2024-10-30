@@ -25,7 +25,7 @@ export const COOKINGLAB_PROJECT = {
         "Framework(s): React, Bootstrap, Redux, Node.js, Express",
         "Architecture: Micro-frontends, Redux",
         "Methodologie: Kanban",
-        "Outil(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP"
+        "Outil(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP, Edamam API"
     ],
     imgAlt: "cookinglab"
 };
@@ -34,13 +34,11 @@ export const COOKINGLAB_PROJECT = {
 export const TITITEA_PROJECT = {
     title: "Application Tititea",
     period: "2021",
-    description: "Pour mon premier site web, j'ai créé une page pour TiTiTea, un salon de thé fictif. Sur cette page, les gens pouvaient commander du thé, donner leur avis et même consulter les offres d'emploi. En travaillant dessus, j'ai acquis des compétences utiles en développement web. J'ai commencé par rendre la page attrayante et facile à utiliser. Ensuite, j'ai ajouté des fonctionnalités pour aider les utilisateurs, comme des messages qui apparaissent s'ils oublient de remplir toutes les informations requises dans un formulaire. Pour finir, j'ai mis en place un système à l'arrière-plan pour stocker en toute sécurité les informations saisies par les utilisateurs dans une base de données. Les utilisateurs recevaient un message de confirmation rapide, les informant que leur demande avait été envoyée avec succès à l'arrière-plan.",
+    description: "Pour mon tout premier site web, j'ai créé une page pour TiTiTea, un salon de thé fictif. Sur cette page, les gens pouvaient commander du thé, donner leur avis et même appliquer pour un emploi. En travaillant dessus, j'ai acquis des compétences utiles en développement web. J'ai commencé par rendre la page attrayante et facile à utiliser. Ensuite, j'ai ajouté des fonctionnalités pour aider les utilisateurs, comme des messages qui apparaissent s'ils oublient de remplir toutes les informations requises dans un formulaire. Pour finir, j'ai mis en place un système à l'arrière-plan pour stocker en toute sécurité les informations saisies par les utilisateurs dans une base de données. Les utilisateurs recevaient un message de confirmation rapide, les informant que leur demande avait été envoyée avec succès à l'arrière-plan.",
     contributions: [
         "Créé une page pour TiTiTea, un salon de thé fictif",
-        "Les utilisateurs pouvaient commander du thé, donner leur avis et consulter les offres d'emploi",
-        "Ajouté des fonctionnalités pour aider les utilisateurs, comme des messages qui apparaissent s'ils oublient de remplir toutes les informations requises dans un formulaire",
-        "Mis en place un système à l'arrière-plan pour stocker en toute sécurité les informations saisies par les utilisateurs dans une base de données",
-        "Les utilisateurs recevaient un message de confirmation rapide, les informant que leur demande avait été envoyée avec succès à l'arrière-plan"
+        "Créé le front-end en utilisant HTML, CSS et JavaScript",
+        "Créé le back-end en utilisant PHP, MySQL et la pile XAMPP"
     ],
     tools: [
         "Langue(s) : HTML, CSS, JavaScript, PHP, MySQL, Pile XAMPP",
