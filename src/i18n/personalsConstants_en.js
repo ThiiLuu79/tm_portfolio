@@ -10,35 +10,24 @@ export const COOKINGLAB_PROJECT = {
     period: "2024",
     description: "CookingLab is a personalized recipe discovery app designed to make meal planning simple and fun. Inspired by the challenge of deciding what to cook with dietary restrictions, CookingLab generates tailored recipes based on user preferences, including cuisine type, meal type, dietary needs, and allergies. Powered by the Edamam API, the app offers diverse recipe options to suit a wide range of tastes and restrictions, making it easy to find the perfect dish. Developed in collaboration with my partner, CookingLab is an innovative solution for anyone seeking fresh meal ideas without the guesswork.",
     contributions: [
-        "Created the UI/UX design with AxureRP",
+        "Played the role of Product Owner (PO). Defined the product vision, created the product backlog, and prioritized features based on user needs and business value.",
+        "Created a static prototype with AxureRP for the UI/UX design",
         "Created and separated user stories for the application",
         "Developed the front end using React, Redux, and Bootstrap",
-        "Fetched data from Edamam's API to display recipes"
+        "Fetched data from Edamam API to display recipes",
+        "Utilized Redux to persist user selections across steps, allowing users to retain their choices when navigating backward.",
+        "Implemented a micro-frontend architecture to enable independent development and deployment of features",
+        "Built a debug panel for skipping steps, which accelerates testing and troubleshooting, streamlining development workflow.",
+        "Developed the back end using Node.js and Express to handle user requests"
     ],
     tools: [
         "Language(s): TypeScript, CSS", 
         "Framework(s): React, Bootstrap, Redux, Node.js, Express",
-        "Architectural pattern: Micro-frontends",
+        "Architectural pattern: Micro-frontends, Redux",
         "Methodology: Kanban",
         "Tool(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP"
     ],
     imgAlt: "cookinglab"
-};
-
-//PYGAME PROJECT
-export const PYGAMES_PROJECT = {
-    title: "Pygame Projects",
-    period: "2021",
-    description: "Using Python's game module, Pygame, I honed my programming skills by crafting a variety of engaging games. Among my creations are titles like Space Invaders, Car Crash, and Hungry Shark.",
-    contributions: [
-        "Crafted a variety of engaging games using Python's game module, Pygame",
-        "Created titles like Space Invaders, Car Crash, and Hungry Shark"
-    ],
-    tools: [
-        "Language(s): Python / Pygame",
-        "Tool(s): Git/GitHub, Pycharm"
-    ],
-    imgAlt: "pygames"
 };
 
 //TITITEA PROJECT

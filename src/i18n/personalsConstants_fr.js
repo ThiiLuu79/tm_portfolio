@@ -2,7 +2,7 @@
 export const PERSONALS_WELCOME = "Voici mes ";
 export const PERSONALS_PROJECT = "Projets Personnels";
 export const VISIT = "Visiter";
-export const GITHUB_LINK = "Repertoire GitHub";
+export const GITHUB_LINK = "Répertoire GitHub";
 
 //COOKING LAB PROJECT
 export const COOKINGLAB_PROJECT = {
@@ -10,35 +10,24 @@ export const COOKINGLAB_PROJECT = {
     period: "2024",
     description: "CookingLab est une application de découverte de recettes personnalisées, conçue pour simplifier la planification des repas de manière ludique. Inspirée par la difficulté de choisir quoi cuisiner avec des restrictions alimentaires, CookingLab génère des recettes adaptées en fonction des préférences de l’utilisateur, telles que le type de cuisine, le type de repas, les régimes alimentaires et les allergies. Alimentée par l’API Edamam, l’application propose une variété d’options de recettes pour satisfaire tous les goûts et contraintes, permettant ainsi de trouver le plat idéal facilement. Développée en collaboration avec ma partenaire, CookingLab est une solution innovante pour tous ceux qui recherchent des idées de repas sans prise de tête.",
     contributions: [
-        "Créé le design UI/UX avec AxureRP",
+        "Joué le rôle de Propriétaire de Produit (PO). Définir la vision du produit, créer le backlog du produit et hiérarchiser les fonctionnalités en fonction des besoins des utilisateurs et de la valeur commerciale.",
+        "Créé un prototype statique avec AxureRP pour la conception UI/UX",
         "Créé et séparé les récits utilisateur pour l'application",
         "Développé le front-end en utilisant React, Redux et Bootstrap",
-        "Récupéré les données de l'API d'Edamam pour afficher les recettes"
+        "Récupéré les données de l'API Edamam pour afficher les recettes",
+        "Utilisation de Redux pour conserver les sélections de l'utilisateur à travers les étapes, permettant aux utilisateurs de conserver leurs choix lors de la navigation en arrière.",
+        "Implémenté une architecture de micro-frontends pour permettre le développement et le déploiement indépendants des fonctionnalités",
+        "Construit un panneau de débogage pour sauter des étapes, qui accélère les tests et le débogage, rationalisant le flux de travail de développement.",
+        "Développé le back-end en utilisant Node.js et Express pour gérer les demandes des utilisateurs"
     ],
     tools: [
         "Language(s): TypeScript, CSS", 
         "Framework(s): React, Bootstrap, Redux, Node.js, Express",
-        "Architecture: Micro-frontends",
+        "Architecture: Micro-frontends, Redux",
         "Methodologie: Kanban",
         "Outil(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP"
     ],
     imgAlt: "cookinglab"
-};
-
-// PROJET PYGAME
-export const PYGAMES_PROJECT = {
-    title: "Projets Pygame",
-    period: "2021",
-    description: "En utilisant le module de jeu de Python, Pygame, j'ai affiné mes compétences en programmation en créant une variété de jeux captivants. Parmi mes créations figurent des titres comme Space Invaders, Car Crash et Hungry Shark.",
-    contributions: [
-        "Créé une variété de jeux captivants en utilisant le module de jeu de Python, Pygame",
-        "Créé des titres comme Space Invaders, Car Crash et Hungry Shark"
-    ],
-    tools: [
-        "Langue(s) : Python / Pygame",
-        "Outil(s) : Git/GitHub, Pycharm"
-    ],
-    imgAlt: "pygames"
 };
 
 // PROJET TITITEA
