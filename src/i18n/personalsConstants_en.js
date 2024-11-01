@@ -19,11 +19,12 @@ export const COOKINGLAB_PROJECT = {
         "Implemented a micro-frontend architecture to enable independent development and deployment of features",
         "Built a debug panel for skipping steps, which accelerates testing and troubleshooting, streamlining development workflow.",
         "Developed the back end using Node.js and Express to handle user requests",
-        "Created unit tests to ensure the application functions as expected"
+        "Created unit tests to ensure the application functions as expected",
+        "Created end-to-end tests with Cypress"
     ],
     tools: [
         "Language(s): TypeScript, CSS", 
-        "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest",
+        "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest, Cypress",
         "Architectural pattern: Micro-frontends, Redux",
         "Methodology: Kanban",
         "Tool(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP, Edamam API"
