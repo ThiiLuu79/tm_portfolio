@@ -19,7 +19,7 @@ export const COOKINGLAB_PROJECT = {
         "Implémenté une architecture de micro-frontends pour permettre le développement et le déploiement indépendants des fonctionnalités",
         "Construit un panneau de débogage pour sauter des étapes, qui accélère les tests et le débogage, rationalisant le flux de travail de développement.",
         "Développé le back-end en utilisant Node.js et Express pour gérer les demandes des utilisateurs",
-        "Créé des tests unitaires pour obtenir une couverture de plus de 90% de la base de code",
+        "Créé des tests unitaires pour obtenir une couverture de plus de 95% de la base de code",
         "Créé des tests de bout en bout avec Cypress"
     ],
     tools: [
