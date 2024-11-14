@@ -19,7 +19,7 @@ export const COOKINGLAB_PROJECT = {
         "Implemented a micro-frontend architecture to enable independent development and deployment of features",
         "Built a debug panel for skipping steps, which accelerates testing and troubleshooting, streamlining development workflow.",
         "Developed the back end using Node.js and Express to handle user requests",
-        "Created unit tests to ensure the application functions as expected",
+        "Created unit tests to get a coverage of over 90% of the codebase",
         "Created end-to-end tests with Cypress"
     ],
     tools: [
