@@ -20,14 +20,15 @@ export const COOKINGLAB_PROJECT = {
         "Built a debug panel for skipping steps, which accelerates testing and troubleshooting, streamlining development workflow.",
         "Developed the back end using Node.js and Express to handle user requests",
         "Created unit tests to get a coverage of over 95% of the codebase",
-        "Created end-to-end tests with Cypress"
+        "Created end-to-end tests with Cypress",
+        "Built an API in Java to expose personal recipes to the user"
     ],
     tools: [
-        "Language(s): TypeScript, CSS", 
-        "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest, Cypress",
+        "Language(s): TypeScript, CSS, Java", 
+        "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest, Cypress, Spring",
         "Architectural pattern: Micro-frontends, Redux",
         "Methodology: Kanban",
-        "Tool(s): Git/GitHub, GitHub Project Board, VSCode, AxureRP, Edamam API"
+        "Tool(s): Git/GitHub, GitHub Project Board, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Netlify, Render"
     ],
     imgAlt: "cookinglab"
 };
