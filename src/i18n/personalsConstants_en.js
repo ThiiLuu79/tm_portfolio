@@ -25,7 +25,7 @@ export const COOKINGLAB_PROJECT = {
     ],
     tools: [
         "Language(s): TypeScript, CSS, Java", 
-        "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest, Cypress, Spring",
+        "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest, Cypress, Spring, JUnit",
         "Architectural pattern: Micro-frontends, Redux",
         "Methodology: Kanban",
         "Tool(s): Git/GitHub, GitHub Project Board, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Netlify, Render"
