@@ -11,6 +11,7 @@ export const WEATHERMATE_PROJECT = {
         "Analyse des données à partir de fichiers CSV pour afficher les informations météorologiques.",
         "Conception et implémentation du front-end de l'application.",
         "Implémentation de la vue des données et des statistiques, affichant les informations météorologiques de chaque province canadienne.",
+        "Appel de l'API d'Environnement Canada pour obtenir les données météorologiques précédentes pour un jour spécifique.",
         "Utilisation de NodeJs et Express pour créer le back-end de l'application.",
         "Utilisation de MongoDB pour stocker les informations météorologiques des fichiers CSV.",
         "Mise en cache de la réponse des appels API pour améliorer les performances de l'application."
@@ -18,7 +19,7 @@ export const WEATHERMATE_PROJECT = {
     tools: [
         "Langage(s) : JavaScript, HTML, CSS",
         "Framework(s) : Vue.js, NodeJS, Express, Axios",
-        "Modèle(s) architectural : Micro-frontends",
+        "Modèle(s) architectural : Micro-frontends, API REST",
         "Outil(s) : Git/GitHub, VSCode, MongoDB Compass, Postman, Docker"
     ],
     imgAlt: "weathermate"
