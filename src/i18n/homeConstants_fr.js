@@ -35,13 +35,12 @@ export const COURSES_TITLE = "Cours pertinents";
 export const SHOW_COURSES = "Afficher les cours";
 export const HIDE_COURSES = "Cacher les cours";
 export const ETS_COURSES = [
-    "Programmation Orientée Objet",
     "Programmation et Conception Orientées Objet",
-    "Bases de Données",
     "Bases de Données à Haute Performance",
     "Structures de Données et Algorithmes",
     "Analyse et Conception de Logiciels",
     "Conception et Évaluation des Interfaces Utilisateur",
+    "Technologies de développement Internet",
     "Mathématiques Discrètes",
     "Équations Différentielles",
     "Probabilités et Statistiques",

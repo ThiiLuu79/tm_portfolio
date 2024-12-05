@@ -35,13 +35,12 @@ export const COURSES_TITLE = "Relevant courses";
 export const SHOW_COURSES = "Show Courses";
 export const HIDE_COURSES = "Hide Courses";
 export const ETS_COURSES = [
-    "Object Oriented Programming",
     "Object Oriented Programming and Conception",
-    "Databases",
     "High Performance Databases",
     "Data Structures and Algorithms",
     "Software Analysis and Design",
     "Design and Evaluation of User Interfaces",
+    "Web Development Technologies",
     "Discrete Mathematics",
     "Differential Equations",
     "Probability and Statistics",

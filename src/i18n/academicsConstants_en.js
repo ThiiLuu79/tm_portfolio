@@ -2,6 +2,29 @@
 export const ACADEMICS_WELCOME = "Here are my ";
 export const ACADEMICS_PROJECT = "Academic Projects";
 
+//WEATERMATE PROJECT
+export const WEATHERMATE_PROJECT = {
+    title: "Weather Mate Application",
+    period: "Fall 2024 (ÉTS)",
+    description: "As part of the Web Development Technologies (GTI525) course, we were tasked with developing a weather application named Weather Mate. This application was designed to provide users with real-time weather information, including temperature, wind speed, and precipitation of each Canadian provinces. The application was designed to be user-friendly, with an intuitive interface that allowed users to easily navigate through the various features and functionalities. As for the first part, we had the responsability to develop the front-end and gathering the data from CSV files. For the second part, we had to implement the back-end to call external APIs. Finally, for the third part, we had to integrate a database to store data from the CSV files.",
+    contributions: [
+        "Parsed data from CSV files to display the weather information.",
+        "Designed and implemented the front-end of the application.",
+        "Implemented the data and statistic view, displaying the weather information of each Canadian provinces.",
+        "Used NodeJs and Express to create the back-end of the application.",
+        "Used MongoDB to store the weather information of the CSV files.",
+        "Cached the response of API calls to improve the performance of the application."
+    ],
+    tools: [
+        "Language(s): JavaScript, HTML, CSS", 
+        "Framework(s): Vue.js, NodeJS, Express, Axios",
+        "Architectural pattern: Micro-frontends",
+        "Database: MongoDB",
+        "Tool(s): Git/GitHub, VSCode, MongoDB Compass, Postman, Docker"
+    ],
+    imgAlt: "weathermate"
+};
+
 //WEBFLIX PROJECT
 export const WEBFLIX_PROJECT = {
     title: "Webflix Application",

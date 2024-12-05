@@ -2,6 +2,28 @@
 export const ACADEMICS_WELCOME = "Voici mes ";
 export const ACADEMICS_PROJECT = "Projets Académiques";
 
+// PROJET WEATHERMATE
+export const WEATHERMATE_PROJECT = {
+    title: "Application Weather Mate",
+    period: "Automne 2024 (ÉTS)",
+    description: "Dans le cadre du cours de Technologies de développement Internet (GTI525), nous avons été chargés de développer une application météo nommée Weather Mate. Cette application a été conçue pour fournir aux utilisateurs des informations météorologiques en temps réel, y compris la température, la vitesse du vent et les précipitations de chaque province canadienne. L'application a été conçue pour être conviviale, avec une interface intuitive permettant aux utilisateurs de naviguer facilement à travers les différentes fonctionnalités. Pour la première partie, nous avions la responsabilité de développer le front-end et de rassembler les données à partir de fichiers CSV. La deuxième partie consistait à implémenter un back-end pour appeler des APIs externes. Finallement, la troisième partie consistait à intégrer une base de données pour stocker les informations météorologiques des fichiers CSV.",
+    contributions: [
+        "Analyse des données à partir de fichiers CSV pour afficher les informations météorologiques.",
+        "Conception et implémentation du front-end de l'application.",
+        "Implémentation de la vue des données et des statistiques, affichant les informations météorologiques de chaque province canadienne.",
+        "Utilisation de NodeJs et Express pour créer le back-end de l'application.",
+        "Utilisation de MongoDB pour stocker les informations météorologiques des fichiers CSV.",
+        "Mise en cache de la réponse des appels API pour améliorer les performances de l'application."
+    ],
+    tools: [
+        "Langage(s) : JavaScript, HTML, CSS",
+        "Framework(s) : Vue.js, NodeJS, Express, Axios",
+        "Modèle(s) architectural : Micro-frontends",
+        "Outil(s) : Git/GitHub, VSCode, MongoDB Compass, Postman, Docker"
+    ],
+    imgAlt: "weathermate"
+};
+
 // PROJET WEBFLIX
 export const WEBFLIX_PROJECT = {
     title: "Application Webflix",
