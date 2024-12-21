@@ -26,9 +26,10 @@ export const COOKINGLAB_PROJECT = {
     tools: [
         "Language(s): TypeScript, CSS, Java", 
         "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest, Cypress, Spring, JUnit",
+        "Base de données: MongoDB",
         "Architecture: Micro-frontends, Redux, Patron MVC, REST API",
-        "Methodologie: Kanban",
-        "Outil(s): Git/GitHub, GitHub Project Board, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, Netlify, Render, Microsoft Teams"
+        "Methodologie: Agile, Scrum",
+        "Outil(s): Git/GitHub, GitHub Project Board, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, Netlify, Render, Microsoft Teams"
     ],
     imgAlt: "cookinglab"
 };
