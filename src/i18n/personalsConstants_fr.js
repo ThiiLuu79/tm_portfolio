@@ -21,14 +21,15 @@ export const COOKINGLAB_PROJECT = {
         "Développé le back-end en utilisant Node.js et Express pour gérer les demandes des utilisateurs",
         "Créé des tests unitaires pour obtenir une couverture de plus de 95% de la base de code",
         "Créé des tests de bout en bout avec Cypress",
-        "Construit une API en Java pour exposer les recettes personnelles à l'utilisateur"
+        "Construit une API en Java pour exposer les recettes personnelles à l'utilisateur",
+        "Implémenté un pipeline CI pour s'assurer que les tests sont exécutés automatiquement à chaque push sur la branche principale"
     ],
     tools: [
         "Language(s): TypeScript, CSS, Java", 
         "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest, Cypress, Spring, JUnit",
         "Base de données: MongoDB",
         "Architecture: Micro-frontends, Redux, Patron MVC, REST API",
-        "Methodologie: Agile, Scrum",
+        "Methodologie: Agile, Scrum, DevOps",
         "Outil(s): Git/GitHub, GitHub Project Board, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, Netlify, Render, Microsoft Teams"
     ],
     imgAlt: "cookinglab"
