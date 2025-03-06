@@ -35,6 +35,23 @@ export const COOKINGLAB_PROJECT = {
     imgAlt: "cookinglab"
 };
 
+//LE SSERAFIM PROJECT
+export const LESSERAFIM_PROJECT = {
+    title: "LE SSERAFIM Fanpage",
+    period: "2024",
+    description: "Une fanpage dédiée à LE SSERAFIM, mon groupe de K-pop préféré, où je montre mon appréciation pour leur musique et leur parcours. La page présente un aperçu de leur carrière, mettant en lumière les étapes clés et les réalisations au fil des ans. Elle comprend une liste complète de leurs clips musicaux. De plus, la page propose des profils détaillés de chaque membre, célébrant leurs talents uniques et leurs contributions au groupe. Ce projet m'a permis d'intégrer le design web et l'organisation du contenu tout en exprimant ma passion pour le groupe.",
+    contributions: [
+        "Créé une fanpage dédiée à LE SSERAFIM en utilisant React et Bootstrap"
+    ],
+    tools: [
+        "Language(s): TypeScript, CSS", 
+        "Framework(s): React, Bootstrap",
+        "Architecture: Micro-frontends",
+        "Outil(s): Git/GitHub, VSCode, Netlify"
+    ],
+    imgAlt: "lesserafim"
+};
+
 // PROJET TITITEA
 export const TITITEA_PROJECT = {
     title: "Application Tititea",

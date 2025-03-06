@@ -2,6 +2,7 @@ import Card from '../../ReusableComponents/Card/Card';
 import cover from "../../../img/personal/html.jpg";
 import tititea from "../../../img/personal/tititea.jpg";
 import cookinglab from "../../../img/personal/cookingLab.png";
+import lesserafim from "../../../img/personal/lesserafim.png";
 
 import Button from "../../ReusableComponents/Button/Button";
 import PageItem from "../../ReusableComponents/PageItem/PageItem";
@@ -38,6 +39,17 @@ const Personals = () => {
                     buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://cooking-lab.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>,
                         <Button key="button2" text={personnalsConstants.GITHUB_LINK} redirect='https://github.com/CookingLab' blank={true} noreferrer={true} buttonType='Link'/>
                     ]}
+                />
+
+                <PageItem
+                    title= {personnalsConstants.LESSERAFIM_PROJECT.title}
+                    period= {personnalsConstants.LESSERAFIM_PROJECT.period}
+                    description= {personnalsConstants.LESSERAFIM_PROJECT.description}
+                    contributions= {personnalsConstants.LESSERAFIM_PROJECT.contributions}
+                    tools= {personnalsConstants.LESSERAFIM_PROJECT.tools}
+                    image={lesserafim}
+                    imgAlt={personnalsConstants.LESSERAFIM_PROJECT.imgAlt}
+                    buttons={[<Button key="button1" text={personnalsConstants.VISIT} redirect='https://lesserafim-page.netlify.app/' blank={true} noreferrer={true} buttonType='Link'/>,]}
                 />
                 
                 <PageItem
