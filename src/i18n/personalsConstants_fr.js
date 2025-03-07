@@ -7,7 +7,7 @@ export const GITHUB_LINK = "Répertoire GitHub";
 //COOKING LAB PROJECT
 export const COOKINGLAB_PROJECT = {
     title: "Application Cooking Lab",
-    period: "2024",
+    period: "2024-Présent",
     description: "CookingLab est une application de découverte de recettes personnalisées, conçue pour simplifier la planification des repas de manière ludique. Inspirée par la difficulté de choisir quoi cuisiner avec des restrictions alimentaires, CookingLab génère des recettes adaptées en fonction des préférences de l’utilisateur, telles que le type de cuisine, le type de repas, les régimes alimentaires et les allergies. Alimentée par l’API Edamam, l’application propose une variété d’options de recettes pour satisfaire tous les goûts et contraintes, permettant ainsi de trouver le plat idéal facilement. Développée en collaboration avec ma partenaire, CookingLab est une solution innovante pour tous ceux qui recherchent des idées de repas sans prise de tête.",
     contributions: [
         "Joué le rôle de Propriétaire de Produit (PO). Définir la vision du produit, créer le backlog du produit et hiérarchiser les fonctionnalités en fonction des besoins des utilisateurs et de la valeur commerciale.",
@@ -38,7 +38,7 @@ export const COOKINGLAB_PROJECT = {
 //LE SSERAFIM PROJECT
 export const LESSERAFIM_PROJECT = {
     title: "LE SSERAFIM Fanpage",
-    period: "2024",
+    period: "2025",
     description: "Une fanpage dédiée à LE SSERAFIM, mon groupe de K-pop préféré, où je montre mon appréciation pour leur musique et leur parcours. La page présente un aperçu de leur carrière, mettant en lumière les étapes clés et les réalisations au fil des ans. Elle comprend une liste complète de leurs clips musicaux. De plus, la page propose des profils détaillés de chaque membre, célébrant leurs talents uniques et leurs contributions au groupe. Ce projet m'a permis d'intégrer le design web et l'organisation du contenu tout en exprimant ma passion pour le groupe.",
     contributions: [
         "Créé une fanpage dédiée à LE SSERAFIM en utilisant React et Bootstrap"

@@ -7,7 +7,7 @@ export const GITHUB_LINK = "GitHub Repository";
 //COOKING LAB PROJECT
 export const COOKINGLAB_PROJECT = {
     title: "Cooking Lab Application",
-    period: "2024",
+    period: "2024-Present",
     description: "CookingLab is a personalized recipe discovery app designed to make meal planning simple and fun. Inspired by the challenge of deciding what to cook with dietary restrictions, CookingLab generates tailored recipes based on user preferences, including cuisine type, meal type, dietary needs, and allergies. Powered by the Edamam API, the app offers diverse recipe options to suit a wide range of tastes and restrictions, making it easy to find the perfect dish. Developed in collaboration with my partner, CookingLab is an innovative solution for anyone seeking fresh meal ideas without the guesswork.",
     contributions: [
         "Played the role of Product Owner (PO). Defined the product vision, created the product backlog, and prioritized features based on user needs and business value.",
@@ -38,7 +38,7 @@ export const COOKINGLAB_PROJECT = {
 //LE SSERAFIM PROJECT
 export const LESSERAFIM_PROJECT = {
     title: "LE SSERAFIM Fanpage",
-    period: "2024",
+    period: "2025",
     description: "A fanpage dedicated to LE SSERAFIM, my favorite K-pop group, where I showcase my appreciation for their music and journey. The page features an overview of their career, highlighting key milestones and achievements over the years. It includes a list of their music videos. Additionally, the page offers detailed profiles of each member, celebrating their unique talents and contributions to the group. This project allowed me to integrate web design and content organization while reflecting my passion for the group.",
     contributions: [
         "Created a fanpage dedicated to LE SSERAFIM using React and Bootstrap",
