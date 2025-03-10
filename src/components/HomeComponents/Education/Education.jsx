@@ -27,7 +27,7 @@ const Education = () => {
 
 
     return (
-        <section id = "education">
+        <section id = "education" data-aos="fade-right">
             <div className="content_wrap">
                 <div>
                     <h2 className = "section__title section__title--education"><b>{homeConstants.EDUCATION_TITLE}</b></h2>

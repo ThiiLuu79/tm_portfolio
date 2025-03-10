@@ -14,7 +14,7 @@ const About = () => {
     const homeConstants = language === 'en' ? homeConstantsEn : homeConstantsFr;
 
     return (
-        <section className="block" id = "about">
+        <section className="block" id = "about" data-aos="fade-right">
             <h2 className = "section__title section__title--block">{homeConstants.ABOUT_TITLE}</h2>
             <p className = "section__subtitle section__subtitle--block">{homeConstants.ABOUT_LOCATION}</p>
 

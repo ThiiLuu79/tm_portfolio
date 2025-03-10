@@ -2,6 +2,8 @@ import './css/custom.css';
 import './css/general.css';
 import './css/style.css';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from './components/MainComponents/Header/Header';
 import Home from './components/HomeComponents/Home/Home';
 import Work from './components/WorkComponent/Work/Work';
@@ -13,9 +15,18 @@ import Footer from './components/MainComponents/Footer/Footer';
 import NotFound from './components/NotFoundComponent/NotFound/NotFound';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { useEffect } from 'react';
 
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,  // Animation duration in ms
+      once: true,      // Ensures the animation runs only once
+    });
+  }, []);
+
   return (
     <div className="App">
 

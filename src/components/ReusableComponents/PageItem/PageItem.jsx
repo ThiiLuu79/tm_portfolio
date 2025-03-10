@@ -12,7 +12,7 @@ const PageItem = ({ title, period, description, contributions, tools, image, img
     const reusableConstants = language === 'en' ? reusableConstantsEn : reusableConstantsFr;
 
     return(
-        <section className="block project__item">
+        <section className="block project__item" data-aos="fade-right">
             <h2 className = "section__title section__title--block">{title}</h2>
             <p className = "section__subtitle section__subtitle--block">{period}</p>
             {itemType === 'work' && (

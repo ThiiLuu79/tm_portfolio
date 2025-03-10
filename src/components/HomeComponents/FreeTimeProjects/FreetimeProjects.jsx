@@ -16,7 +16,7 @@ const FreetimeProjects = () => {
     const homeConstants = language === 'en' ? homeConstantsEn : homeConstantsFr;
 
     return (
-        <section className = "my-projects" id = "freetime_projects">
+        <section className = "my-projects" id = "freetime_projects" data-aos="fade-right">
             <h2 className = "section__title section__title--projects">{homeConstants.FREETIME_PROJECTS_TITLE}</h2>
             <p className = "section__subtitle section__subtitle--projects">{homeConstants.FREETIME_PROJECTS_SUBTITLE}</p>
 
