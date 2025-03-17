@@ -28,7 +28,7 @@ export const COOKINGLAB_PROJECT = {
         "Language(s): TypeScript, CSS, Java", 
         "Framework(s): React, Bootstrap, Redux, Node.js, Express, Jest, Cypress, Spring, JUnit",
         "Base de données: MongoDB",
-        "Architecture: Micro-frontends, Redux, Patron MVC, REST API",
+        "Architecture: Micro-frontends, Redux, Patron MVC, REST API, Architecture de microservices",
         "Methodologie: Agile, Scrum, DevOps",
         "Outil(s): Git/GitHub, GitHub Project Board, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, Netlify, Render, Microsoft Teams"
     ],
