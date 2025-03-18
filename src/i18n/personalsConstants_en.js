@@ -30,7 +30,7 @@ export const COOKINGLAB_PROJECT = {
         "Database: MongoDB",
         "Architectural pattern: Micro-frontends, Redux, MVC Pattern, REST API, Microservices architecture",
         "Methodology: Agile, Scrum, DevOps",
-        "Tool(s): Git/GitHub, GitHub Project Board, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, Netlify, Render, Microsoft Teams"
+        "Tool(s): Git/GitHub, GitHub Project Board, Jira, VSCode, IntelliJ, AxureRP, Edamam API, Postman, Swagger, Netlify, Render, Microsoft Teams, SonarQube"
     ],
     imgAlt: "cookinglab"
 };
