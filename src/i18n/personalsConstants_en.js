@@ -11,18 +11,17 @@ export const COOKINGLAB_PROJECT = {
     description: "CookingLab is a personalized recipe discovery app designed to make meal planning simple and fun. Inspired by the challenge of deciding what to cook with dietary restrictions, CookingLab generates tailored recipes based on user preferences, including cuisine type, meal type, dietary needs, and allergies. Powered by the Edamam API, the app offers diverse recipe options to suit a wide range of tastes and restrictions, making it easy to find the perfect dish. Developed in collaboration with my partner, CookingLab is an innovative solution for anyone seeking fresh meal ideas without the guesswork.",
     contributions: [
         "Played the role of Product Owner (PO). Defined the product vision, created the product backlog, and prioritized features based on user needs and business value.",
-        "Created a static prototype with AxureRP for the UI/UX design",
-        "Created and separated user stories for the application",
-        "Developed the front end using React, Redux, and Bootstrap",
-        "Fetched data from Edamam API to display recipes",
+        "Created a static prototype with AxureRP for the UI/UX design.",
+        "Created and separated user stories for the application.",
+        "Developed the front end using React, Redux, and Bootstrap.",
+        "Fetched data from Edamam API to display recipes by creating a proxy with Node.js and Express.",
         "Utilized Redux to persist user selections across steps, allowing users to retain their choices when navigating backward.",
-        "Implemented a micro-frontend architecture to enable independent development and deployment of features",
+        "Implemented a micro-frontend architecture to enable independent development and deployment of features.",
         "Built a debug panel for skipping steps, which accelerates testing and troubleshooting, streamlining development workflow.",
-        "Developed the back end using Node.js and Express to handle user requests",
-        "Created unit tests to get a coverage of over 95% of the codebase",
-        "Created end-to-end tests with Cypress",
-        "Built an API in Java to expose personal recipes to the user",
-        "Implemented a CI pipeline to make sure the tests are run automatically on every push to the main branch"
+        "Created unit tests to get a coverage of over 95% of the codebase.",
+        "Created end-to-end tests with Cypress.",
+        "Built a back end API in Java to expose personal recipes to the user.",
+        "Implemented a CI pipeline to make sure the tests are run automatically on every push to the main branch."
     ],
     tools: [
         "Language(s): TypeScript, CSS, Java", 
